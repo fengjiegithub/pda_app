@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2E8BD3"
+    tools:context=".LoginActivity">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/password"
+        android:id="@+id/username"
+        android:hint="USERNAME"
+        android:padding="25dp"
+        android:layout_margin="30dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/password"
+        android:hint="PASSWORD"
+        android:padding="25dp"
+        android:layout_margin="30dp"/>
+
+     <Button
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/login"
+         app:layout_constraintTop_toBottomOf="@+id/password"
+         android:padding="25dp"
+         android:textSize="23dp"
+         android:background="#3EF7F6F6"
+         android:layout_marginTop="30dp"
+         android:layout_marginLeft="65dp"
+         android:layout_marginRight="65dp"
+         android:text="LOG IN"/>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PostActivity">
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/power" app:layout_constraintTop_toTopOf="parent" android:text="Power Electronics"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/thermal" android:text="Thermal Power Engineering" app:layout_constraintTop_toBottomOf="@+id/power"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/environmental" android:text="Environmental Engineering" app:layout_constraintTop_toBottomOf="@+id/thermal"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/structural" android:text="Structural Engineering" app:layout_constraintTop_toBottomOf="@+id/environmental"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/production" android:text="Production Engineering" app:layout_constraintTop_toBottomOf="@+id/structural"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/computer" android:text="Computer Science and Engineering" app:layout_constraintTop_toBottomOf="@+id/production"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/biomedical" android:text="Biomedical Electronics and Industrial Instrumentation" app:layout_constraintTop_toBottomOf="@+id/computer"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/communication" android:text="Communiicatin System" app:layout_constraintTop_toBottomOf="@+id/biomedical"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/information" android:text="Computer Networks" app:layout_constraintTop_toBottomOf="@+id/communication"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/materials" android:text="Materials Science and Technology" app:layout_constraintTop_toBottomOf="@+id/information"/>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdmissionActivity">
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" tools:layout_editor_absoluteX="16dp" app:layout_constraintBottom_toTopOf="@+id/post" android:layout_margin="5dp" android:textSize="24dp" android:text="Under Graduate Programmes" android:id="@+id/under"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_margin="5dp" android:textSize="25dp" android:text="Post Graduate Programme" android:id="@+id/post" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintLeft_toRightOf="parent" app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_margin="5dp" android:textSize="25dp" android:text="Research Centre" android:id="@+id/research" app:layout_constraintTop_toBottomOf="@+id/post"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_margin="5dp" android:textSize="25dp" android:text="Facilities" android:id="@+id/facilities" app:layout_constraintTop_toBottomOf="@+id/research"/>
+
+</android.support.constraint.ConstraintLayout>

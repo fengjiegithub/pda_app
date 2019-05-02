@@ -1,0 +1,1343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+
+    <android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/my1"
+        app:layout_constraintTop_toTopOf="parent">
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#EC6290">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mechanical Engineering"
+                android:textStyle="bold"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:textSize="30dp"/>
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="1800dp"
+        android:id="@+id/my2"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/my1">
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text1"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:text="As Mechanical Engineering department is one of the first ever departments established in 1958 by the great visionary, Educationist and statesman late Sri. Mahadevappa Rampure founder president of HKE Society with an intake of 40 students. The department is equipped with all necessary infrastructure and laboratory facilities. Present intake of department is 120 with total of 450 students studying in I, II, III and IV year. In accordance with the Vision and Mission, the department is striving hard to cater the needs of Mechanical Engineering students both in curriculum and career oriented progress and achieving excellence in various aspects such as students performance and quality, student teacher relationship, and students motivation towards research oriented aspects. Department behold for discipline among student community by adopting good human qualities and professional ethics, moral. Department has well qualified dedicated, expert faculty in UG-23, PG-06 and supporting staff-40, have 6(six) Doctorates 42 research scholars are pursuing their Ph.D.
+
+Our department has centralized facilities mainly Central workshop, CAED lab in which the students of all the branches get trained basics of mechanical engineering science and basics of engineering drawing. Fluid mechanics and fluid machines lab, Dynamics of machines lab, Material science and Metallurgical Testing lab, Instrumentation and metrology lab are being used by the students of Automobile Engineering, Industrial and Production engineering and Ceramic Engineering students.
+
+Internal Combustion engines laboratory caters to the needs of research scholars, working in the area of IC Engines and Alternate fuels. This is the only centre in Karnataka having this facility.
+
+The department is also equipped with a state of art “Centre of competence in Automation Technology” established in collaboration with Bosch-Rexorth(India). The centre has Hydraulic and Pneumatic test rigs, PLC programming facilities, Mechatronics system and station. The centre is known for its excellent training programmmes for the students of Engineering, Polytechnic and ITIs. The centre has trained more than 800 students in this field since 2013, the year of its establishment.
+
+The center pillar of the department is its curricula and the faculty. The faculty and staff of the department made remarkable strides by involving themselves in academic activities like conducting various Faculty development program, Workshops, Seminars and Industry- Institute-Interaction programs. The workshops and seminars are sponsored by TEQIP- II. Some of the faculty of the department worked as resource persons for workshops and delivered their technical sessions in various Engineering and Diploma colleges and in professional society like Institute of Engineers.
+
+The department curricula meet the industry requirements. Department holds some of the cutting edge technology labs namely CNC Milling machine, Non-destructive testing lab. Department has Two M tech Programs: Thermal power Engineering established in the year 1982, and Production Engineering in the year 1994. Department is recognized as Research Centre by Visvesvaraya Technological University Belagavi in the year 2005 and at present 01 candidate awarded PhD, 01 submitted. Research centre is carrying on with its activities. Department frequently organizes many student centric activities like Soft Skill Development programs, Quizzes, Plickers, debate, sports etc under the Students Association “PIONEERS” . The asset of the department is its Alumni. Department Alumni contributes their ideas and suggestion in framing curricula with respect to industry advancements. Alumni are well placed in private and public sectors across the globe and some of them emerged as entrepreneurs.
+
+The corner stone of the Department is its Industry Institute Interaction Programs. Department has signed MoU with various industries and institutions like KGTTI, Kalaburagi, CANTER CAD, CADD Center, CADMAX, M/S Ductile Iron Works Belgavi, ALSTOM, Projects India Ltd. Pvt. Ltd., etc.,."/>
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:id="@+id/my3"
+            app:layout_constraintTop_toBottomOf="@+id/my2">
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                android:text="MOTTO"
+                android:layout_marginLeft="5dp"
+                android:textColor="#000"
+                android:id="@+id/text2"
+                android:layout_marginTop="10dp"
+                android:textAlignment="viewStart"
+                android:gravity="start"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text3"
+                    android:textAlignment="center"
+                    app:layout_constraintTop_toBottomOf="@id/text2"
+                    android:layout_marginTop="5dp"
+                    android:text=" The department works with the motto of  providing Un-conditional and Un-biased Service   to the  cause of Mechanical Engineering."
+                    tools:ignore="MissingConstraints" />
+
+            </android.support.constraint.ConstraintLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="800dp"
+            android:id="@+id/my4"
+            app:layout_constraintTop_toBottomOf="@+id/my3">
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text4"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:text="Vision of the Department"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text5"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintTop_toBottomOf="@+id/text4"
+                    android:text="'TO IMPORT SUSTAINABLE MECHANICAL ENGINEERING EDUCATION THAT PREPARES SELF-RELIANT AND MOTIVATED ENGINEERS HAVING AN ENDURING DESIRE TO SERVE THE COUNTRY WITH GLOBAL COMPATIBILITY.'"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mission of the Department"
+                    app:layout_constraintTop_toBottomOf="@+id/text5"
+                    android:id="@+id/text6"
+                    android:layout_marginTop="15dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:layout_marginLeft="5dp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text7"
+                    app:layout_constraintTop_toBottomOf="@+id/text6"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="M1:- TO BE A FORERUNNER IN DISSEMINATING THE BASIC AND ADVANCED CONCEPTS OF MECHANICAL ENGINEERING AT UNDER GRADUATE/POST GRADUATE LEVELS INTERMS OF CLASS ROOM TEACHING AND LABORATORY PRACTICES."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/text7"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/text8"
+                    android:layout_marginLeft="5dp"
+                    android:text="M2:-  TO ESTABLISH CENTERS OF EXCELLENCE IN EMERGING AREAS OF MECHANICAL ENGINEERING LEADING TO ENHANCED R AND D ACTIVITIES."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/text8"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/text9"
+                    android:layout_marginLeft="5dp"
+                    android:text="M3:-  TO UNDERTAKE SPONSORED PROJECTS AND CONSULTANCY WORK COMMENSURATE WITH EVER-CHANGING SOCIETAL DEMANDS."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/text9"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/text10"
+                    android:layout_marginLeft="5dp"
+                    android:text="M4:-  TO INCREASE THE EMPLOYABILITY QUOTIENT OF GRADUATING STUDENTS THROUGH FINISHING SCHOOL IN RELEVANT AREAS."/>
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="2810dp"
+            android:id="@+id/my5"
+            app:layout_constraintTop_toBottomOf="@+id/my4">
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:id="@+id/text11"
+                    android:text="Academic,Programmes,Eligibility and Objectives"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:textSize="15sp"
+                    android:id="@+id/text12"
+                    app:layout_constraintTop_toBottomOf="@+id/text11"
+                    android:text="=> B.E. in Mechanical Engineering"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:textSize="15sp"
+                    android:id="@+id/text13"
+                    app:layout_constraintTop_toBottomOf="@+id/text12"
+                    android:text="=> M.Tech in Thermal Power Engineering"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:textSize="15sp"
+                    android:id="@+id/text14"
+                    app:layout_constraintTop_toBottomOf="@+id/text13"
+                    android:text="=> M.Tech in Production Engineering"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:textSize="15sp"
+                    android:id="@+id/text15"
+                    app:layout_constraintTop_toBottomOf="@+id/text14"
+                    android:text="=> Research Center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/text16"
+                    app:layout_constraintTop_toBottomOf="@+id/text15"
+                    android:text="More about the Dept."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text17"
+                    app:layout_constraintTop_toBottomOf="@+id/text16"
+                    android:text="=> Mechanical Engineering department is one of the pioneering departments with 5 PhDs(1 has submitted the thesis, 7 pursuing PhD)"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text18"
+                    app:layout_constraintTop_toBottomOf="@+id/text17"
+                    android:text="=> 26 well qualified and committed faculty members are sttriving to provide quallity education in the core area. Many have obtained their degrees from IITs, NITs, etc."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text19"
+                    app:layout_constraintTop_toBottomOf="@+id/text18"
+                    android:text="=> 42 trained and skilled instructional/supporting staff members handle laboratory work. "/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text20"
+                    app:layout_constraintTop_toBottomOf="@+id/text19"
+                    android:text="=> Average experience of faculty members is around 20 years and that of staff members is around 16 years."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text21"
+                    app:layout_constraintTop_toBottomOf="@+id/text20"
+                    android:text="=> Attrition rate is minimal. Consequently,the department offers a BE and 2 MTech programs and is a Research Center under VTUB, on a strong edifice."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text22"
+                    app:layout_constraintTop_toBottomOf="@+id/text21"
+                    android:text="=> Well-established Laboratories and Central Workshop, catering to the needs of UG, PG and Research Scholars of the department as well as those of other departments."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text23"
+                    app:layout_constraintTop_toBottomOf="@+id/text22"
+                    android:text="=> Facilities are available for carrying out research in the areas alternative fuel development, CFD, development of MMCs."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text24"
+                    app:layout_constraintTop_toBottomOf="@+id/text23"
+                    android:text="=>  3 Departmental Libraries (1 UG and 2 PG) having more than 3000 volumes, 1000 titles and a National Journal."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text25"
+                    app:layout_constraintTop_toBottomOf="@+id/text24"
+                    android:text="=>  Facilities established under TEQIP: i) CAED Laboratory,  ii) CFD Laboratory, iii) Internet and Computational Facilities and iv) Induction furnace for non-ferrous metals."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text26"
+                    app:layout_constraintTop_toBottomOf="@+id/text25"
+                    android:text="=>  Strengthening of the Department under TEQIP Phase – I and II has resulted in enhanced quality of teaching and experimental work, opportunity for offering PhD degree in IC engines and CFD, under VTUB. Also, it has generated scope for starting MTech program in Fuels Technology."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text27"
+                    app:layout_constraintTop_toBottomOf="@+id/text26"
+                    android:text="=>  Opportunity for starting Certificate Programs in CFD, IC Engines (O and M) and CAED for aspiring Diploma/BE candidates."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text28"
+                    app:layout_constraintTop_toBottomOf="@+id/text27"
+                    android:text="=>  Benchmarking with well-performing institutions at National/International levels and signing MoUs with them so as to enhance the overall performance and attain recognition at the highest level."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text29"
+                    app:layout_constraintTop_toBottomOf="@+id/text28"
+                    android:text="=>  Scope for better training programs for students resulting in their enhanced placement opportunities. Training the farmers and the underprivileged in and around Gulbarga in repair/servicing of IC Engines, Agricultural Equipment, etc."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text30"
+                    app:layout_constraintTop_toBottomOf="@+id/text29"
+                    android:text="=>  Scope for inviting visiting faculty from prestigious institutions like IITs/IISc."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/text31"
+                    app:layout_constraintTop_toBottomOf="@+id/text30"
+                    android:text=" Program Educational Objectives"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text32"
+                    app:layout_constraintTop_toBottomOf="@+id/text31"
+                    android:text="PEO1: To provide competency in solving problems associated with various aspects of Mechanical Engineering field in particular and interdisciplinary areas in general. "/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text33"
+                    app:layout_constraintTop_toBottomOf="@+id/text32"
+                    android:text="PEO 2:    To acquire essential knowledge and skills necessary to perform different functions of engineering Organization."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text34"
+                    app:layout_constraintTop_toBottomOf="@+id/text33"
+                    android:text="PEO 3:   To cope-up with the advances prevalent in the changing technological scenario and meet the demands of the industries/academia."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text35"
+                    app:layout_constraintTop_toBottomOf="@+id/text34"
+                    android:text="PEO 4:   To be able to work as an effective leader/manager and contribute to the progress of the industry/society."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/text36"
+                    android:layout_marginLeft="10dp"
+                    app:layout_constraintTop_toBottomOf="@+id/text35"
+                    android:text="Program Outcomes"/>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text37"
+                    app:layout_constraintTop_toBottomOf="@+id/text36"
+                    android:text="1. An ability to apply the knowledge of mechanical engineering in problem solving and development of components/machines/processes."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text38"
+                    app:layout_constraintTop_toBottomOf="@+id/text37"
+                    android:text="2. An ability to apply the knowledge gained to nurture safety, adaptability, sustainability and innovative thinking."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text39"
+                    app:layout_constraintTop_toBottomOf="@+id/text38"
+                    android:text="3. An ability to understand the Mechanical Engineering and associated problems and arrive at feasible solutions."/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text40"
+                    app:layout_constraintTop_toBottomOf="@+id/text39"
+                    android:text="4. An urge to take-up higher studies and/or competitive examinations that offer challenging and rewarding career."/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text41"
+                    app:layout_constraintTop_toBottomOf="@+id/text40"
+                    android:text="5. An ability to carry out experimentation to correlate with practical aspects and consequently, acquire ability to work as an assessor/valuer of products, processes and industries at large."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text42"
+                    app:layout_constraintTop_toBottomOf="@+id/text41"
+                    android:text="6. Concern to support the production, management and delivery systems of industries."/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text43"
+                    app:layout_constraintTop_toBottomOf="@+id/text42"
+                    android:text="7. An ability to understand recent advances in Mechanical Engineering and apply the same as and when required."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text44"
+                    app:layout_constraintTop_toBottomOf="@+id/text43"
+                    android:text="8. An ability to communicate effectively with different levels of industrial personnel and possess an urge for life-long learning."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text45"
+                    app:layout_constraintTop_toBottomOf="@+id/text44"
+                    android:text="9. The capability to work effectively as a leader/follower in the field of study or inter-disciplinary areas."/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text46"
+                    app:layout_constraintTop_toBottomOf="@+id/text45"
+                    android:text="10. An exposure to modern tools and cutting edge areas such as CAD/CAM, CIM, CAE, Robotics, etc."/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text47"
+                    app:layout_constraintTop_toBottomOf="@+id/text46"
+                    android:text="11. An ability to successfully carry out design, planning, implementation and control of production systems."/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text48"
+                    app:layout_constraintTop_toBottomOf="@+id/text47"
+                    android:text="12. Flair to become successful managers/entrepreneurs with ethical and social values."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/text49"
+                    app:layout_constraintTop_toBottomOf="@+id/text48"
+                    android:text="Program Specific Outcomes:"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text50"
+                    app:layout_constraintTop_toBottomOf="@+id/text49"
+                    android:text="1. Ability to apply knowledge of Mechanical Engineering in problem solving and development of components, keeping up safety considerations."/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text51"
+                    app:layout_constraintTop_toBottomOf="@+id/text50"
+                    android:text="2. Apart from curriculum, maintaining the desire and prepare to take up competitive examinations that offer rewarding career or pursue higher studies."/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text52"
+                    app:layout_constraintTop_toBottomOf="@+id/text51"
+                    android:text="3. An exposure to emerging areas like CAD/CAM, CIM, Robotics etc to keep oneself industry ready."/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:layout_marginTop="15dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:id="@+id/text53"
+                    app:layout_constraintTop_toBottomOf="@+id/text52"
+                    android:text="Head of the Department"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text54"
+                    android:layout_marginTop="7dp"
+                    app:layout_constraintTop_toBottomOf="@+id/text53"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:src="@drawable/indumatir"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:layout_marginTop="7dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:id="@+id/text55"
+                    app:layout_constraintTop_toBottomOf="@+id/text54"
+                    android:text="Dr.Indumati Deshamanya HOD"/>
+
+
+
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="2860dp"
+            app:layout_constraintTop_toBottomOf="@+id/my5">
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/text56"
+                    android:textSize="20sp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:text="Infrastructure and Facilities"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text57"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#000"
+                    android:textSize="14sp"
+                    app:layout_constraintTop_toBottomOf="@+id/text56"
+                    android:text="Department Profile"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text58"
+                    app:layout_constraintTop_toBottomOf="@+id/text57"
+                    android:text="01. Overall floor area - 2339 sqm"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text59"
+                    app:layout_constraintTop_toBottomOf="@+id/text58"
+                    android:text="02. Classrooms -  435 sqm "/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text60"
+                    app:layout_constraintTop_toBottomOf="@+id/text59"
+                    android:text="03.  Laboratories - 1000 sqm "/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text61"
+                    app:layout_constraintTop_toBottomOf="@+id/text60"
+                    android:text="04.  Workshop -  734 sqm "/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text62"
+                    app:layout_constraintTop_toBottomOf="@+id/text61"
+                    android:text="05.  Library -   30 sqm "/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text63"
+                    app:layout_constraintTop_toBottomOf="@+id/text62"
+                    android:text="06.  Internet Browsing facility -   35 sqm "/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text64"
+                    app:layout_constraintTop_toBottomOf="@+id/text63"
+                    android:text="07.  Seating area for faculty - 105 sqm "/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text65"
+                    app:layout_constraintTop_toBottomOf="@+id/text64"
+                    android:text="08.  Number of laboratories    -    10 (UG) + 4 (PG)"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text66"
+                    app:layout_constraintTop_toBottomOf="@+id/text65"
+                    android:text="09.  Number of Computers    -    135"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text67"
+                    app:layout_constraintTop_toBottomOf="@+id/text66"
+                    android:text="10.  Computers: Students/Faculty     -    1 : 3"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text68"
+                    app:layout_constraintTop_toBottomOf="@+id/text67"
+                    android:text="11.  Faculty Students ratio     -    1 : 15"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text69"
+                    app:layout_constraintTop_toBottomOf="@+id/text68"
+                    android:text="12.  Average experience of faculty    ~    More than 20 years"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text70"
+                    app:layout_constraintTop_toBottomOf="@+id/text69"
+                    android:text="13.  Average experiences of staff    ~    18 years"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/text71"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="14sp"
+                    app:layout_constraintTop_toBottomOf="@+id/text70"
+                    android:text="Labs and Equipments"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text72"
+                    app:layout_constraintTop_toBottomOf="@+id/text71"
+                    android:text="Computer Aided Engineering Drawing (CAED) Laboratory"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text73"
+                    app:layout_constraintTop_toBottomOf="@+id/text72"
+                    android:text="CAD/CAM Laboratory"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text74"
+                    app:layout_constraintTop_toBottomOf="@+id/text73"
+                    android:text="Design Laboratory"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text75"
+                    app:layout_constraintTop_toBottomOf="@+id/text74"
+                    android:text="Energy Conversion Laboratory"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text76"
+                    app:layout_constraintTop_toBottomOf="@+id/text75"
+                    android:text="Fluid Mechanics and Fluid Machines Laboratory"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text77"
+                    app:layout_constraintTop_toBottomOf="@+id/text76"
+                    android:text="Heat Transfer Laboratory"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text78"
+                    app:layout_constraintTop_toBottomOf="@+id/text77"
+                    android:text="Instrumentation and Metrology Laboratory"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text79"
+                    app:layout_constraintTop_toBottomOf="@+id/text78"
+                    android:text="Material Science and Testing Laboratory"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text80"
+                    app:layout_constraintTop_toBottomOf="@+id/text79"
+                    android:text="Foundry and Forging Shop"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text81"
+                    app:layout_constraintTop_toBottomOf="@+id/text80"
+                    android:text="Central Workshop"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text82"
+                    app:layout_constraintTop_toBottomOf="@+id/text81"
+                    android:text="Wind Tunnel Laboratory (PG)"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text83"
+                    app:layout_constraintTop_toBottomOf="@+id/text82"
+                    android:text="Steam Laboratory (PG)"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text84"
+                    app:layout_constraintTop_toBottomOf="@+id/text83"
+                    android:text="Computational Fluid Dynamics (CFD) Laboratory"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text85"
+                    app:layout_constraintTop_toBottomOf="@+id/text84"
+                    android:text="Production Engineering Laboratory"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/text86"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:textSize="14sp"
+                    app:layout_constraintTop_toBottomOf="@+id/text85"
+                    android:text="Dept Library"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text87"
+                    app:layout_constraintTop_toBottomOf="@+id/text86"
+                    android:text="Year of establishment   -   1998"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text88"
+                    app:layout_constraintTop_toBottomOf="@+id/text87"
+                    android:text="Floor Area    -     30 sq.m"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text89"
+                    app:layout_constraintTop_toBottomOf="@+id/text88"
+                    android:text="Number of Volumes   -   2000+"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text90"
+                    app:layout_constraintTop_toBottomOf="@+id/text89"
+                    android:text="Number of Titles    -     400+"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text91"
+                    app:layout_constraintTop_toBottomOf="@+id/text90"
+                    android:text="Seating Capacity     -     20"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text92"
+                    app:layout_constraintTop_toBottomOf="@+id/text91"
+                    android:text=">  2-3 Books issued to students for a period of one semester"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text93"
+                    app:layout_constraintTop_toBottomOf="@+id/text92"
+                    android:text=">  Also, faculty members are issued books as per requirement"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/text94"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:textSize="14sp"
+                    app:layout_constraintTop_toBottomOf="@+id/text93"
+                    android:text="Audio-Visual Seminar Room"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text95"
+                    app:layout_constraintTop_toBottomOf="@+id/text94"
+                    android:text="A seminar hall with provision for OHP/LCD panel and other advanced teaching tools like, internet connection is available with a seating capacity of 100. It is used for teaching at class-level and for holding seminars, invited lectures, etc.
+In addition to this, 3 Smart Boards are available in the department for advanced teaching-learning processes."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/text96"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:textSize="14sp"
+                    app:layout_constraintTop_toBottomOf="@+id/text95"
+                    android:text="Computing Facility"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text97"
+                    app:layout_constraintTop_toBottomOf="@+id/text96"
+                    android:text="An exclusive internet-cum-computation facility is provided to the UG students with 18 Pentium-IV machines. The Wi-Fi facility helps the students in browsing through various technical sites."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/text98"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:textSize="14sp"
+                    app:layout_constraintTop_toBottomOf="@+id/text97"
+                    android:text="Reading Room"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text99"
+                    app:layout_constraintTop_toBottomOf="@+id/text98"
+                    android:text="A Reading Room with a capacity of 20 students/faculty members exists adjacent to the Library. 2-3 News papers/magazines are subscribed to keep the students engaged and informed about current affairs, etc."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/text100"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:textSize="14sp"
+                    app:layout_constraintTop_toBottomOf="@+id/text99"
+                    android:text="Any Other information
+HKES’ BOSCH-REXROTH Center of Competence for Automation Technology"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text101"
+                    app:layout_constraintTop_toBottomOf="@+id/text100"
+                    android:text="The center was established in 2011 with a view to impart training to BE/ Diploma/ITI students. It provides the necessary hands-on training in the areas of Hydraulic/Pneumatic automation circuitry and processes. Around 20 well designed experiments bring home the concepts. Indian and German trained experts are involved in training the aspiring students with a view to enhancing their employability. The training programme leading to Certification in this cutting edge area is a popular activity on the campus and has so far produced around 1000 trained personnel."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/text102"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:textSize="14sp"
+                    app:layout_constraintTop_toBottomOf="@+id/text101"
+                    android:text="Achievements"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/text103"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:textSize="14sp"
+                    app:layout_constraintTop_toBottomOf="@+id/text102"
+                    android:text="a) Faculty Members"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text104"
+                    app:layout_constraintTop_toBottomOf="@+id/text103"
+                    android:text="Most of the faculty members have acquired higher qualifications (ME, MTech or PhD) from IITs, NITs, JNTUH, etc."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text105"
+                    app:layout_constraintTop_toBottomOf="@+id/text104"
+                    android:text="A few are on the Reviewers panel of International/National Journals, members of BoS/BoE of VTUB, BU, etc."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text106"
+                    app:layout_constraintTop_toBottomOf="@+id/text105"
+                    android:text="Prof SC Padashetty has served as Officer on Special Duty (OSD) at SPFU of TEQIP – II at Bengaluru."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text107"
+                    app:layout_constraintTop_toBottomOf="@+id/text106"
+                    android:text="Dr OD Hebbal is serving as a Member of the Standing Appellate Committee of AICTE, New Delhi."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text108"
+                    app:layout_constraintTop_toBottomOf="@+id/text107"
+                    android:text="Dr Pravin Honguntikar has served as the PG Coordinator of VTU Regional Center, Kalaburagi."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text109"
+                    app:layout_constraintTop_toBottomOf="@+id/text108"
+                    android:text="Dr Pravin Honguntikar has taken over as the Registrar of Gulbarga University, Kalburagi."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text110"
+                    app:layout_constraintTop_toBottomOf="@+id/text109"
+                    android:text="Prof RM Lathe has visited Germany and has undergone specialized training in the area of Hydraulic and Pneumatic Automation at Bosch-Rexroth Germany."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text111"
+                    app:layout_constraintTop_toBottomOf="@+id/text110"
+                    android:text="Dr GK Purohit has visited Paris and has presented a paper there. He also chaired a technical session in that Conference."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text112"
+                    app:layout_constraintTop_toBottomOf="@+id/text111"
+                    android:text="A good number of faculty members have been honored with the Best Teacher/Best Performer awards."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text113"
+                    app:layout_constraintTop_toBottomOf="@+id/text112"
+                    android:text="Almost all the faculty members have major contributions to the development of the department, in particular, and the college in general."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/text114"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:textSize="14sp"
+                    app:layout_constraintTop_toBottomOf="@+id/text113"
+                    android:text="b) Students"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text115"
+                    app:layout_constraintTop_toBottomOf="@+id/text114"
+                    android:text="Students of MED have organized Interdepartmental debating and essay writing competitions."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text116"
+                    app:layout_constraintTop_toBottomOf="@+id/text115"
+                    android:text="A few students have participated in inter-college events such as paper presentation, project exhibition, etc."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text117"
+                    app:layout_constraintTop_toBottomOf="@+id/text116"
+                    android:text="Regularly the Mechanical Engineering branch students participate and excel in annual VTU sports events and a few are in the VTU teams."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/text118"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:textSize="14sp"
+                    app:layout_constraintTop_toBottomOf="@+id/text117"
+                    android:text="Department Association Details"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text119"
+                    app:layout_constraintTop_toBottomOf="@+id/text118"
+                    android:text="The department has an association by name ‘Pioneers Association’. Students automatically are enrolled as members of this association right from the day of their entering the department. The Pioneers Association organizes co-curricular and extra-curricular activities, which include sports, seminars, debating/essay completions, etc. Further, to showcase the creative temptations in writing, an in-house magazine is published every year (during the even semester). Earlier it was published in two languages, now it is coming out in three languages. Both faculty/staff and students contribute to the same."/>
+
+
+
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+
+        </android.support.constraint.ConstraintLayout>
+</ScrollView>
+
+
+

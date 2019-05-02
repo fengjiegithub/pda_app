@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MorelinkActivity">
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/circulars" app:layout_constraintTop_toTopOf="parent" android:text="Circulars and Notice"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/mandatory" android:text="Mandatory Disclosures" app:layout_constraintTop_toBottomOf="@+id/circulars"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/research" android:text="Research" app:layout_constraintTop_toBottomOf="@+id/mandatory"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/itbt" android:text="ITBT" app:layout_constraintTop_toBottomOf="@+id/research"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/industrial" android:text="Photo Gallery" app:layout_constraintTop_toBottomOf="@+id/itbt"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/instrumentation" android:text="SC/ST Cell" app:layout_constraintTop_toBottomOf="@+id/industrial"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/library" android:text="Library" app:layout_constraintTop_toBottomOf="@+id/instrumentation"/>
+
+</android.support.constraint.ConstraintLayout>

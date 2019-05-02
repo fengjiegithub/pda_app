@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+
+            android:id="@+id/my1"
+            app:layout_constraintTop_toTopOf="parent">
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#EC6290">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Electronics and Communications Engineering"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:textSize="30dp"/>
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/my2"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/my1">
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text1"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:text="Department  of Electronics and Communication Engineering was established in 1967 and is the pride of Karnataka. With an initial intake of 30 students the department has grown steadily and the present intake is 120 students for the UG programme. The graduates from this Department are playing a vital role in the IT revolution and are instrumental in placing Karnataka on the Global IT Landscape. These professionals have found placement in major industries and multinational corporations   Many of them are successful entrepreneurs.
+
+The department   also offers Post Graduate   programs in ‘Communication Systems’ with an intake of 18. Active   engagement  of  faculty in research has led to  recognition  of  department as a Research center  by the    VTU.
+
+The faculty strength of the department is 28, including 4 Professors, 4 Associate Professors, 20 Assistant Professors. The faculty always strives for imparting better knowledge to the students and works as a team in all departmental activities.
+
+Students graduated from the department are well placed in India and abroad. Quite a few of them have pursued higher studies both in India and abroad. Some of them have qualified for Indian Engineering and Defense Services. Students of the department have bagged university ranks including the First rank on several occasions.
+The department has state-of-the-art laboratories in the areas of Communication, DSP, Microwave, Microcontroller, Embedded system, VLSI design etc."/>
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+            android:id="@+id/my3"
+            app:layout_constraintTop_toBottomOf="@+id/my2">
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text4"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:text="Vision of the Department"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text5"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintTop_toBottomOf="@+id/text4"
+                    android:text="To be a leader in providing quality education through excellence in teaching and research in the contemporary areas of electronics and communication engineering to meet the local and global socio economic challenges."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mission of the Department"
+                    app:layout_constraintTop_toBottomOf="@+id/text5"
+                    android:id="@+id/text6"
+                    android:layout_marginTop="15dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:layout_marginLeft="5dp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text7"
+                    app:layout_constraintTop_toBottomOf="@+id/text6"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="Produce globally competent engineers  to face challenges in industry and society."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/text7"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/text8"
+                    android:layout_marginLeft="5dp"
+                    android:text="Provide excellent teaching and research environment in collaboration with other premier institutes."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/text8"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/text9"
+                    android:layout_marginLeft="5dp"
+                    android:text="Provide a platform for alumni interaction for training to meet the needs of industry."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/text9"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/text10"
+                    android:layout_marginLeft="5dp"
+                    android:text="Encourage students to take up leadership roles."/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/text10"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/text3"
+                    android:layout_marginLeft="5dp"
+                    android:text="Encourage students to pursue higher education and research."/>
+
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="1010dp"
+        android:id="@+id/my4"
+        app:layout_constraintTop_toBottomOf="@+id/my3">
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:id="@+id/text11"
+                android:text="Academic,Programmes,Eligibility and Objectives"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="10dp"
+                app:layout_constraintTop_toBottomOf="@+id/text11"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:id="@+id/text2"
+                android:text="Programmes Offered"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="5dp"
+                android:textSize="15sp"
+                android:id="@+id/text12"
+                app:layout_constraintTop_toBottomOf="@+id/text2"
+                android:text="B. E. in Electronics and Communication Engineering"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="5dp"
+                android:textSize="15sp"
+                android:id="@+id/text13"
+                app:layout_constraintTop_toBottomOf="@+id/text12"
+                android:text="M. Tech. in Communication System."/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:id="@+id/text16"
+                android:layout_marginLeft="10dp"
+                app:layout_constraintTop_toBottomOf="@+id/text13"
+                android:text="Short Range Goals"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/text17"
+                app:layout_constraintTop_toBottomOf="@+id/text16"
+                android:text="To arrange special lectures from experts on regular basis."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/text18"
+                app:layout_constraintTop_toBottomOf="@+id/text17"
+                android:text="To arrange industrial visits."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/text14"
+                app:layout_constraintTop_toBottomOf="@+id/text18"
+                android:text="To depute faculty for Ph.D. to institutes of higher learning"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/text19"
+                app:layout_constraintTop_toBottomOf="@+id/text14"
+                android:text="To strengthen interaction with alumni."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/text15"
+                app:layout_constraintTop_toBottomOf="@+id/text19"
+                android:text="To give in-plant training to students and faculty."/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/text0"
+                app:layout_constraintTop_toBottomOf="@+id/text15"
+                android:text="To augment submission of project proposals to funding agencies."/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:id="@+id/text20"
+                android:layout_marginLeft="10dp"
+                app:layout_constraintTop_toBottomOf="@+id/text0"
+                android:text="Long Range Goals"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/text21"
+                app:layout_constraintTop_toBottomOf="@+id/text20"
+                android:text="To create a research base."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/text22"
+                app:layout_constraintTop_toBottomOf="@+id/text21"
+                android:text="To enhance institute - industry interaction."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/text23"
+                app:layout_constraintTop_toBottomOf="@+id/text22"
+                android:text="To augment the expertise in cutting-edge technology."/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/text24"
+                app:layout_constraintTop_toBottomOf="@+id/text23"
+                android:text="To create centers of excellence in the fields of VLSI, DSP and advanced communication."/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/text25"
+                app:layout_constraintTop_toBottomOf="@+id/text24"
+                android:text="To have at least 60% of faculty with Ph.D. by 2020."/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/text26"
+                app:layout_constraintTop_toBottomOf="@+id/text25"
+                android:text=" Program Outcomes"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/text27"
+                app:layout_constraintTop_toBottomOf="@+id/text26"
+                android:text="Academic Eligibility"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:id="@+id/text28"
+                app:layout_constraintTop_toBottomOf="@+id/text27"
+                android:text="Head of the Department"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/text29"
+                android:layout_marginTop="7dp"
+                app:layout_constraintTop_toBottomOf="@+id/text28"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:src="@drawable/rajuyanam"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginTop="7dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:id="@+id/text30"
+                app:layout_constraintTop_toBottomOf="@+id/text29"
+                android:text="Dr. Raju Yanamshetty, M.Tech Ph.D. Prof. and HOD"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:gravity="center"
+                android:layout_marginTop="7dp"
+                android:textStyle="bold"
+                android:id="@+id/text31"
+                android:textColor="#000"
+                app:layout_constraintTop_toBottomOf="@+id/text30"
+                android:text="Electronics and communication Engineering."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginTop="7dp"
+                android:textStyle="bold"
+                android:id="@+id/text32"
+                android:textColor="#000"
+                app:layout_constraintTop_toBottomOf="@+id/text31"
+                android:text="Email:hodece@pdaengg.com"/>
+
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="800dp"
+        android:id="@+id/my5"
+        app:layout_constraintTop_toBottomOf="@+id/my4">
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/text33"
+                android:textSize="20sp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:text="Infrastructure and Facilities"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginTop="5dp"
+                android:id="@+id/text34"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000"
+                android:textSize="14sp"
+                app:layout_constraintTop_toBottomOf="@+id/text33"
+                android:text="The department is having the following laboratories"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/text35"
+                app:layout_constraintTop_toBottomOf="@+id/text34"
+                android:text="Analog Electronics Lab"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/text36"
+                app:layout_constraintTop_toBottomOf="@+id/text35"
+                android:text="Digital Electronics Lab"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/text37"
+                app:layout_constraintTop_toBottomOf="@+id/text36"
+                android:text="Power Electronics Lab"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/text38"
+                app:layout_constraintTop_toBottomOf="@+id/text37"
+                android:text="Analog Communication Lab"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/text39"
+                app:layout_constraintTop_toBottomOf="@+id/text38"
+                android:text="Microprocessor and Interfaces Lab"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/text40"
+                app:layout_constraintTop_toBottomOf="@+id/text39"
+                android:text="Digital Communication Lab"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/text41"
+                app:layout_constraintTop_toBottomOf="@+id/text40"
+                android:text="Digital Signal Processing lab"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/text42"
+                app:layout_constraintTop_toBottomOf="@+id/text41"
+                android:text="Microcontrollers and Embedded Systems lab"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/text43"
+                app:layout_constraintTop_toBottomOf="@+id/text42"
+                android:text="Simulation lab"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/text44"
+                app:layout_constraintTop_toBottomOf="@+id/text43"
+                android:text="Microwave Communication lab"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/text45"
+                app:layout_constraintTop_toBottomOf="@+id/text44"
+                android:text="VLSI design lab"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginTop="5dp"
+                android:id="@+id/text46"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000"
+                android:textSize="14sp"
+                app:layout_constraintTop_toBottomOf="@+id/text45"
+                android:text="All the laboratories are having state of the art equipments and soft wares such as MATLAB"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/text47"
+                app:layout_constraintTop_toBottomOf="@+id/text46"
+                android:text="Department is having a library with around more than 3000 books which is very helpful to the students. The students are issued books from both main library as well as the department library.  This department library is established by the books donated by each outgoing student of the department.  The department is having seminar room with audio visual facility.  There are four laboratories with 20 systems each with internet connectivity."/>
+
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="1100dp"
+        android:id="@+id/my6"
+        app:layout_constraintTop_toBottomOf="@+id/my5">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="4"
+            android:background="#f1f1f1">
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent">
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginHorizontal="2dp"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="S.No"
+                        android:textColor="#000"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.5"
+                        android:gravity="center"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:text="Board of Studies"
+                        android:textColor="#000"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Name and Designaion with full Address"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        />
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:text="1"
+                        android:textColor="#000"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Chairperson"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:layout_weight="1.5"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Siddarama R Patil, Professor and HOD, ECE Dept, PDACEK"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:layout_weight="2"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="353dp"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:text="2"
+                        android:textColor="#000"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginHorizontal="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:layout_weight="1.5"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:text="Members-1
+(Five faculty members at different levels covering different specialization to be nominated by theAcademic Council members" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="353dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:layout_weight="2"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:text="Dr. Nagendra H, Assoc Professor, ECE Dept, PDACEK
+1. G. S. Biradar, Professor, ECE Dept., PDACEK
+2. Pushpa Allad, Professor, ECE Dept., PDACEK
+Veeranna Gugwad, Assoc Professor, ECE Dept, PDACEK
+Arunkumar Kanthi, Asst Professor, ECE Dept, PDACEK
+Shridhar K, Asst Professor, ECE Dept, PDACEK" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="122dp"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:layout_marginHorizontal="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:text="3"
+                        android:textColor="#000"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:layout_weight="1.5"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:text="Member-II
+Two subject experts outside college" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="B G Sheeparmatti, Professor, ECE Dept., BEC, Bagalkot
+                        Dr. Nitin Shashtri, Asst Professor, NIT, Goa"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:background="#ffffff"
+                        android:layout_weight="2"
+                        android:gravity="center"/>
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="147dp"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:layout_marginHorizontal="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:text="4"
+                        android:textColor="#000"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Member-III
+Member from VTU"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:layout_weight="1.5"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Sreeramreddy, Prof. and Head of Dept. E and CE,
+C. Byregowda Institue of Technology, Kolar"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:background="#ffffff"
+                        android:layout_weight="2"
+                        android:gravity="center"/>
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="99dp"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:layout_marginHorizontal="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:text="5"
+                        android:textColor="#000"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Member-IV
+Industry Representative"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:layout_weight="1.5"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Vishweshwar Hiremath
+Nvidia Graphics Pvt Ltd, Pune"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:background="#ffffff"
+                        android:layout_weight="2"
+                        android:gravity="center"/>
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="97dp"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:layout_marginHorizontal="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:text="6"
+                        android:textColor="#000"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="M ember-V
+Post Graduate Meritorious Alumnus"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:layout_weight="1.5"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Rajkumar Biradar, Professor, ETE Dept., G. Narayanamma Institute of Tech and Science"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:background="#ffffff"
+                        android:layout_weight="2"
+                        android:gravity="center"/>
+
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</android.support.constraint.ConstraintLayout>
+</ScrollView>

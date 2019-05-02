@@ -1,0 +1,1691 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InformatActivity">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="#E91E63"
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/my1">
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#E91E63"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Information Science and Engineering"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="1120dp"
+        android:id="@+id/my2"
+        app:layout_constraintTop_toBottomOf="@id/my1">
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="7dp"
+            android:layout_marginLeft="7dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:id="@+id/text1"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:textAlignment="viewStart"
+                app:layout_constraintRight_toRightOf="parent"
+                android:text="The department is established in the year 2000 with an intake of 40 students. The present intake of department is 60 with total of 180 students studying in I, II, III and IV years. The department is equipped with all necessary infrastructure and laboratory facilities. Keeping in view of the Vision and Mission, the department is untiringly stepping towards the progress and achieving excellence in outcome base education. The department observes discipline among student community by imbibing good human qualities and moral, students are also motivated towards research oriented aspects. The department has well qualified, dedicated, expert faculty and supporting staff."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/text1"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="The department is recognized as Research Centre by Visvesvaraya Technological University Belagavi in the year  2013 and at present 14 research scholars are pursuing their Ph.D., Research centre put forward its activities and  grabbed the AICTE research promotion schemes to carry out various projects.
+
+The centre pillar of the department is its curricula and the faculty. The faculty and staff of the department made  remarkable standings by involving themselves in academic activities like conducting various Workshops, Seminars  and Industry Institute Interaction programs. The workshops and seminars are sponsored by TEQIP- II,  TEQIP-III, ISTE, IETE and IE. The department made remarkable standings by joining its hand with other Electrical  Engineering Branches in organizing “International Conference on Current Research and Applications in Electrical Science – 2016”. Some of the faculty of the department participated as resource persons for workshops   and delivered their technical sessions in various Engineering, Diploma colleges and in professional societies,
+
+The department curricula meet the industry requirements. The cutting edge technology labs namely R-programming lab, Data Mining with SPSS Modeler, IoT, Software Testing using Selenium, Python programming with UNIX, Web Designing with PHP, MySQL and JAVA Servlets represents the industry standards.
+
+The department frequently organizes many  student centric activities like Soft Skill Development programs, Quizzes, Plickers, Group Discussions and Extracurricular activities under the Students Association “Pheonix” . The department also publishes the yearly magazine “SPIRIT” and the semester wise newsletter “INSIGHT”.
+
+The asset of the department is its Alumni. The department Alumni contribute their ideas and suggestions in framing curricula with respect to industry advancements. Alumni are spread across the globe and are well placed. Some of them are emerged as entrepreneurs.
+
+The corner stone of the department is its Industry Institute Interaction Programs. The department has signed MoU with various industries that works like bench mark for the students and the faculty to get exposed to IT sector and current industry needs.  It also promotes student placement.
+
+The Training and Placement team of the department observes 360 degree evaluation of the students, and encourages them to involve in academic activities. Many students got placed in reputed industries both in private and public sectors. "
+                app:layout_constraintRight_toRightOf="parent"/>
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:id="@+id/my3"
+            app:layout_constraintTop_toBottomOf="@+id/my2">
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vision and Mission"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:id="@+id/text3"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+app:layout_constraintTop_toBottomOf="@+id/text3"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/text4"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:text="Vision of the Department"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text5"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintTop_toBottomOf="@+id/text4"
+                    android:text="To impart quality education and research in Information Technology to produce a competent, committed and goal oriented workforce to fulfil the needs of the local and global requirements." />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text6"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    app:layout_constraintTop_toBottomOf="@+id/text5"
+                    android:text="Mission of the Department"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text7"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintTop_toBottomOf="@+id/text6"
+                    android:text="The Department’s Mission is to advance knowledge in the Information and Computing Sciences by providing our students with the highest quality educational experience by" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text8"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintTop_toBottomOf="@+id/text7"
+                    android:text="M1:     Producing quality workforce with cutting edge technology." />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text9"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintTop_toBottomOf="@+id/text8"
+                    android:text="M2:     Engaging in innovative teaching learning, research and community service." />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text10"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintTop_toBottomOf="@+id/text9"
+                    android:text="M3:     Strengthening continuous interactions with alumni and industry and enable graduates to attain entrepreneurial qualities with life-long learning skills." />
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="1520dp"
+            android:id="@+id/my4"
+            app:layout_constraintTop_toBottomOf="@+id/my3">
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/text16"
+                    android:layout_marginLeft="10dp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:text="Program Educational Objectives "/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text17"
+                    app:layout_constraintTop_toBottomOf="@+id/text16"
+                    android:text="The program educational objectives of the B.E. in Information Science and Engineering program at PDA College of Engineering, Kalaburagi are to produce graduates who are able to:"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text18"
+                    app:layout_constraintTop_toBottomOf="@+id/text17"
+                    android:text="PEO 1: Apply the principles of information and allied science, mathematics and scientific investigation to solve real world problems appropriate to the discipline."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text19"
+                    app:layout_constraintTop_toBottomOf="@+id/text18"
+                    android:text="PEO 2: Apply current industry accepted computing practices and emerging technologies to analyze, design, implement, and verify high quality IT-based solutions to real world problems."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text20"
+                    app:layout_constraintTop_toBottomOf="@+id/text19"
+                    android:text="PEO 3: Exhibit teamwork and effective communication skills."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text21"
+                    app:layout_constraintTop_toBottomOf="@+id/text20"
+                    android:text="PEO 4: Understand the ethical obligations, social impacts and apply their technical knowledge positively and appropriately in the course of career and professional journey."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text22"
+                    app:layout_constraintTop_toBottomOf="@+id/text21"
+                    android:text="PEO 5: Be successfully employed or accepted into a postgraduate program, and demonstrate a pursuit of lifelong learning."/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/text23"
+                    android:layout_marginLeft="10dp"
+                    app:layout_constraintTop_toBottomOf="@+id/text22"
+                    android:text="Program Outcomes"/>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text24"
+                    app:layout_constraintTop_toBottomOf="@+id/text23"
+                    android:text="1. Engineering  knowledge:  Apply  the  knowledge  of  mathematics,  science,  engineering fundamentals, and an engineering specialization to the solution of complex engineering problems."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text25"
+                    app:layout_constraintTop_toBottomOf="@+id/text24"
+                    android:text="2. Problem   analysis:    Identify,   formulate,   review   research   literature,   and    analyze    complex engineering  problems  reaching  substantiated  conclusions  using  first  principles  of  mathematics, natural sciences, and engineering sciences"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text26"
+                    app:layout_constraintTop_toBottomOf="@+id/text25"
+                    android:text="3. Design/development of solutions:  Design  solutions  for  complex  engineering  problems  and design   system   components   or   processes   that   meet   the   specified   needs   with   appropriate consideration for the public health and safety, and the cultural, societal, and environmental considerations."/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text27"
+                    app:layout_constraintTop_toBottomOf="@+id/text26"
+                    android:text="4. Conduct investigations of complex problems: Use research-based knowledge and research methods including design of experiments, analysis and interpretation of data, and synthesis of the information to provide valid conclusions."/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text28"
+                    app:layout_constraintTop_toBottomOf="@+id/text27"
+                    android:text="5. Modern tool usage: Create, select, and apply appropriate techniques, resources, and modern engineering and IT tools including prediction and modelling to complex engineering activities with an understanding of the limitations."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text29"
+                    app:layout_constraintTop_toBottomOf="@+id/text28"
+                    android:text="6. The  engineer  and  society:  Apply  reasoning  informed  by  the  contextual  knowledge  to  assess societal, health, safety, legal and cultural issues and the consequent responsibilities relevant to the professional engineering practice."/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text30"
+                    app:layout_constraintTop_toBottomOf="@+id/text29"
+                    android:text="7. Environment and sustainability: Understand the impact of the professional engineering solutions in   societal   and   environmental   contexts,   and   demonstrate   the   knowledge   of,   and   need   for sustainable development."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text31"
+                    app:layout_constraintTop_toBottomOf="@+id/text30"
+                    android:text="8. Ethics: Apply ethical principles and commit to professional ethics and responsibilities and norms of the engineering practice."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text32"
+                    app:layout_constraintTop_toBottomOf="@+id/text31"
+                    android:text="9. Individual and team work: Function effectively as an individual, and as a member or leader in diverse teams, and in multidisciplinary settings."/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text33"
+                    app:layout_constraintTop_toBottomOf="@+id/text32"
+                    android:text="10. Communication: Communicate effectively on complex engineering activities with the engineering community and with society at large, such as, being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions."/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text34"
+                    app:layout_constraintTop_toBottomOf="@+id/text33"
+                    android:text="11. Project management and finance: Demonstrate  knowledge and understanding of  the engineering and management principles and apply these to one’s own work, as a member and leader in a team, to manage projects and in multidisciplinary environments."/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text35"
+                    app:layout_constraintTop_toBottomOf="@+id/text34"
+                    android:text="12. Life-long  learning:  Recognize  the  need  for,  and  have  the  preparation  and  ability  to  engage  in independent and life-long learning in the broadest context of technological change."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/text36"
+                    app:layout_constraintTop_toBottomOf="@+id/text35"
+                    android:text="Program Specific Outcomes:"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text37"
+                    app:layout_constraintTop_toBottomOf="@+id/text36"
+                    android:text="PSO1: Demonstrate the working principles of computing systems and application Software"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text38"
+                    app:layout_constraintTop_toBottomOf="@+id/text37"
+                    android:text="PSO2:  Provide the suitable strategies and design solutions to solve IT related problems."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text39"
+                    app:layout_constraintTop_toBottomOf="@+id/text38"
+                    android:text="PSO3: Apply the professional practices to implement and deploy the real life applications."/>
+
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="1360dp"
+        android:id="@+id/my5"
+        app:layout_constraintTop_toBottomOf="@+id/my4">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:id="@+id/text40"
+            android:layout_marginLeft="10dp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text="Academic Programmes, Eligibility and Objectives"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:id="@+id/text41"
+            android:layout_marginLeft="10dp"
+            app:layout_constraintTop_toBottomOf="@+id/text40"
+            android:text="Programmes Offered"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/text42"
+            app:layout_constraintTop_toBottomOf="@+id/text41"
+            android:text="B.E. in Information Science and Engineering"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:id="@+id/text43"
+            android:layout_marginLeft="10dp"
+            app:layout_constraintTop_toBottomOf="@+id/text42"
+            android:text="Academic Eligibility"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/text44"
+            app:layout_constraintTop_toBottomOf="@+id/text43"
+            android:text="The students should have passed 2nd PUC / 12th Standard or equivalent examination with English as one of the languages and obtained 45% of marks in aggregate in Physics and Mathematics along with chemistry / Bio-Technology / Computer Science / Electronics / Biology in case of candidates belonging to Karnataka Scheduled Caste, Scheduled Tribe and other Backward Classes (Category 1, 2A, 2B, 3A and 3B) the minimum marks for the purpose of eligibility will be 40% of marks in aggregate in the optional subjects in the qualifying examination."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:id="@+id/text45"
+            app:layout_constraintTop_toBottomOf="@+id/text44"
+            android:text="Head of the Department"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text46"
+            android:layout_marginTop="7dp"
+            app:layout_constraintTop_toBottomOf="@+id/text45"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:src="@drawable/bharatiharsoor"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="7dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:id="@+id/text47"
+            app:layout_constraintTop_toBottomOf="@+id/text46"
+            android:text=" Dr.Bharati Harsoor BE,M.Tech, Ph.D."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:gravity="center"
+            android:layout_marginTop="7dp"
+            android:textStyle="bold"
+            android:id="@+id/text48"
+            android:textColor="#000"
+            app:layout_constraintTop_toBottomOf="@+id/text47"
+            android:text="Department of Information Science and Engineering"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="7dp"
+            android:id="@+id/text49"
+            app:layout_constraintTop_toBottomOf="@+id/text48"
+            android:text="Dr. Bharati Harsoor Professor and Head of the Department awarded with Doctoral Degree by Osmania University, Hyderabad, Telangana for her research dissertation on Mobile Computing under the guidance of Dr. S. Ramachandram, Vice Chancellor, Osmania University, Hyderabad. She completed her Bachelor’s Degree in Engineering from Gulbarga University, Gulbarga and Post-graduation from Visvesvaraya Technological University Belagavi. She has 22 years of teaching experience and her areas of interest are Computer Networks, Software Engineering, Data Analytics, and has published more than 25 research papers in various reputed National and International Journals. At present seven research scholars are pursuing their research under her. She played a prime role in establishing research and IoT laboratories. She involved in the confidential work for NET/SET examination for Telangana and Andhra State.
+
+She organized and chaired many Short Term Training Programs, Faculty Development Programs and Seminars. She worked as a reviewer for National and International Journals, Papers and Book chapters. She was a Program Convener to International Conference on Current Research and Applications in Electrical Science (ICCRAES-16) held in the year 2016.
+
+She is member for Academic Council and Chair-Person for Board of Studies and Board of Examination of PDA College of Engineering, Kalaburagi. She is also the member for many Professional Societies and represents her active involvement in the events by delivering technical lectures and seminars.
+
+Considering her academic excellence she was honoured with Shayesta Akhtar Memorial National Award for Best Women Engineering College Teacher, instituted by Indian Society for Technical Education, New Delhi in the 48th ISTE National Annual Convention Held at Visvesvaraya Technological University, Belagavi on 19th – 20th March, 2019.
+
+She dedicated her professional service towards the welfare of the students and development of the department. She exhibits good governance and lead the team with a vision to meet outcome based education."/>
+
+
+        <TextView
+            android:id="@+id/t6"
+            android:layout_width="wrap_content"
+            android:layout_height="23dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Faculty Details"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text49" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/t6"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:text="=> Faculty Details"
+            android:textStyle="bold"
+            android:id="@+id/t7"
+            android:layout_marginTop="10dp"
+            android:textColor="#09ADF8"
+            android:layout_marginLeft="20dp"
+            android:textSize="15sp"/>
+
+    </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="1300dp"
+            android:id="@+id/my6"
+            app:layout_constraintTop_toBottomOf="@+id/my5">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:weightSum="6"
+                android:background="#f1f1f1">
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="parent">
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Faculty Name"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:layout_weight="1"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Courses/ Semester"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:layout_weight="0.5"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Course with Code"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Innovative / Novel Approach Practiced (Brief Note)"
+                            android:layout_weight="2"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Learning Style"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:layout_weight="1.5"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Dr. Bharati Harsoor"
+                            android:layout_marginHorizontal="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="V"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="0.5"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Operating System
+
+11IS51"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Process Scheduling students are asked to generate coding with different logics"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Experimental Learning"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1.5"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text=" "
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="VI"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="0.5"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Microprocessor
+
+15IS45"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Quiz on Instruction sets of 8086 and ARM processor"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Case-based learning"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1.5"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text=""
+                            android:layout_marginHorizontal="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="VIII"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="0.5"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Building Enterprise Application"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Group Activity on Model Design"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Activity based learning"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1.5"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Dr. Vishwanath Bukpalli"
+                            android:layout_marginHorizontal="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="VI"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="0.5"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Neural Network"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Analogy based chart on Neural Networks"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Case based"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1.5"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text=""
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="V"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="0.5"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Data communication"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Quiz on Data Communication"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Collaborative Learning"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1.5"/>
+                    </TableRow>
+
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Prof. Uday S. Balagar"
+                            android:layout_marginHorizontal="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="III"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="0.5"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Computer Organization"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Application of Stack through Chart"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Activity based learning"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1.5"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text=" "
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="VI"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="0.5"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Computer Networks"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Quiz on Packet tracing with network"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Collaborative Learning"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1.5"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Nitin V. Kattishettar"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="VI"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="0.5"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="11IS654 Object Oriented Modelling and Design"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Pick and Speak"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Case based, Activity based learning"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1.5"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Ashok Patil"
+                            android:layout_marginHorizontal="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="VII"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="0.5"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="11IS73 Java Programming"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="‘Code Hakathon’ to write code for the given problem."
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Experimental learning."
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1.5"/>
+                    </TableRow>
+
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text=" "
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="VIII"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="0.5"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Project work
+
+11ISP2"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Students are asked to design the models and flow charts using freeware’s and Raptor flow chart interpreter
+"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Collaborative work
+"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1.5"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Dr. Rakesh G.
+"
+                            android:layout_marginHorizontal="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="IV"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="0.5"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Analysis and Design of Algorithm
+
+15IS43"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Conducted for time efficiency of Algorithms and diagrammatic representation using Raptor Software Tools
+
+"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Activity-based Learning"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1.5"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text=" "
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="III"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="0.5"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Data structures with C"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Quiz on data structure"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Collaborative work"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1.5"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Priyanka Rairam"
+                            android:layout_marginHorizontal="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="III"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="0.5"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="15IS32 Discrete Mathematical Structures"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Puzzle Words"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Activity Based Learning"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1.5"/>
+                    </TableRow>
+
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text=" "
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="IV"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="0.5"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="15IS42 Automata Theory And Computability"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Learning abstract machines through Programming"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Experimental Learning
+
+Collaborative Learning"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1.5"/>
+                    </TableRow>
+
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Mukund H"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="III"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="0.5"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Unix and Shell programs"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Poster preparation on “UNIX V/S WINDOWS”"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Case-based Learning"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1.5"/>
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:id="@+id/my7"
+            app:layout_constraintTop_toBottomOf="@+id/my6">
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Research"
+                    android:id="@+id/text51"
+                    android:textSize="20sp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Funded projects"
+                    android:id="@+id/text52"
+                    android:textSize="15sp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+app:layout_constraintTop_toBottomOf="@+id/text51"
+                    app:layout_constraintLeft_toLeftOf="parent"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="AICTE Sponsored research promotion scheme"
+                    android:id="@+id/text53"
+                    android:textSize="11sp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    app:layout_constraintTop_toBottomOf="@+id/text52"
+                    app:layout_constraintLeft_toLeftOf="parent"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="For the project titled “Recognization of Teeline shorthand in Mobile Hand held devices : An approach to Fast Data Entry” - AICTE sanctioned Rs. 3,00,000/- for the project."
+                    android:id="@+id/text54"
+                    app:layout_constraintTop_toBottomOf="@+id/text53"
+                    app:layout_constraintLeft_toLeftOf="parent"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Number of Research Scholars pursuing their Ph.D. during 2016 -2017"
+                    android:id="@+id/text55"
+                    android:textSize="11sp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    app:layout_constraintTop_toBottomOf="@+id/text54"
+                    app:layout_constraintLeft_toLeftOf="parent"/>
+
+
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:id="@+id/my8"
+            app:layout_constraintTop_toBottomOf="@+id/my7">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:weightSum="6"
+                android:background="#f1f1f1">
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent">
+            <TableRow>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="Name of the Faculty"
+                    android:layout_marginHorizontal="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="2"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="No of Ph D awarded"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="No. of Scholars Completed Course Work"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="No. of Scholars Completed Comprehensive"
+                    android:layout_weight="1"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="No of Ph D guiding"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="Dr. Bharati Harsoor"
+                    android:layout_marginHorizontal="1dp"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:layout_weight="2"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="Nil"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="#ffffff"
+                    android:layout_weight="1"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="06"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="01"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="07"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="Dr Vishwanth Burkaplli "
+                    android:layout_marginHorizontal="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:layout_weight="2"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="Nil"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="#ffffff"
+                    android:layout_weight="1"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="03"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="02"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="06"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+            </TableRow>
+
+            </TableLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>

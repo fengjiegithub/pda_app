@@ -1,0 +1,4144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+
+            android:id="@+id/my1"
+            app:layout_constraintTop_toTopOf="parent">
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#EC6290">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ceramic and Cement Technology"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:textSize="30dp"/>
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="1110dp"
+            android:id="@+id/my2"
+            app:layout_constraintTop_toBottomOf="@+id/my1">
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:textAlignment="textStart"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#CDF03D05"
+                    android:textSize="17sp"
+                    android:gravity="start"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="20dp"
+                    android:text="The department of Ceramic and Cement technology was established in 1981 with vision to provide learned and skilled engineers and provide a exciting learning environment in the field of ceramic and cement technology to serve the local and global industries and institutes. Since inception department has created more than 500 graduates who are serving premier industries, to name a few BHEL, corning glass, JSW, ACC, Ultratech, Shree Cements, Saint-Gobin, Johnson, Bharat potteries, etc.
+
+The department is equipped with sophisticated instruments like Induction furnaces, surface area measurement, pyro-metric cone equivalent and Refractoriness under load, etc. our department have well qualified faculties with masters and PhD from IITs, IISc and NITs.
+
+Department teaching and learning process is well planned and designed to develop potential of students in ceramic and cement technology field, encourages independent thinking and ensures each graduate will have professional ethics, self-esteem, life-long love for learning and confidence. The curriculum provides ample opportunities for co-curricular activities by conducting seminars, conferences and encouraging students to actively participate in seminars and conferences.
+
+Many of interested students of our department actively participate in cultural activities in intra institute level, like “Nirmana” and inter Institute functions like “Techfest” of various premier institutes. Our department faculty and students are active participants in professional bodies like Indian Ceramic Society, Material research society of India, Institute of engineers. Our institute has a dedicated separate department for sports to cater the needs of physical fitness and ethical values to the students.
+
+Recently our department has started a post-graduate course during the year (2014-15) which offers interdisciplinary Master of technology in Material science and Technology, to encourage B.E. graduates of various disciplines such as Ceramic and Cement Technology, Civil Engineering, Mechanical Engineering, Metallurgical Engineering, Industrial and Production Engineering, Automobile Engineering, Polymer Science and Engineering, etc. for lifelong learning. As on today 25 students have completed M.Tech program from this department and are working in organization such ARCI Hyderabad, Springer Verlag publishers, NAL Bangalore, ISRO Bangalore, Ashapura Industries, etc."
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/my3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/my2">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:text="Vision and Mission"
+                    android:id="@+id/text3"
+                    android:layout_marginLeft="10dp"
+                     android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    android:layout_marginTop="15dp"
+                    />
+
+                <TextView
+                    android:id="@+id/text4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Vision of the Department"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text3"/>
+
+                <TextView
+                    android:id="@+id/text5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="To earn recognition as a department par excellence, in the field of ceramics and materials engineering education and research so as to create a workforce of technocrats to serve the needs of industries and society across the globe."
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text4" />
+
+                <TextView
+                    android:id="@+id/text6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="15dp"
+                    android:text="Mission of the Department"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text5" />
+
+                <TextView
+                    android:id="@+id/text7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="To create conducive ambience for quality education for experimental learning with ethical and moral values inculcated for better leadership."
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text6" />
+
+                <TextView
+                    android:id="@+id/text8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="To develop creative, exploratory and innovative skills in research and development activities related to ceramics, cement and materials engineering field."
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text7" />
+
+                <TextView
+                    android:id="@+id/text9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="To provide skilled workforce to serve, for the benefit of society and transnational organizations with better societal, technical and professional activities to increase interaction with alumni and industry."
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text8" />
+
+
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="1040dp"
+            android:id="@+id/my4"
+            app:layout_constraintTop_toBottomOf="@+id/my3">
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:id="@+id/text11"
+                    android:text="Academic,Programmes,Eligibility and Objectives"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="10dp"
+                    app:layout_constraintTop_toBottomOf="@+id/text11"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:id="@+id/text2"
+                    android:text="Programmes Offered"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="15sp"
+                    android:id="@+id/text12"
+                    app:layout_constraintTop_toBottomOf="@+id/text2"
+                    android:text="B.E Ceramic and Cement Technology (60 Intake)."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="15sp"
+                    android:id="@+id/text13"
+                    app:layout_constraintTop_toBottomOf="@+id/text12"
+                    android:text="M.Tech in Materials Science and Technology (18 Intake) (Full time)."/>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/text27"
+                    app:layout_constraintTop_toBottomOf="@+id/text13"
+                    android:text="Academic Eligibility"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:id="@+id/text28"
+                    app:layout_constraintTop_toBottomOf="@+id/text27"
+                    android:text="Admission to B.E. courses:"/>
+
+                <TextView
+                    android:id="@+id/text29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The student should have passed 2nd PUC / 12th standard or equivalent examination with English as one of the languages and obtained 45% of marks in aggregate in Physics and Mathematics along with Chemistry / Bio-Technology / Computer Science / Electronics / Biology In case of candidates belonging to Karnataka Scheduled Caste, Scheduled Tribe and other Backward Classes (Category I, 2A, 2B, 3A and 3B,) the minimum marks for the purpose of eligibility will be 40% of marks in aggregate in the optional subjects in the qualifying examination."
+                   app:layout_constraintTop_toBottomOf="@+id/text28"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp" />
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:id="@+id/text30"
+                    app:layout_constraintTop_toBottomOf="@+id/text29"
+                    android:text="Admission to M.Tech Full Time: "/>
+
+                <TextView
+                    android:id="@+id/text31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Admission to M.Tech. course shall be open to candidates who have passed B.E/B.Tech in relevant descipline with not less than 50% of the marks in aggregate of all the semester / years of the degree examination (cumulative sum of secured marks of all the semesters / years divided by the sum of maximum marks). However, in the case of candidates from Karnataka belonging to **SC/ST/Cat-I, marks shall not be less than 45%. The M.Tech (MST) is a two years four semester programme devised for students who have completed BE (CCT/IP/MECH/AERONOTICAL/Automobile/Chemical/Civil/Metallurgical Engg./Polymer Science) and complete the admission requirement."
+                    app:layout_constraintTop_toBottomOf="@+id/text30"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/text32"
+                    android:layout_marginLeft="10dp"
+                    app:layout_constraintTop_toBottomOf="@+id/text31"
+                    android:text="PROGRAM EDUCATIONAL OBJECTIVES (PEOS)"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text33"
+                    app:layout_constraintTop_toBottomOf="@+id/text32"
+                    android:text="PEO1: To enable the graduates to apply principles of ceramic engineering in design, analysis and processing in allied technologies."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text34"
+                    app:layout_constraintTop_toBottomOf="@+id/text33"
+                    android:text="PEO2: To enable the graduates to contribute successfully in multidisciplinary teams with leadership and communication skills"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text35"
+                    app:layout_constraintTop_toBottomOf="@+id/text34"
+                    android:text="PEO3: To enable the graduates to continue their higher education in materials / ceramic engineering and other interdisciplinary areas to emerge as competent technologists, experts, educators and researchers."/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text36"
+                    app:layout_constraintTop_toBottomOf="@+id/text35"
+                    android:text="PEO4: To enable the graduates with skills for fast learning and exhibit social responsibility and ethical attitude"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/text37"
+                    app:layout_constraintTop_toBottomOf="@+id/text36"
+                    android:text="PROGRAM SPECIFIC OUTCOMES (PSOs):"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text38"
+                    app:layout_constraintTop_toBottomOf="@+id/text37"
+                    android:text="PSO1:Apply the background technical knowledge acquired in the area of material science, traditional- engineering ceramics and process engineering"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text39"
+                    app:layout_constraintTop_toBottomOf="@+id/text38"
+                    android:text="PSO2: Improve product design and development through practical knowledge and research activities."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text40"
+                    app:layout_constraintTop_toBottomOf="@+id/text39"
+                    android:text="PSO3: Utilize knowledge of ceramic engineering in sustainable technologies."/>
+
+
+
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="580dp"
+            android:id="@id/my5"
+            app:layout_constraintTop_toBottomOf="@+id/my4">
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:text="Head of the Department"
+                    android:textStyle="bold"
+                    android:id="@+id/t1"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#000"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/amareshr"
+                    android:id="@+id/img1"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/t1"
+                    android:layout_marginTop="20dp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:text="Dr. Amaresh R"
+                    android:textStyle="bold"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/img1"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#000"
+                    android:id="@+id/t2"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:text="Head of the Department"
+                    android:textStyle="bold"
+                    android:id="@+id/t3"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/t2"
+                    android:layout_marginTop="3dp"
+                    android:textColor="#000"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="15sp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/t3"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:text="Dr. Amaresh R is presently working as Professor and HOD in Ceramic and Cement Technology. He has completed BE (Ceramic and Cement Technology) from Gulbarga University, Kalaburagi in the year 1990 , M.Tech (Materials Science and Engineering) from Indian Institute of Technology, Kharagpur in the year 1999 and then Ph.D. from Indian Institute of Technology-Bombay, Mumbai in the year 2015. His research topic is “Solid-solid reactions: an experimental and modeling study” in the department of Chemical engineering under the guidance of Prof A K Suresh. He has joined PDA College of Engineering, Kalaburagi as lecturer in 1992, promoted as Senior Grade Lecturer in 2004, promoted as selection grade lecturer in 2009, and then granted scale of Associate professor in 2012. After completion of Ph.D, Dr Amaresh is promoted as Professor in the year 2016. He is engaged in UG level teaching for more than 25 years. He has worked as BOS member, BOS chairman (In charge) and BOE member. His efforts contributed in syllabus framing, guiding student projects. Currently Dr Amaresh R is guiding 2 research scholars for the award of Ph.D.  His area of research includes Solid-State reactions, Synthesis of cement and ceramic phases, Composites, Mechanical properties of Ceramic and composites, Sustainable ceramics, cement and allied materials, Characterization of materials by X ray diffraction. He is life member of Indian Society for Technical Education and Materials Research Society of India."
+                    android:id="@+id/t4"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/t4"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:text="Faculty Details"
+                    android:textStyle="bold"
+                    android:id="@+id/t5"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#000"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="20sp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/t5"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:text="=> Faculty Details"
+                    android:textStyle="bold"
+                    android:id="@+id/t6"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#09ADF8"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/t6"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:text="Research"
+                    android:textStyle="bold"
+                    android:id="@+id/t7"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#000"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/t7"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:text="Research Equipment Installed"
+                    android:textStyle="bold"
+                    android:id="@+id/t8"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#000"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="20sp"/>
+
+
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/my6"
+            app:layout_constraintTop_toBottomOf="@+id/my5">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="7"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#f1f1f1">
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent">
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginHorizontal="2dp"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:text="S.No"
+                    android:textColor="#000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
+                    android:gravity="center"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:text="Name of faculty"
+                    android:textColor="#000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="2017-18"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginHorizontal="2dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="2016-17"
+                    android:textColor="#000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:text="2015-16"
+                    android:textColor="#000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Total"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Citations"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    />
+
+
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginHorizontal="2dp"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="#000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
+                    android:gravity="center"
+                    android:background="#ffffff"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:text="Dr. John U. Kennedy" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="3"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#ffffff"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:text="2" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="1"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#ffffff"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:text="6" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="60 "
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginHorizontal="2dp"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:text="2"
+                    android:textColor="#000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
+                    android:gravity="center"
+                    android:background="#ffffff"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:text="Dr. S.B. Patil" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="0"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#ffffff"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:text="3" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="1"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#ffffff"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:text="4" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="5 "
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginHorizontal="2dp"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:text="3"
+                    android:textColor="#000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
+                    android:gravity="center"
+                    android:background="#ffffff"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:text="Dr. Baburao N. Sherikar" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="3"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#ffffff"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:text="0" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="1"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#ffffff"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:text="4" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="25"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginHorizontal="2dp"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:text="4"
+                    android:textColor="#000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
+                    android:gravity="center"
+                    android:background="#ffffff"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:text="Veeresh P. Mallapur" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="1"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#ffffff"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:text="0" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="0"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#ffffff"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:text="1" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="5"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginHorizontal="2dp"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:text="5"
+                    android:textColor="#000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
+                    android:gravity="center"
+                    android:background="#ffffff"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:text="Pawan Rangdal" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="2"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#ffffff"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:text="0" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="1"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#ffffff"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:text="3" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="-- "
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+
+
+            </TableRow>
+            </TableLayout>
+            </LinearLayout>
+
+
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/my7"
+            app:layout_constraintTop_toBottomOf="@+id/my6">
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:text="Publications of department faculty (SCI rated journals): "
+                    android:textStyle="bold"
+                    android:id="@+id/t9"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#000"
+                    android:layout_marginLeft="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/t9"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:text="Department of Ceramic and Cement Technology "
+                    android:textStyle="bold"
+                    android:id="@+id/t10"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#000"
+                    android:layout_marginLeft="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/t10"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:text="Faculty Publications"
+                    android:textStyle="bold"
+                    android:id="@+id/t11"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#000"
+                    android:layout_marginLeft="10dp" />
+
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/my8"
+            app:layout_constraintTop_toBottomOf="@+id/my7">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="7"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#f1f1f1">
+
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="parent">
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:text="S.No"
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2.5"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="Name of faculty"
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="2017-18"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:text="2016-17"
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="2015-16"
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Total"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            />
+                    </TableRow>
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:text="1"
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.5"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="Dr. John U. Kennedy" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="2" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="1"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="6" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="60 "
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:text="2"
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.5"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="Dr. S.B. Patil" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="0"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="3" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="1"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="4" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="5 "
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:text="3"
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.5"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="Dr. Baburao N. Sherikar" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="0" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="1"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="4" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="25"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:text="4"
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.5"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="Veeresh P. Mallapur" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="1"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="0" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="0"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="1" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="5"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:text="5"
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.5"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="Pawan Rangdal" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="2"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="0" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="1"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="3" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="-- "
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="1750dp"
+            android:id="@+id/my9"
+            app:layout_constraintTop_toBottomOf="@+id/my8">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="7"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#f1f1f1">
+
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="parent">
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="Name of faculty"
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="Title of Publication"
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Name of journal / Volume / issue / pp/2017-18"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:text="Year of Publication"
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="No. of citations"
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+
+
+                    </TableRow>
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="  "
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="Evaluation of Fuller's earth for the adsorption of mercury from aqueous solutions: a comparative study with activated carbon" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Journal of Hazardous Materials 142 (1-2), 165-174"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:text="2007" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="112"/>
+
+
+                    </TableRow>
+
+                    <TableRow>
+
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="  "
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="Applicability of Three-parameter Isotherm Models for the Adsorption of Mercury on Fuller's Earth and Activated Carbon" />
+'
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Indian Chemical Engineer 49 (3), 196"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:text="2007" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="11"/>
+
+
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="  "
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="Adsorption of divalent lead on a montmorillonite− illite type of clay" />
+                        '
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Industrial and Engineering Chemistry Research, 48 (23), 10627-10636"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:text="2009" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="56"/>
+
+
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="  "
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="Modeling of adsorption of chromium (VI) on activated carbons derived from corn (Zea mays) cob" />
+                        '
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Chemical Product and Process Modeling 4 (1)"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:text="2009" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="9"/>
+
+
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="  "
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="Removal of Pb (II) from aqueous solutions by carbons prepared from Sal wood (Shorea robusta)" />
+                        '
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="European Journal of Wood and Wood Products 67 (2), 197-206"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:text="2009" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="8"/>
+
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="  "
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="Isotherm modeling and batch adsorber design for the adsorption of Cu (II) on a clay containing montmorillonite" />
+                        '
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Applied Clay Science 50 (3), 409-413"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:text="2010" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="49"/>
+
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="Dr. John U. Kennedy "
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="Removal of Cu (II) and Zn (II) from industrial wastewater by acid-activated montmorillonite-illite type of clay" />
+                        '
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Comptes Rendus Chimie 13 (11), 1359-1363"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:text="2010" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="20"/>
+
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="  "
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="Characterization and use of acid‐activated montmorillonite‐illite type of clay for lead (II) removal" />
+                        '
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="AIChE journal 56 (9), 2312-2322"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:text="2010" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="14"/>
+
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="  "
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="Characterization and use of chemically activated Butea monosperma leaf dust for mercury (II) removal from solutions" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Journal of environmental chemical engineering 3 (3), 2212-2218"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:text="2015" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="1"/>
+
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="  "
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="A review of technologies for manganese removal from wastewaters" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Journal of Environmental Chemical Engineering 4 (1), 468-487"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:text="2016" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="28"/>
+
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="  "
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="Remediation of Hg (II) from solutions using Cajanus cajan husk as a new sorbent" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Environmental technology 38 (15), 1878-1886"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:text="2017" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="1"/>
+
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="  "
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="A Brief Review on the Synthesis of Zeolites from Hazardous Wastes" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Transactions of the Indian Ceramic Society 76 (1), 1-13"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:text="2017" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="1"/>
+
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text=" Dr.  Amaresh R. Raichur "
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="Effect of boric acid sintering aid on densification of barium ferrite" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Bulletin of Materials Science 25 (6), 569-572"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:text="2002" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="10"/>
+
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text=" "
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="Kinetics of Solid–Solid Reactions: Influence of the Number of Contact Points" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Industrial and Engineering Chemistry Research 53 (29), 11659-11667"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:text="2014" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="2"/>
+
+
+                    </TableRow>
+
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="  "
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="Characterization of agglomeration state in nanocrystalline 3YSZ powders through pressure–displacement curves and nanoindentation of green compacts" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Powder technology 228, 272-276"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:text="2012" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="2"/>
+
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="  "
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="Influence of Ethanol Amount During Washing on Deagglomeration of Co‐Precipitated Calcined Nanocrystalline 3 YSZ Powders" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="International Journal of Applied Ceramic Technology 10 (s1)"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:text="2013" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="4"/>
+
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="Dr. S.B. Patil"
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="Examining impact of particle deagglomeration techniques on microstructure and properties of oxide materials through nanoindentation" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Nanomechanical Analysis of High Performance Materials, 231-250"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:text="2014" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="1"/>
+
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text=" "
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="Prospect of Thermal Insulation by Silica Aerogel: A Brief Review" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Journal of The Institution of Engineers (India): Series D 98 (2), 297-304"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:text="2017" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="1"/>
+
+
+                    </TableRow>
+
+                    <Space />
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="  "
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="Luminescence enhancement in monoclinic CaAl2O4: Eu2+, Cr3+ nanophosphor by fuel-blend combustion synthesis" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Chemical Engineering Journal 267, 317-323"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:text="2015" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="17"/>
+
+
+                    </TableRow>
+
+                    <TableRow>
+
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="  "
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="Observation of phase transformations in cement during hydration" />
+                        '
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Construction and Building Materials 101 (part 1), 122-129"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:text="2015" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="14"/>
+
+
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="  "
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="Synthesis of γ-alumina by solution combustion method using mixed fuel approach (urea+ glycine fuel)" />
+                        '
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Int. J. Res. Eng. Technol 5"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:text="2013" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="04"/>
+
+
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="  "
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="Synthesis of diopside by solution combustion process using glycine fuel" />
+                        '
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="International Journal of Modern Physics: Conference Series 22, 217-223"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:text="2013" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="03"/>
+
+
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text=" Dr. Baburao N. Sherikar "
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="Effect of Adiabatic Flame Temperature on Nano Alumina Powders during Solution Combustion Process" />
+                        '
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Transactions of the Indian Ceramic Society 70 (3), 167-172"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:text="2011" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="03"/>
+
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="  "
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="Prospect of Thermal Insulation by Silica Aerogel: A Brief Review"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Journal of The Institution of Engineers (India): Series D, doi:10.1007"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:text="2017" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="01"/>
+
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text=" "
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="Compaction Behaviour of Solution Combustion Synthesized Alumina Ceramic Powders" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="International Journal of Emerging Technology and Advanced Engineering 3"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:text="2013" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="01"/>
+
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="  "
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="Synthesis of Yetrium ferrite (YFeO3 ) by solution combustion synthesis using alanine as a fuel" />
+                        '
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Materials Today Proceedings 4 (10), 10794-10797"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:text="2017" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="--"/>
+
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="Veeresh P. Mallapur"
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="Removal of Cu (ll) and Zn (ll) from industrial wastewater by acid-activated montmorillonite-illite type clay" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Comptes Rendus Chimie 13 (11), 1359-1363"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:text="2010" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="20"/>
+
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="  "
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="A Brief Review on the Synthesis of Zeolites from Hazardous Wastes" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Transaction of Indian Ceramic Society 76 (1), 1-13"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:text="2017" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="01"/>
+
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text=" Pawan D. Rangdal "
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="SYNTHESIS OF ALUMINIUM TRIHYDRATE FROM KAOLIN THROUGH ALKALI DISSOLUTION METHOD" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="International Journal of Technical Research and Applications e-ISSN: 2320-8163, www.ijtra.com Volume 3, Issue 4 (July-August 2015), PP. 182-184"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:text="2015" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="--"/>
+
+
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/my10"
+            app:layout_constraintTop_toBottomOf="@+id/my9">
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Infrastructure and Facilities"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="25sp"/>
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:id="@+id/my11"
+            app:layout_constraintTop_toBottomOf="@+id/my10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="7"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#f1f1f1">
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent">
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Sr. No.	"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:text="Name of the laboratory"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Name of the Important equipment"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#000"
+                />
+
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="1"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:text="Orifice meter and Venturi meter, Friction loss in pipes, Notch apparatus, Centrifugal pump, Forced convection, Thermal conductivity of metal rod, Thermal conductivity of composite wall, Double pipe heat exchanger, Critical heat flux apparatus"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Name of journal / Volume / issue / pp/2017-18"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#000"
+                />
+
+
+        </TableRow>
+
+        <TableRow>
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="2"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:text="Ceramic Processing Lab"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Pot mill, Blungers, sieve shakers, sieve set, water bath, Jiggering and jollying, moulds, Hot air oven, High temperature furnace, Brick cutting m/c, Grinding and polishing m/c, Autoclave, Ball mills"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#000"
+                />
+
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="3"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:text="Refractories Lab"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Pyrometric cone equivalent (PCE), Refractoriness under load (RUL), High temperature furnace, Thermal conductivity apparatus, Press, Thermal expansion apparatus, Tube furnace, Pyrometer"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#000"
+                />
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="4"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:text="Glass Laboratory"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="High temperauture furnace, Electronic balance, Thermal expansion of glass, etching, Density and specific gravity measurements, Corrosion test, Strain viewer"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#000"
+                />
+
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="5"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:text="Cement Lab"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Vicat apparatus, Le Chatlier apparatus, Sieve set, moulds, Press"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#000"
+                />
+
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="6"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:text="Material Science Lab"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Pot mill, Raising hearth furnace, Fume hood, Hot air ovens, High temperature furnace, water distillation unit, Ultra sonic cleaner, Centrifuge, Magnetic stirrers"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#000"
+                />
+
+
+        </TableRow>
+        </TableLayout>
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/my12"
+            app:layout_constraintTop_toBottomOf="@+id/my11">
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Grants received"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="10dp"
+                    />
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="320dp"
+                android:id="@+id/my13"
+                app:layout_constraintTop_toBottomOf="@+id/my12">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="7"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#f1f1f1">
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent">
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:text="Sr.No"
+                    android:textColor="#000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:text="Funding agency"
+                    android:textColor="#000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Title of the Project"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginHorizontal="2dp"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:text="Grant"
+                    android:textColor="#000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:text="Investigator"
+                    android:textColor="#000"
+                    android:textStyle="bold" />
+
+
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginHorizontal="2dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=" 1 "
+                    android:textColor="#000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:text="Visvesvaraya Technological University, Belagavi (Research Promotion Scheme)" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Evaluation of some novel biosorbents for heavy metals in aqueous solution Ref. No. VTU/Aca/2011-12/ A-9/735, Dated 5-5-2012"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginHorizontal="2dp"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:text="Rs. 6 Lakhs" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:text="Dr. John U. Kennedy, Dept. of Ceramic and Cement Technology, PDA College of Engg., Gulbarga"/>
+
+
+            </TableRow>
+
+            <TableRow>
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginHorizontal="2dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=" 2 "
+                    android:textColor="#000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:text="AICTE - MODROB" />
+                '
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Synthesis of electro-ceramic powders.
+
+Ref. No. 9-143/RIFD/MODROB/Policy-1/2013-14, Dated 29-7-2013"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginHorizontal="2dp"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:text="Rs. 9 Lakhs" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:text="Dr. John U. Kennedy, Dept. of Ceramic and Cement Technology, PDA College of Engg., Gulbarga"/>
+
+
+            </TableRow>
+            </TableLayout>
+            </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:id="@+id/my14"
+            app:layout_constraintTop_toBottomOf="@+id/my13">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="4"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#f1f1f1">
+
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="parent">
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:text="--"
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.5"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="Name of student"
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="2017-18"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="2016-17"
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="2015-16"
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Total"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Citations"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            />
+
+
+
+                    </TableRow>
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:text="1"
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.5"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="Dr. John U. Kennedy" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="2" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="1"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="6" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="60 "
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:text="2"
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.5"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="Dr. S.B. Patil" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="0"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="3" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="1"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="4" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="5 "
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:text="3"
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.5"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="Dr. Baburao N. Sherikar" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="0" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="1"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="4" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="25"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:text="4"
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.5"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="Veeresh P. Mallapur" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="1"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="0" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="0"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="1" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="5"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:text="5"
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.5"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="Pawan Rangdal" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="2"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="0" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="1"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="3" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="-- "
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

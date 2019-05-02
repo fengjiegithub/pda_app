@@ -1,0 +1,1276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<android.support.v7.widget.CardView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" >
+<android.support.constraint.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6C5B7B"
+    tools:context=".civil">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/my1"
+        app:layout_constraintTop_toTopOf="parent"
+         >
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#C06C84">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CIVIL ENGINEERING"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                 app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="30dp"/>
+        </android.support.constraint.ConstraintLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/my4"
+        app:layout_constraintTop_toBottomOf="@+id/my1">
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:src="@drawable/pdaq" />
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="720dp"
+        android:id="@+id/my3"
+        app:layout_constraintTop_toBottomOf="@id/my4">
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="7dp"
+            android:layout_marginLeft="7dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="start"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:textAlignment="viewStart"
+                app:layout_constraintRight_toRightOf="parent"
+                android:text="Civil  Engineering  Department  is  the  first  department  which  started  along  with  the  inception  of  the  college  in  1958  with  an  intake  of  60. Department  was  centrally  aided  since  1958  and  it  became  State  Govt.  aided  since  1966.  In  the  Year  2014  the  UG  intake  of  the  department  is  enhanced  to  180.
+ PG  courses  in  environmental  and  structural  engineering  were  started  in  1982  and  1987  respectively.  Department  was  recognized  as  research  center  by  VTU  in  the  year  2000.  It  has also  been  given  autonomous  status  since  2007.  Department  is  applying  for  NBA  as  per  Washington  Accord.  Four  research  scholars  have  been  awarded  with  doctoral  degree. Department
+ has  got  qualified  and  dedicated  team  of  faculty  and  staff  members.  All  the  laboratories  are  equipped  with  the  state  of  the  art  equipments.  Department  has   organized  number  of  workshops, training  programmes  sponsored  by  AICTE, ISTE, VTU, TEQUIP  and  ministry  of  home  affairs.  In  addition  to  the  academic  and  research  activity  the  department  is  also  serving  the  society  by   carrying  out  consultancy  work  and  specialized  training  programmes  to  the  people  involved  in  the
+construction  industry.  The  department  is  identified  as  State  Technical  Agency  of  PMGSY  project  in  Karnataka  State  and  is
+actively  involved  in  the  third  party  inspection  works  of  roads, buildings, water  supply  and  sanitary  works  entrusted  by
+district  administrations.  Department  has  got  seperate  training  and  placement  cell.  Department  has  MOUs  with  several  Industries   and  it  has  got  a  giant  consultancy  cell  fetching  about  Rs. 2  lakhs  per  month."/>
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/my5"
+        app:layout_constraintTop_toBottomOf="@+id/my3">
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:gravity="center"
+                android:background="#CD25AAEE"
+                android:text="Vision and Mision of the Department"
+                android:textSize="20sp"
+                android:textColor="#000"/>
+
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/my6"
+        app:layout_constraintTop_toBottomOf="@id/my5">
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Vision"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp" />
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/my7"
+        app:layout_constraintTop_toBottomOf="@id/my6">
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:text="=> To  impart  technical  knowledge  and  skills  in  the  civil  engineering  fielg  to  meet  social, industrial,  environmental
+and  research  needs  at  local  ang  global  levels."/>
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/my8"
+        app:layout_constraintTop_toBottomOf="@id/my7">
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Mission"
+                android:textSize="20sp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:textStyle="bold"/>
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:id="@+id/my9"
+        app:layout_constraintTop_toBottomOf="@id/my8"
+        android:layout_height="250dp">
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/my10"
+                android:layout_margin="5dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:text="=> To  provide  technical  education  to  meet  the  challenges  in  the  profession  through  a  well  structured  curriculum."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/my11"
+                android:layout_margin="5dp"
+                app:layout_constraintTop_toBottomOf="@id/my10"
+                android:text="=> To  inculcate  innovative  and  research  ideas  for  sustainable  development  with  ethical  values."
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/my12"
+                android:layout_margin="5dp"
+                app:layout_constraintTop_toBottomOf="@id/my11"
+                android:text="=> To  impart  effective  communication  and  entrepreneurial  skills."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/my13"
+                android:layout_margin="5dp"
+                app:layout_constraintTop_toBottomOf="@id/my12"
+                android:text="=> To  enhance  the  Industry - Institute   and   Institute-Alumni  interaction  at  local  and  global      levels."/>
+
+
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:id="@+id/my14"
+        app:layout_constraintTop_toBottomOf="@id/my9">
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                android:text="The Program Education Objectives(PEOs):"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:id="@+id/tex1"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tex1"
+                android:text="PEO1:"
+                android:id="@+id/tex2"
+                android:textColor="#000"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="38dp"/>
+
+            <TextView
+                android:id="@+id/tex3"
+                android:layout_width="301dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="10dp"
+                android:text="To  Provide  the  Knowledge  of  mathematics,  science  and  engineering  fundamentals  for  solving  civil  engineering  problems."
+                app:layout_constraintLeft_toRightOf="@id/tex2"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/tex2"
+                app:layout_constraintTop_toBottomOf="@id/tex1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tex3"
+                android:text="PEO2:"
+                android:id="@+id/tex4"
+                android:textColor="#000"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="38dp"/>
+            <TextView
+                android:layout_width="305dp"
+                android:layout_height="80dp"
+                app:layout_constraintTop_toBottomOf="@id/tex3"
+                app:layout_constraintLeft_toRightOf="@id/tex4"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/tex5"
+                android:text="To  enable  the  graduates  to conduct  and  interpret  results  of  laboratory/field  experiments  in  basic  science  and  engineering."/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tex5"
+                android:text="PEO3:"
+                android:id="@+id/tex6"
+                android:textColor="#000"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="38dp"/>
+            <TextView
+                android:layout_width="305dp"
+                android:layout_height="80dp"
+                app:layout_constraintTop_toBottomOf="@id/tex5"
+                app:layout_constraintLeft_toRightOf="@id/tex6"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/tex7"
+                android:text="To  enable  the  graduates  to exhibit their knowledge  and skills  of recent  practices  to  identify  and solve  civil  engineering  problems."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tex7"
+                android:text="PEO4:"
+                android:id="@+id/tex8"
+                android:textColor="#000"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="22dp"/>
+
+            <TextView
+                android:layout_width="305dp"
+                android:layout_height="45dp"
+                app:layout_constraintTop_toBottomOf="@id/tex7"
+                app:layout_constraintLeft_toRightOf="@id/tex8"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/tex9"
+                android:text="To  enable  the  graduates  for pursuing higher  education  and lifelong learning."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tex9"
+                android:text="PEO5:"
+                android:id="@+id/tex10"
+                android:textColor="#000"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="38dp"/>
+
+            <TextView
+                android:layout_width="305dp"
+                android:layout_height="80dp"
+                app:layout_constraintTop_toBottomOf="@id/tex9"
+                app:layout_constraintLeft_toRightOf="@id/tex10"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/tex11"
+                android:text="To  enable  the  graduates  to acquire  communication,  team  work  and entrepreneurial  skills  along  with  the  values  of  professional  ethics."/>
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:id="@+id/my15"
+        app:layout_constraintTop_toBottomOf="@id/my14">
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Academic Programmes Eligibility and Objectives"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:id="@+id/tex12"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/tex12"
+                android:layout_marginTop="10dp"
+                android:text="Academic Programmes"
+                android:textColor="#0A8CF3"
+                android:layout_marginHorizontal="10dp"
+                android:textStyle="bold"
+                android:textSize="12sp"/>
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:id="@+id/my16"
+    app:layout_constraintTop_toBottomOf="@+id/my15">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:weightSum="3"
+        android:background="#f1f1f1">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent">
+        <TableRow>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Name of the Programme"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:gravity="center"
+                 />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Intake"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:gravity="center"
+                 />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Year of Starting"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#000"
+                 />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Bachelor of Engineering  in Civil Engineering"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="180"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="#ffffff"
+                android:layout_weight="1"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="    1958   "
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="M.Tech in Engineering in Civil Engineering"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="18"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="#ffffff"
+                android:layout_weight="1"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="1982"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="M.Tech in Structural in Civil Engineering"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="18"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="#ffffff"
+                android:layout_weight="1"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="1987"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Ph.d in Civil Engineering"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text=" "
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="#ffffff"
+                android:layout_weight="1"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="2000"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:layout_weight="1"/>
+        </TableRow>
+    </TableLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="235dp"
+        android:id="@+id/my17"
+        app:layout_constraintTop_toBottomOf="@id/my16">
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Syllabus"
+                android:id="@+id/tex13"
+                android:textSize="20sp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:textColor="#000"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex14"
+                android:layout_margin="10dp"
+                android:textColor="#0A8CF3"
+                app:layout_constraintTop_toBottomOf="@+id/tex13"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="UG-CIVIL 3rd SEM and 4th SEM"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex15"
+                android:layout_margin="10dp"
+                android:textColor="#0A8CF3"
+                app:layout_constraintTop_toBottomOf="@id/tex14"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="UG-CIVIL 5th SEM and 6th SEM"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex16"
+                android:layout_margin="10dp"
+                android:textColor="#0A8CF3"
+                app:layout_constraintTop_toBottomOf="@id/tex15"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="UG-CIVIL 7th SEM and 8th SEM"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex17"
+                android:layout_margin="10dp"
+                android:textColor="#0A8CF3"
+                app:layout_constraintTop_toBottomOf="@id/tex16"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="PG-Structural Engineering"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex18"
+                android:layout_margin="10dp"
+                android:textColor="#0A8CF3"
+                app:layout_constraintTop_toBottomOf="@id/tex17"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="PG-Environmental Engineering"/>
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="800dp"
+        android:id="@+id/my18"
+        app:layout_constraintTop_toBottomOf="@id/my17">
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex19"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Lesson Plan"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex20"
+                android:textColor="#0A8CF3"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="10dp"
+                app:layout_constraintTop_toBottomOf="@+id/tex19"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:text="=> Lesson Plan of Dr.A.B Harwalkar(SA-2, HMT, DSS(A), DSS(B), DSS-2(A), DSS-2(B) 2017-18"
+                />
+
+            <TextView
+                android:id="@+id/tex21"
+                android:layout_width="wrap_content"
+                android:layout_height="39dp"
+                android:text="=> Lesson Plan of Prof.Seetaram Munnur (BE 1st, EC and S 7th(A), EC and S 7th (C)"
+                android:textColor="#0A8CF3"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="10dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tex20" />
+
+            <TextView
+                android:id="@+id/tex22"
+                android:layout_width="wrap_content"
+                android:layout_height="39dp"
+                android:text="=> Lesson Plan of Prof.Shivaraj Managalgi (DRCC V(B), DRCC V(C))."
+                android:textColor="#0A8CF3"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="10dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tex21" />
+
+            <TextView
+                android:id="@+id/tex23"
+                android:layout_width="wrap_content"
+                android:layout_height="39dp"
+                android:text="=> Lesson Plan of Prof.Shivaraj Managalgi (DRCC V(B), DRCC V(C))."
+                android:textColor="#0A8CF3"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="10dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tex22" />
+
+            <TextView
+                android:id="@+id/tex24"
+                android:layout_width="wrap_content"
+                android:layout_height="39dp"
+                android:text="=> Lesson Plan of Prof. Smt.K.M Girija Geo Tech (LAB), Geo Tech Engg-1, ECEEM-2(G)"
+                android:textColor="#0A8CF3"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="5dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tex23" />
+
+            <TextView
+                android:id="@+id/tex25"
+                android:layout_width="wrap_content"
+                android:layout_height="39dp"
+                android:text="=> Lesson Plan of Prof. Vilas Tonsalli(Geo Tech Engg-1(B and C),Geo Tech Lab(B and C)-5th Sem"
+                android:textColor="#0A8CF3"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="10dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tex24" />
+
+            <TextView
+                android:id="@+id/tex26"
+                android:layout_width="wrap_content"
+                android:layout_height="39dp"
+                android:text="=> Lesson Plan of Prof. M.P Biradar(Surveying-1(A and C),Surveying Lab-1(A and C)"
+                android:textColor="#0A8CF3"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="10dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tex25" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/tex26"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Question Bank UG Civil"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:id="@+id/tex27"
+                android:textColor="#000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/tex27"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="8dp"
+                android:id="@+id/tex28"
+                android:textColor="#0A8CF3"
+                android:text="Question Bank : Subject: Surveying-2nd(16CV44)"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex29"
+                android:layout_marginTop="15dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:text="Lectures Notes"
+                android:textColor="#000"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@id/tex28"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex30"
+                android:textColor="#0A8CF3"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="8dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tex29"
+                android:text="Lectures Notes of Dr.S.S.Awanti"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex31"
+                android:textColor="#0A8CF3"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="8dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tex30"
+                android:text="Lectures Notes of Dr.S.G.Patil"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex32"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="8dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tex31"
+                android:text="Lectures Notes of Dr.A.B.Harwalkar"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex33"
+                android:textColor="#0A8CF3"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tex32"
+                android:text="Note 1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex34"
+                android:textColor="#0A8CF3"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tex33"
+                android:text="Note 2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex35"
+                android:textColor="#0A8CF3"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tex34"
+                android:text="Note 3"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex36"
+                android:textColor="#0A8CF3"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tex35"
+                android:text="Note 4"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex37"
+                android:textColor="#0A8CF3"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tex36"
+                android:text="Note 5"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex38"
+                android:textColor="#0A8CF3"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tex37"
+                android:text="Note 6"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex39"
+                android:textColor="#0A8CF3"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="8dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tex38"
+                android:text="Lecture Notes of Prof.Nitin Kodle and Prof.Shravan D.Konnur"/>
+
+
+
+
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:id="@+id/my19"
+        app:layout_constraintTop_toBottomOf="@id/my18">
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:text="Head of the Department"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:id="@+id/tex40"
+                android:textSize="25dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/tex40"
+                android:id="@+id/tex41"
+                android:layout_marginTop="10dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:src="@drawable/sgpatil"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex42"
+                android:layout_marginTop="5dp"
+                app:layout_constraintTop_toBottomOf="@+id/tex41"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:text="Dr.S.G.Patil, HOD"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex43"
+                app:layout_constraintTop_toBottomOf="@+id/tex42"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:text="Department of Civil Engineering"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex44"
+                app:layout_constraintTop_toBottomOf="@+id/tex43"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:text="PDA Colege of Engineering,"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex45"
+                app:layout_constraintTop_toBottomOf="@+id/tex44"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:text="Kalaburagi"/>
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/my20"
+        app:layout_constraintTop_toBottomOf="@+id/my19">
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:textSize="25dp"
+                android:id="@+id/tex46"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:text="Faculty Details"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="=> Faculty Details"
+                android:id="@+id/tex57"
+                android:textStyle="normal"
+                android:textColor="#07B0FC"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tex46"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="20sp"/>
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+    
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/my21"
+        app:layout_constraintTop_toBottomOf="@+id/my20">
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:text="Infrastructure and Facilities"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:id="@+id/tex47"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/tex47"
+                android:id="@+id/tex48"
+                android:text="Labs and Equipments:"
+                android:textColor="#000"
+                android:layout_marginBottom="15dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="8dp"/>
+ </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="1200dp"
+                app:layout_constraintTop_toBottomOf="@+id/my21">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="4">
+
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#f1f1f1"
+                    app:layout_constraintTop_toBottomOf="@+id/tex48">
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Name of Laboratory"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Carpet Area(Sq.mt)"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Major Equipment"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Geotechnical Laboratory"
+                        android:layout_weight="1"
+                        android:layout_marginHorizontal="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginLeft="4dp"
+                        android:gravity="center"
+                        android:background="#ffffff"
+                        />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="110"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:background="#ffffff"
+                       />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="1.Triaxial shear test equipment
+2.Standard penetration test equipment
+3.Compaction test apparatus
+4.California bearing ratio test apparatus
+5.Direct/Shear electronics conversion kit
+6.Triaxial electronic conversion kit"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:background="#ffffff"
+                        />
+                </TableRow>
+
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Concrete and R.M Laboratory"
+                        android:layout_marginHorizontal="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:background="#ffffff"
+                       />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="135"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:background="#ffffff"
+                        />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="1.Accelerate curing water tank
+2.Humidity cabinet digital
+3.Jaw Crusher
+4.Aqua Meter model TM70
+5.Tensile testring M/c
+6.Compression testing M/C 200t analog and 300t digital
+7.Concrete core cutter M/C"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:background="#ffffff"
+                       />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Transportation Laboratory"
+                        android:layout_marginHorizontal="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:background="#ffffff"
+                        />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="75"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:background="#ffffff"
+                        />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="1.Portable weigh bridge and accessories
+2.Immersion wheel tracking equipment
+3.Repeated load test set up
+4.Skid resistance and stone polishing M/C as per ASTMD
+5.Automatic Road unevenness recorder with accessories
+6.Payment core drilling M/C with accessories
+7.Radar gun for spot speed measurement"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:background="#ffffff"
+                        />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+
+                        android:layout_height="match_parent"
+                        android:text="Environmental Engineering Laboratory"
+                        android:layout_marginHorizontal="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:background="#ffffff"
+                       />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="102"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:background="#ffffff"
+                        />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="1.UV-Visible spectrophotometer with accessories
+2.Autoclave Vertical type
+3.Wind Speed and Direction recorder
+4.Gas chromate-graph
+5.Deep freezer
+6.Atomic Absorption Spectrophotometer
+7.High Performance Liquid Chromat0-graph
+8.UV-Visible Spectrophotometer
+9.Water quality analyzeer with salinity probe"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:background="#ffffff"
+                        />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Transportation Laboratory"
+                        android:layout_marginHorizontal="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:background="#ffffff"
+                        />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="75"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:background="#ffffff"
+                        />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="1.Portable weigh bridge and accessories
+2.Immersion wheel tracking equipment
+3.Repeated load test set up
+4.Skid resistance and stone polishing M/C as per ASTMD
+5.Automatic Road unevenness recorder with accessories
+6.Payment core drilling M/C with accessories
+7.Radar gun for spot speed measurement"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:background="#ffffff"
+                       />
+                </TableRow>
+
+
+                </TableLayout>
+
+
+            </LinearLayout>
+            </android.support.v7.widget.CardView>
+</android.support.constraint.ConstraintLayout>
+</android.support.v7.widget.CardView>
+</ScrollView>

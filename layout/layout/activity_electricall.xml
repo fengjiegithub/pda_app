@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:id="@+id/my1"
+            app:layout_constraintTop_toTopOf="parent">
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/card"
+                android:background="#048EF3">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Electrical and Electronics Engineering"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:gravity="center"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:textSize="30dp"/>
+
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/my2"
+            app:layout_constraintTop_toBottomOf="@+id/my1">
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/mechanicall"
+                    android:id="@+id/text1"
+                    app:layout_constraintTop_toTopOf="parent"
+                     app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"/>
+
+
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="1300dp"
+            android:id="@+id/my3"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/my2">
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textDirection="ltr"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:text="Department of Electrical and Electronics Engineering (EEE) was established in the academic year 1958 with an intake of 40. The department is also running a post graduation program in Power Electronics with an intake of 25. The programs are approved by AICTE and affiliated to VTU, Belgaum. The department is committed towards the academic and individual development of the students in enabling them to learn the current trends of Electrical and Electronics Engineering.
+                     The department has highly qualified and efficient faculty with few of them exposed to the industry experience. The department has a students’ forum called “TRIPLEE’S ASSOCIATION” which actively conducts various co-curricular and extracurricular activities. The department has been organizing several national / state level conferences and students’ symposiums every year. The department conducts workshops, seminars and guest lectures to keep the students and staff updated with the current developments. The department also invites projects from industries to be implemented by the students. The students have been well trained with the support of the placement cell and have succeeded in carving respectful positions in top companies.
+
+ Presently Under graduate programme intake has been increased to 60 from 2017, department even undertakes research activities in the field of Bio-Medical, Power Electronics, Instrumentation and Signal Processing. It has its own computer centre with Internet Facility and Department Library. The department has well-qualified and experienced faculty.
+
+The Department is well equipped with laboratory facilities catering to the needs of Power system simulation by the available advanced mi-power software for sufficient users. The availability of software MATLAB and well maintained compact hardware units fulfill the needs of the Control Systems lab. Adequate sets of DC machines, Synchronous machines and transformers with a rectifier unit, dedicated loads and supporting equipment suffice the needs of Machines laboratory. A comprehensive blend of all relays both conventional and advanced and a well-protected High Voltage cell with all safety norms incorporated to fulfill the requirements of Relays and High voltage lab. The department library is well furnished with the prescribed textbooks and reference books with volume around 400. Department provides E-resources facilities such as EDUSAT and NPTEL Programme, j-gate link, Springer link, IEEE explore, KNimbus, EBSCO, CRC netbase link access with OPAC library facility. The department Library also consists of National and International Conference Proceedings, Project Reports of UG and PG Course and IGNOU notes of UG Course. The Department has sufficient infrastructure that includes five classrooms and Seminar hall equipped with projectors. The department has well maintained rest rooms for girls and boys, facility signboards and purified drinking water facility."/>
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:id="@+id/my4"
+        app:layout_constraintTop_toBottomOf="@+id/my3">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/text4"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Vision of the Department"
+            android:textColor="#000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/text5"
+            android:layout_marginTop="10dp"
+            app:layout_constraintTop_toBottomOf="@+id/text4"
+            android:text="To create professionally excellent, society responsive and enterprenurable workforce in the field of Electrical and Electronics Engineering." />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/text6"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/text5"
+            android:text="Mission of the Department"
+            android:textColor="#000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/text7"
+            android:layout_marginTop="10dp"
+            app:layout_constraintTop_toBottomOf="@+id/text6"
+            android:text="To impart fundamental knowledge in Electrical and Electronics Engineering and use modern skills effectively to face present and future challenges of industry and public sector." />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/text8"
+            android:layout_marginTop="10dp"
+            app:layout_constraintTop_toBottomOf="@+id/text7"
+            android:text="To create conductive environment for higher learning and research." />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/text9"
+            android:layout_marginTop="10dp"
+            app:layout_constraintTop_toBottomOf="@+id/text8"
+            android:text="To promote entrepreneurship skills among students." />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/text10"
+            android:layout_marginTop="10dp"
+            app:layout_constraintTop_toBottomOf="@+id/text9"
+            android:text="To prepare the students to imbibe and inculcate social responsiveness in the society." />
+    </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="1380dp"
+            android:id="@+id/my5"
+            app:layout_constraintTop_toBottomOf="@+id/my4">
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:id="@+id/text11"
+                    android:text="Academic,Programmes,Eligibility and Objectives"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="15sp"
+                    android:id="@+id/text12"
+                    app:layout_constraintTop_toBottomOf="@+id/text11"
+                    android:text="The department runs three academic Program"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="15sp"
+                    android:id="@+id/text13"
+                    app:layout_constraintTop_toBottomOf="@+id/text12"
+                    android:text="Under graduate program( 60 Intake)"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="15sp"
+                    android:id="@+id/text14"
+                    app:layout_constraintTop_toBottomOf="@+id/text13"
+                    android:text="Post graduate program programs namely under graduate (25Intake) (Full time)."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:textSize="15sp"
+                    android:id="@+id/text15"
+                    android:layout_marginLeft="5dp"
+                    app:layout_constraintTop_toBottomOf="@+id/text14"
+                    android:text="Doctoral program"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/text16"
+                    android:layout_marginLeft="10dp"
+                    app:layout_constraintTop_toBottomOf="@+id/text15"
+                    android:text="Program Educational Objectives of the UG Electrical and Electronics Engineering are: "/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text17"
+                    app:layout_constraintTop_toBottomOf="@+id/text16"
+                    android:text="PEO-1:  Graduates of the program will be able to apply mathematical, scientific and engineering knowledge in analyzing / investigating complex problems and modern tools to work successfully in solving real life problems. "/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text18"
+                    app:layout_constraintTop_toBottomOf="@+id/text17"
+                    android:text="PEO-2:  Graduates of the program will be able to design and develop projects individually or in a team to exhibit leadership qualities and communication skills for impressive presentation."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text19"
+                    app:layout_constraintTop_toBottomOf="@+id/text18"
+                    android:text="PEO-3: Graduates of the program will continue to learn, adapt ethical values, develop as an entrepreneurs, to be innovative using project management techniques in producing new products which are environment friendly, economically viable and acceptable to society."/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/text20"
+                    android:layout_marginLeft="10dp"
+                    app:layout_constraintTop_toBottomOf="@+id/text19"
+                    android:text="Program Outcomes"/>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text21"
+                    app:layout_constraintTop_toBottomOf="@+id/text20"
+                    android:text="1. An ability to apply knowledge of science, mathematics and engineering basics appropriate to Electrical and Electronics Engineering."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text22"
+                    app:layout_constraintTop_toBottomOf="@+id/text21"
+                    android:text="2. An ability to conduct experiment to analyze and interpret data."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text23"
+                    app:layout_constraintTop_toBottomOf="@+id/text22"
+                    android:text="3. An ability to design and develop a system or process for finding solutions to real life problems."/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text24"
+                    app:layout_constraintTop_toBottomOf="@+id/text23"
+                    android:text="4. An ability to investigate complex problems to find simple solution."/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text25"
+                    app:layout_constraintTop_toBottomOf="@+id/text24"
+                    android:text="5. An ability to use modern tools necessary for engineering practice."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text26"
+                    app:layout_constraintTop_toBottomOf="@+id/text25"
+                    android:text="6. Able to take up community based projects which are economically viable to serve the society."/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text27"
+                    app:layout_constraintTop_toBottomOf="@+id/text26"
+                    android:text="7. Able to use renewable energy resources for sustainable generation of power without impact on environment."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text28"
+                    app:layout_constraintTop_toBottomOf="@+id/text27"
+                    android:text="8. Able to exhibit ethics at work place."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text29"
+                    app:layout_constraintTop_toBottomOf="@+id/text28"
+                    android:text="9. Ability to perform individually or in team to accomplish a common goal using project management techniques."/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text30"
+                    app:layout_constraintTop_toBottomOf="@+id/text29"
+                    android:text="10. Able to communicate effectively."/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text31"
+                    app:layout_constraintTop_toBottomOf="@+id/text30"
+                    android:text="11. Engage in life long learning to keep space with changing technology."/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text32"
+                    app:layout_constraintTop_toBottomOf="@+id/text31"
+                    android:text="12. An understanding of engineering and management principles and apply these to one’s own work, as a member and leader in a team."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/text33"
+                    app:layout_constraintTop_toBottomOf="@+id/text32"
+                    android:text="Program Specific Outcomes:"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text34"
+                    app:layout_constraintTop_toBottomOf="@+id/text33"
+                    android:text="1.  Design, fabrication, test, operation, develop modern electrical systems that perform analog and digital functions."/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text35"
+                    app:layout_constraintTop_toBottomOf="@+id/text34"
+                    android:text="2. Identify and develop appropriate technologies for implementation of green energy systems."/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:layout_marginTop="15dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:id="@+id/text36"
+                    app:layout_constraintTop_toBottomOf="@+id/text35"
+                    android:text="Head of the Department"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text37"
+                    android:layout_marginTop="7dp"
+                    app:layout_constraintTop_toBottomOf="@+id/text36"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:src="@drawable/basavraj"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:layout_marginTop="7dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:id="@+id/text38"
+                    app:layout_constraintTop_toBottomOf="@+id/text37"
+                    android:text="Dr. Basavaraj Amarapur, HOD"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:gravity="center"
+                    android:layout_marginTop="7dp"
+                    android:textStyle="bold"
+                    android:id="@+id/text39"
+                    android:textColor="#000"
+                    app:layout_constraintTop_toBottomOf="@+id/text38"
+                    android:text="Department of Electrical and Electronics Engineering"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:layout_marginTop="7dp"
+                    android:textStyle="bold"
+                    android:id="@+id/text40"
+                    android:textColor="#000"
+                    app:layout_constraintTop_toBottomOf="@+id/text39"
+                    android:text="P.D.A College of Engineering,Kalaburagi."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:layout_marginTop="7dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:id="@+id/text41"
+                    app:layout_constraintTop_toBottomOf="@+id/text40"
+                    android:text="Email ID: hodee@pdaengg.com"/>
+
+
+
+
+
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="1260dp"
+        android:id="@+id/my6"
+        app:layout_constraintTop_toBottomOf="@+id/my5">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/text42"
+            android:textSize="20sp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text="Infrastructure and Facilities"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="5dp"
+            android:id="@+id/text43"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@+id/text42"
+            android:text="Events conducted"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="5dp"
+            android:id="@+id/text44"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@+id/text43"
+            android:text="List of Conference/FDP(Seminars Conducted)"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="5dp"
+            android:id="@+id/text45"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@+id/text44"
+            android:text="2011-12:"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/text46"
+            app:layout_constraintTop_toBottomOf="@+id/text45"
+            android:text="1. One day workshop on Pevasive computing and software refined radios conducted on 6th Nov 2012 in the department under TEQIP phase-II."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/text47"
+            app:layout_constraintTop_toBottomOf="@+id/text46"
+            android:text="2. Three days Faculty development program on “Medical Cybernetics” sponsored by VGS Government of Karnataka, 10-12th Feb 2011."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/text48"
+            app:layout_constraintTop_toBottomOf="@+id/text47"
+            android:text="3. “MATLAB and its Applications” one day workshop on 13th November 2011."/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="5dp"
+            android:id="@+id/text49"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@+id/text48"
+            android:text="2012-13:"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/text50"
+            app:layout_constraintTop_toBottomOf="@+id/text49"
+            android:text="1. Two day workshop on ‘communication skills and workplace ethics conducted on 5 and 6th April 2013 under TEQIP phase-II."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/text51"
+            app:layout_constraintTop_toBottomOf="@+id/text50"
+            android:text="2. One day workshop on Overview on Embedded systems application and campus project training on 15th April 2013 under TEQIP phase-II."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/text52"
+            app:layout_constraintTop_toBottomOf="@+id/text51"
+            android:text="3. One day workshop on Curriculum development of PG courses on 5th Aug 2013 under TEQIP phase-II."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="5dp"
+            android:id="@+id/text53"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@+id/text52"
+            android:text="2013-14:"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/text54"
+            app:layout_constraintTop_toBottomOf="@+id/text53"
+            android:text="1. An expert talk on Programmable Logic Controller was organized in Sept. by Shivakumar from Prolific Systems and Technologies Pvt.Ltd."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/text55"
+            app:layout_constraintTop_toBottomOf="@+id/text54"
+            android:text="2. One week advance training on Solar photo voltaic technology organized between 27 – 31st Oct 2013 under TEQIP phase-II."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="5dp"
+            android:id="@+id/text56"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@+id/text55"
+            android:text="2014-2015:"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/text57"
+            app:layout_constraintTop_toBottomOf="@+id/text56"
+            android:text="1. Two days training program on “Advanced Industrial skills” 29 – 30th Nov 2014"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/text58"
+            app:layout_constraintTop_toBottomOf="@+id/text57"
+            android:text="2. One day workshop on “Introduction to Process Automation using PLC and SCADA” 30th April 2015"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/text59"
+            app:layout_constraintTop_toBottomOf="@+id/text58"
+            android:text="3. A guest lecture on “Multilevel Inverter and its applications”, is delivered by Dr. Satishkumar of Osmania University on 5th Nov 2014."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="5dp"
+            android:id="@+id/text60"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@+id/text59"
+            android:text="Achievement - Faculty and Students"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/text61"
+            app:layout_constraintTop_toBottomOf="@+id/text60"
+            android:text="1.  In the year 1999 the final year students received 'Project of the year' award for the project PC based Performance testing of Transformer and Induction motor by Karnataka state Council for Science and Technology."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/text62"
+            app:layout_constraintTop_toBottomOf="@+id/text61"
+            android:text="2.  The same project baged second prize at national level compaction swadeshi vigan Mela."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/text63"
+            app:layout_constraintTop_toBottomOf="@+id/text62"
+            android:text="3.  In the year 2005 – The department got accreditation from National Board of Accreditation (NBA) for a period of three year from 16.02.2005 to 15.02.2008 and also for another period for three  years from 16.04.2009 to 15.04.2012."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/text64"
+            app:layout_constraintTop_toBottomOf="@+id/text63"
+            android:text="4.  Dept received Autonomous status in the year 2007 from  V.T.U Belguam and U.G C New dehli Both for UG and PG program."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/text65"
+            app:layout_constraintTop_toBottomOf="@+id/text64"
+            android:text="5.  The dept research centre has produced two PhD holders."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/text66"
+            app:layout_constraintTop_toBottomOf="@+id/text65"
+            android:text="6.  More than 200 publications by the staff in the conference / Journals both at National /International journals."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/text67"
+            app:layout_constraintTop_toBottomOf="@+id/text66"
+            android:text="7.  Two of the faculty members namaly Dr.P.K.Kulkarni Presated paper in IEEE conference at Framce sri sangmesh sakri presuted paper in the Infermational conferre at Japan and both faculty have chaired the Technical sessions."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/text68"
+            app:layout_constraintTop_toBottomOf="@+id/text67"
+            android:text="8.  Dept is covered under world hank project TEQIP I and II for improving quality of education."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/text69"
+            app:layout_constraintTop_toBottomOf="@+id/text68"
+            android:text="9.  Presently Dept has received a fund of 4 lakes projects by I.T.BT Govt of Karnataka."/>
+
+    </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

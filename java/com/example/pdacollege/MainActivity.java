@@ -1,8 +1,10 @@
 package com.example.pdacollege;
 
 import android.content.Intent;
+import android.graphics.drawable.AnimationDrawable;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.constraint.ConstraintLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.view.View;
@@ -15,17 +17,70 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.ViewFlipper;
 
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+    ConstraintLayout consta,consta1,consta2;
+//    AnimationDrawable animationDrawable;
     ViewFlipper viewFlipper;
+    private TextView flippe,flippe1,flippe2,flippe3,flippe4,flippe5,flippe7,flippe8,flippe9,flippe10;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        consta=findViewById(R.id.consta);
+        consta1=findViewById(R.id.consta1);
+        consta2=findViewById(R.id.consta2);
+
+        flippe=findViewById(R.id.flippe);
+        flippe.setSelected(true);
+
+        flippe1=findViewById(R.id.flippe1);
+        flippe1.setSelected(true);
+
+        flippe2=findViewById(R.id.flippe2);
+        flippe2.setSelected(true);
+
+        flippe3=findViewById(R.id.flippe3);
+        flippe3.setSelected(true);
+
+        flippe4=findViewById(R.id.flippe4);
+        flippe4.setSelected(true);
+
+        flippe5=findViewById(R.id.flippe5);
+        flippe5.setSelected(true);
+
+
+
+        flippe7=findViewById(R.id.flippe7);
+        flippe7.setSelected(true);
+
+        flippe8=findViewById(R.id.flippe8);
+        flippe8.setSelected(true);
+
+        flippe9=findViewById(R.id.flippe9);
+        flippe9.setSelected(true);
+
+        flippe10=findViewById(R.id.flippe10);
+        flippe10.setSelected(true);
+
+//        animationDrawable=(AnimationDrawable)consta.getBackground();
+//        animationDrawable.setEnterFadeDuration(4500);
+//        animationDrawable.setExitFadeDuration(4500);
+//        animationDrawable.start();
+//        animationDrawable=(AnimationDrawable)consta1.getBackground();
+//        animationDrawable.setEnterFadeDuration(4500);
+//        animationDrawable.setExitFadeDuration(4500);
+//        animationDrawable.start();
+//        animationDrawable=(AnimationDrawable)consta2.getBackground();
+//        animationDrawable.setEnterFadeDuration(4500);
+//        animationDrawable.setExitFadeDuration(4500);
+//        animationDrawable.start();
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -97,6 +152,13 @@ public class MainActivity extends AppCompatActivity
              case R.id.fedb:
                  Intent fee=new Intent(MainActivity.this,FeedbackActivity.class);
                  startActivity(fee);
+                 break;
+
+
+             case R.id.action_register:
+                 Intent rg=new Intent(MainActivity.this,ElectricallActivity.class);
+                 startActivity(rg);
+                 break;
 
          }
 

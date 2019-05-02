@@ -21,33 +21,29 @@ public class AdmissionActivity extends AppCompatActivity {
         under.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i =new Intent(Intent.ACTION_VIEW);
-                i.setData(Uri.parse("http://pda.hkes.edu.in/load?menu=m03&page=under-graduate"));
-                startActivity(i);
+               Intent ne =new Intent(AdmissionActivity.this,UndergActivity.class);
+               startActivity(ne);
             }
         });
         post.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent u=new Intent(Intent.ACTION_VIEW);
-                u.setData(Uri.parse("http://pda.hkes.edu.in/load?menu=m03&page=post-graduate"));
-                startActivity(u);
+                Intent nv =new Intent(AdmissionActivity.this,PostsActivity.class);
+                startActivity(nv);
             }
         });
         facilities.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent k =new Intent(Intent.ACTION_VIEW);
-                k.setData(Uri.parse("http://pda.hkes.edu.in/load?menu=m03&page=facilities"));
-                startActivity(k);
+                Intent nr =new Intent(AdmissionActivity.this,FacilitiesActivity.class);
+                startActivity(nr);
             }
         });
         research.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent z=new Intent(Intent.ACTION_VIEW);
-                z.setData(Uri.parse("http://pda.hkes.edu.in/load?menu=m03&page=research-centers"));
-                startActivity(z);
+                Intent nr =new Intent(AdmissionActivity.this,ResearchsActivity.class);
+                startActivity(nr);
             }
         });
     }

@@ -20,9 +20,8 @@ public class AboutActivity extends AppCompatActivity {
         aboutcollege.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent ij=new Intent(Intent.ACTION_VIEW);
-                ij.setData(Uri.parse("http://pda.hkes.edu.in/load?menu=m02&page=about-college"));
-                startActivity(ij);
+                Intent ic=new Intent(AboutActivity.this,AboutaActivity.class);
+                startActivity(ic);
             }
         });
         society.setOnClickListener(new View.OnClickListener() {
@@ -36,9 +35,8 @@ public class AboutActivity extends AppCompatActivity {
         vission.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent hg=new Intent(Intent.ACTION_VIEW);
-                hg.setData(Uri.parse("http://pda.hkes.edu.in/load?menu=m02&page=vision-mission"));
-                startActivity(hg);
+                Intent ia=new Intent(AboutActivity.this,VisionActivity.class);
+                startActivity(ia);
             }
         });
     }

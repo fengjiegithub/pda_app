@@ -1,5 +1,6 @@
 package com.example.pdacollege;
 
+import android.app.Instrumentation;
 import android.content.Intent;
 import android.net.Uri;
 import android.support.design.widget.FloatingActionButton;
@@ -35,69 +36,61 @@ public class UnderActivity extends AppCompatActivity {
         civil.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent ci=new Intent(Intent.ACTION_VIEW);
-                ci.setData(Uri.parse("http://pda.hkes.edu.in/load?menu=m04&page=ug-civil"));
-                startActivity(ci);
+                Intent i =new Intent(UnderActivity.this,civil.class);
+                startActivity(i);
             }
         });
         mechanical.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent me=new Intent(Intent.ACTION_VIEW);
-                me.setData(Uri.parse("http://pda.hkes.edu.in/load?menu=m04&page=ug-mechanical"));
-                startActivity(me);
+                Intent ii =new Intent(UnderActivity.this,MechanicaActivity.class);
+                startActivity(ii);
             }
         });
         electrical.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent el=new Intent(Intent.ACTION_VIEW);
-                el.setData(Uri.parse("http://pda.hkes.edu.in/load?menu=m04&page=ug-electrical-and-electronics"));
-                startActivity(el);
+                Intent ia =new Intent(UnderActivity.this,ElectricallActivity.class);
+                startActivity(ia);
             }
         });
         electronics.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent ec=new Intent(Intent.ACTION_VIEW);
-                ec.setData(Uri.parse("http://pda.hkes.edu.in/load?menu=m04&page=ug-electronics-and-communications"));
-                startActivity(ec);
+                Intent id =new Intent(UnderActivity.this,ElectronicActivity.class);
+                startActivity(id);
 
             }
         });
         industrial.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent in=new Intent(Intent.ACTION_VIEW);
-                in.setData(Uri.parse("http://pda.hkes.edu.in/load?menu=m04&page=ug-industrial-and-production"));
-                startActivity(in);
+                Intent ip =new Intent(UnderActivity.this, ElectronicActivity.class);
+                startActivity(ip);
 
             }
         });
         instrumentation.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent in=new Intent(Intent.ACTION_VIEW);
-                in.setData(Uri.parse("http://pda.hkes.edu.in/load?menu=m04&page=ug-instrumentation"));
-                startActivity(in);
+                Intent iw =new Intent(UnderActivity.this, InstrumentActivity.class);
+                startActivity(iw);
 
             }
         });
         architecture.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent ar=new Intent(Intent.ACTION_VIEW);
-                ar.setData(Uri.parse("http://pda.hkes.edu.in/load?menu=m04&page=ug-architecture"));
-                startActivity(ar);
+                Intent ie =new Intent(UnderActivity.this, ArchitectActivity.class);
+                startActivity(ie);
 
             }
         });
         ceramic.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent ce=new Intent(Intent.ACTION_VIEW);
-                ce.setData(Uri.parse("http://pda.hkes.edu.in/load?menu=m04&page=ug-ceramic-and-cement"));
-                startActivity(ce);
+                Intent i =new Intent(UnderActivity.this, CeramicsActivity.class);
+                startActivity(i);
 
             }
         });

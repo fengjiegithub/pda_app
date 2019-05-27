@@ -1,23 +1,19 @@
 package com.example.pdacollege;
 
-import android.app.Instrumentation;
 import android.content.Intent;
-import android.net.Uri;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class UnderActivity extends AppCompatActivity {
-    Button civil,mechanical,electrical,electronics,industrial,instrumentation,architecture,ceramic,information,computer,automobile,physics,chemistry,mathematics,humanity;
+public class UndActivity extends AppCompatActivity {
+    Button civil,mechanical,electrical,electronics,industrial,instrumentation,architecture,ceramic,informations,computers,automobile,physics,chemistry,mathematics,humanity;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_under);
+        setContentView(R.layout.activity_und);
         civil=findViewById(R.id.civil);
         mechanical=findViewById(R.id.mechanical);
         electrical=findViewById(R.id.electrical);
@@ -26,8 +22,8 @@ public class UnderActivity extends AppCompatActivity {
         instrumentation=findViewById(R.id.instrumentation);
         architecture=findViewById(R.id.architecture);
         ceramic=findViewById(R.id.ceramic);
-        information=findViewById(R.id.information);
-        computer=findViewById(R.id.computer);
+        informations=findViewById(R.id.information);
+        computers=findViewById(R.id.computer);
         automobile=findViewById(R.id.automobile);
         physics=findViewById(R.id.physics);
         chemistry=findViewById(R.id.chemistry);
@@ -36,28 +32,28 @@ public class UnderActivity extends AppCompatActivity {
         civil.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i =new Intent(UnderActivity.this,CivilActivity.class);
+                Intent i =new Intent(UndActivity.this,Civil2Activity.class);
                 startActivity(i);
             }
         });
         mechanical.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent ii =new Intent(UnderActivity.this,MechanicaActivity.class);
+                Intent ii =new Intent(UndActivity.this,MechanicalActivity.class);
                 startActivity(ii);
             }
         });
         electrical.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent ia =new Intent(UnderActivity.this,ElectricallActivity.class);
+                Intent ia =new Intent(UndActivity.this,ElectricalActivity.class);
                 startActivity(ia);
             }
         });
         electronics.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent id =new Intent(UnderActivity.this,ElectronicActivity.class);
+                Intent id =new Intent(UndActivity.this,ElectronicsActivity.class);
                 startActivity(id);
 
             }
@@ -65,7 +61,7 @@ public class UnderActivity extends AppCompatActivity {
         industrial.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent ip =new Intent(UnderActivity.this, ElectronicActivity.class);
+                Intent ip =new Intent(UndActivity.this, IndustrialActivity.class);
                 startActivity(ip);
 
             }
@@ -73,7 +69,7 @@ public class UnderActivity extends AppCompatActivity {
         instrumentation.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent iw =new Intent(UnderActivity.this, InstrumentActivity.class);
+                Intent iw =new Intent(UndActivity.this, InstrumentationActivity.class);
                 startActivity(iw);
 
             }
@@ -81,7 +77,7 @@ public class UnderActivity extends AppCompatActivity {
         architecture.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent ie =new Intent(UnderActivity.this, ArchitectActivity.class);
+                Intent ie =new Intent(UndActivity.this, ArchitectureActivity.class);
                 startActivity(ie);
 
             }
@@ -89,23 +85,23 @@ public class UnderActivity extends AppCompatActivity {
         ceramic.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent ce =new Intent(UnderActivity.this, SmallActivity.class);
+                Intent ce =new Intent(UndActivity.this, CeramicActivity.class);
                 startActivity(ce);
 
             }
         });
-        information.setOnClickListener(new View.OnClickListener() {
+        informations.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i =new Intent(UnderActivity.this, InformatActivity.class);
+                Intent i =new Intent(UndActivity.this, InformationActivity.class);
                 startActivity(i);
 
             }
         });
-        computer.setOnClickListener(new View.OnClickListener() {
+        computers.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent ic =new Intent(UnderActivity.this, ComputerscActivity.class);
+                Intent ic =new Intent(UndActivity.this, ComputerActivity.class);
                 startActivity(ic);
 
 
@@ -114,7 +110,7 @@ public class UnderActivity extends AppCompatActivity {
         automobile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent au =new Intent(UnderActivity.this, AutomobilActivity.class);
+                Intent au =new Intent(UndActivity.this, AutomobileActivity.class);
                 startActivity(au);
 
             }
@@ -122,7 +118,7 @@ public class UnderActivity extends AppCompatActivity {
         physics.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent ph =new Intent(UnderActivity.this, PhActivity.class);
+                Intent ph =new Intent(UndActivity.this, PhysicsActivity.class);
                 startActivity(ph);
 
             }
@@ -130,14 +126,14 @@ public class UnderActivity extends AppCompatActivity {
         chemistry.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent ch =new Intent(UnderActivity.this, ChActivity.class);
+                Intent ch =new Intent(UndActivity.this, ChemistryActivity.class);
                 startActivity(ch);
             }
         });
         mathematics.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent ma =new Intent(UnderActivity.this, MatActivity.class);
+                Intent ma =new Intent(UndActivity.this, MathActivity.class);
                 startActivity(ma);
 
             }
@@ -145,10 +141,9 @@ public class UnderActivity extends AppCompatActivity {
         humanity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent hu =new Intent(UnderActivity.this, HumanitActivity.class);
+                Intent hu =new Intent(UndActivity.this, HumanityActivity.class);
                 startActivity(hu);
             }
         });
-
     }
 }

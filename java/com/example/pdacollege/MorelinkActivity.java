@@ -24,57 +24,50 @@ public class MorelinkActivity extends AppCompatActivity {
         circulars.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent jh=new Intent(Intent.ACTION_VIEW);
-                jh.setData(Uri.parse("http://pda.hkes.edu.in/circulars-notices"));
-                startActivity(jh);
+               Intent ci=new Intent(MorelinkActivity.this,CircularActivity.class);
+               startActivity(ci);
             }
         });
         mandatory.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent kh=new Intent(Intent.ACTION_VIEW);
-                kh.setData(Uri.parse("http://pda.hkes.edu.in/load?menu=m09&page=mandatory-disclosures"));
-                startActivity(kh);
+                Intent ma=new Intent(MorelinkActivity.this,MandatoryActivity.class);
+                startActivity(ma);
             }
         });
         research.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent kl=new Intent(Intent.ACTION_VIEW);
-                kl.setData(Uri.parse("http://pda.hkes.edu.in/load?menu=m09&page=research"));
-                startActivity(kl);
+                Intent re=new Intent(MorelinkActivity.this,ResearchActivity.class);
+                startActivity(re);
             }
         });
         itbt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent fg=new Intent(Intent.ACTION_VIEW);
-                fg.setData(Uri.parse("http://pda.hkes.edu.in/load?menu=m09&page=itbt"));
-                startActivity(fg);
+                Intent it=new Intent(MorelinkActivity.this,ItbtActivity.class);
+                startActivity(it);
             }
         });
         industrial.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent hy=new Intent(Intent.ACTION_VIEW);
-                hy.setData(Uri.parse("http://pda.hkes.edu.in/photo-gallery"));
-                startActivity(hy);
+                Intent it=new Intent(MorelinkActivity.this,PhotoActivity.class);
+                startActivity(it);
             }
         });
         instrumentation.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent jr=new Intent(Intent.ACTION_VIEW);
-                jr.setData(Uri.parse("http://pda.hkes.edu.in/load?menu=m09&page=scstcell"));
-                startActivity(jr);
+                Intent it=new Intent(MorelinkActivity.this,SCActivity.class);
+                startActivity(it);
             }
         });
         library.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent tr=new Intent(Intent.ACTION_VIEW);
-                tr.setData(Uri.parse("http://pda.hkes.edu.in/load?menu=m09&page=library"));
-                startActivity(tr);
+                Intent li=new Intent(MorelinkActivity.this,LibraryActivity.class);
+                startActivity(li);
             }
         });
     }

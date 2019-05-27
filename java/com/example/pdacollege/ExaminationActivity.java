@@ -19,17 +19,15 @@ public class ExaminationActivity extends AppCompatActivity {
         notification.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent itr=new Intent(Intent.ACTION_VIEW);
-                itr.setData(Uri.parse("http://pda.hkes.edu.in/load?menu=m06&page=notifications"));
-                startActivity(itr);
+                 Intent no=new Intent(ExaminationActivity.this,NotificationActivity.class);
+                 startActivity(no);
             }
         });
         results.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent vt=new Intent(Intent.ACTION_VIEW);
-                vt.setData(Uri.parse("http://pda.hkes.edu.in/load?menu=m06&page=results"));
-                startActivity(vt);
+                Intent ub=new Intent(ExaminationActivity.this,ResultActivity.class);
+                startActivity(ub);
             }
         });
     }

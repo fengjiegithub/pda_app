@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        int images[] = {R.drawable.pda,R.drawable.pda1,R.drawable.pda2};
+        int images[] = {R.drawable.vijaykul};
         viewFlipper=findViewById(R.id.flipper);
 //        for (int i=0; i< images.length; i++){
 //            flipperImages(images[i]);
@@ -180,9 +180,8 @@ public class MainActivity extends AppCompatActivity
                 startActivity(ml);
                 break;
             case R.id.nav_home:
-                Intent vx=new Intent(Intent.ACTION_VIEW);
-                vx.setData(Uri.parse("http://pda.hkes.edu.in/"));
-                startActivity(vx);
+                Intent ma=new Intent(MainActivity.this,MainActivity.class);
+                startActivity(ma);
                 break;
             case R.id.nav_examination:
                 Intent ex=new Intent(MainActivity.this,ExaminationActivity.class);
@@ -198,9 +197,8 @@ public class MainActivity extends AppCompatActivity
                 startActivity(d);
                 break;
             case R.id.nav_placement:
-                Intent bg=new Intent(Intent.ACTION_VIEW);
-                bg.setData(Uri.parse("http://pda.hkes.edu.in/load?menu=m07&page=placement"));
-                startActivity(bg);
+                Intent pl=new Intent(MainActivity.this,PlacementActivity.class);
+                startActivity(pl);
                 break;
             case R.id.nav_teqip:
                 Intent bn=new Intent(Intent.ACTION_VIEW);
@@ -212,7 +210,7 @@ public class MainActivity extends AppCompatActivity
                 startActivity(hg);
                 break;
             case R.id.faculty:
-                 Intent fa=new Intent(MainActivity.this,FacultyActivity.class);
+                 Intent fa=new Intent(MainActivity.this,DepActivity.class);
                  startActivity(fa);
                  break;
         }

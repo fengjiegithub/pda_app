@@ -1,25 +1,34 @@
 package com.example.pdacollege;
 
+import android.app.DownloadManager;
+import android.content.Context;
+import android.content.Intent;
 import android.graphics.Typeface;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Html;
 import android.text.SpannableString;
 import android.text.Spanned;
 import android.text.style.StyleSpan;
+import android.view.View;
 import android.widget.TextView;
 
 public class MechanicaActivity extends AppCompatActivity {
-    TextView text1,text7,text8,text9,text10;
+    TextView  text7,text8,text9,text10,te56,tex85,te12;
+    DownloadManager downloadManager;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mechanica);
-        text1=findViewById(R.id.text1);
-        text7=findViewById(R.id.text7);
+         text7=findViewById(R.id.text7);
         text8=findViewById(R.id.text8);
         text9=findViewById(R.id.text9);
+        te56=findViewById(R.id.te56);
+        tex85=findViewById(R.id.tex85);
+        te12=findViewById(R.id.te12);
         text10=findViewById(R.id.text10);
         String text= "As Mechanical Engineering department is one of the first ever departments established in 1958 by the great visionary, Educationist and statesman late Sri. Mahadevappa Rampure founder president of HKE Society with an intake of 40 students. The department is equipped with all necessary infrastructure and laboratory facilities. Present intake of department is 120 with total of 450 students studying in I, II, III and IV year. In accordance with the Vision and Mission, the department is striving hard to cater the needs of Mechanical Engineering students both in curriculum and career oriented progress and achieving excellence in various aspects such as students performance and quality, student teacher relationship, and students motivation towards research oriented aspects. Department behold for discipline among student community by adopting good human qualities and professional ethics, moral. Department has well qualified dedicated, expert faculty in UG-23, PG-06 and supporting staff-40, have 6(six) Doctorates 42 research scholars are pursuing their Ph.D.\n" +
                 "\n" +
@@ -48,8 +57,7 @@ public class MechanicaActivity extends AppCompatActivity {
         ss.setSpan(bold,1593, 1612,Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
         ss.setSpan(nbold,1635,1725,Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
         ss.setSpan(bbold,2954,2991,Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
-        text1.setText(ss);
-        SpannableString ss1=new SpannableString(st);
+         SpannableString ss1=new SpannableString(st);
         StyleSpan  bold1 = new StyleSpan(Typeface.BOLD);
         ss1.setSpan(boldSpan,0,2,Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
         text7.setText(ss1);
@@ -65,6 +73,36 @@ public class MechanicaActivity extends AppCompatActivity {
         StyleSpan bold4=new StyleSpan(Typeface.BOLD);
         ss4.setSpan(boldSpan,0,2,Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
         text10.setText(ss4);
+        te56.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                downloadManager=(DownloadManager)getSystemService(Context.DOWNLOAD_SERVICE);
+                Uri uri=Uri.parse("https://firebasestorage.googleapis.com/v0/b/pdacollege-940c1.appspot.com/o/md-gallery.pdf?alt=media&token=88cf4fe2-ae64-4843-b9e0-f9bc80c3bd19");
+                DownloadManager.Request request =new DownloadManager.Request(uri);
+                request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
+                Long reference=downloadManager.enqueue(request);
+            }
+        });
+        tex85.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                downloadManager=(DownloadManager)getSystemService(Context.DOWNLOAD_SERVICE);
+                Uri uri=Uri.parse("https://firebasestorage.googleapis.com/v0/b/pdacollege-940c1.appspot.com/o/md-infra.pdf?alt=media&token=836b066c-6797-4b46-8e28-6088a0bfa37f");
+                DownloadManager.Request request =new DownloadManager.Request(uri);
+                request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
+                Long reference=downloadManager.enqueue(request);
+            }
+        });
+        te12.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                downloadManager=(DownloadManager)getSystemService(Context.DOWNLOAD_SERVICE);
+                Uri uri=Uri.parse("https://firebasestorage.googleapis.com/v0/b/pdacollege-940c1.appspot.com/o/bosmech.pdf?alt=media&token=97af8eac-53cc-4476-aaa7-4c1ebe3db8d8");
+                DownloadManager.Request request =new DownloadManager.Request(uri);
+                request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
+                Long reference=downloadManager.enqueue(request);
+            }
+        });
 
     }
 }

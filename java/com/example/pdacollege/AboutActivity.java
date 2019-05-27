@@ -27,9 +27,9 @@ public class AboutActivity extends AppCompatActivity {
         society.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent jjh=new Intent(Intent.ACTION_VIEW);
-                jjh.setData(Uri.parse("http://hkes.edu.in/"));
-                startActivity(jjh);
+                Intent we=new Intent(Intent.ACTION_VIEW);
+                we.setData(Uri.parse("http://hkes.edu.in/"));
+                startActivity(we);
             }
         });
         vission.setOnClickListener(new View.OnClickListener() {

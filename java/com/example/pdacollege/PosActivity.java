@@ -1,19 +1,19 @@
 package com.example.pdacollege;
 
 import android.content.Intent;
-import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class PostActivity extends AppCompatActivity {
+public class PosActivity extends AppCompatActivity {
     Button power,thermal,environmental,structural,production,computers,biomedical,communication,informations,materials;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_post);
+        setContentView(R.layout.activity_pos);
         power=findViewById(R.id.power);
         thermal=findViewById(R.id.thermal);
         environmental=findViewById(R.id.environmental);
@@ -27,28 +27,28 @@ public class PostActivity extends AppCompatActivity {
         power.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent po=new Intent(PostActivity.this,PowersActivity.class);
+                Intent po=new Intent(PosActivity.this,PowerActivity.class);
                 startActivity(po);
             }
         });
         thermal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent th=new Intent(PostActivity.this,ThermalsActivity.class);
+                Intent th=new Intent(PosActivity.this,ThermalActivity.class);
                 startActivity(th);
             }
         });
         environmental.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent en=new Intent(PostActivity.this,EnvironmentActivity.class);
+                Intent en=new Intent(PosActivity.this,EnvironmentalActivity.class);
                 startActivity(en);
             }
         });
         structural.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent st=new Intent(PostActivity.this,StructuralsActivity.class);
+                Intent st=new Intent(PosActivity.this,StructuralActivity.class);
                 startActivity(st);
 
             }
@@ -56,7 +56,7 @@ public class PostActivity extends AppCompatActivity {
         production.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent pr=new Intent(PostActivity.this,ProductionsActivity.class);
+                Intent pr=new Intent(PosActivity.this,ProductionActivity.class);
                 startActivity(pr);
 
             }
@@ -64,7 +64,7 @@ public class PostActivity extends AppCompatActivity {
         computers.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent co=new Intent(PostActivity.this,CSActivity.class);
+                Intent co=new Intent(PosActivity.this,ComputersActivity.class);
                 startActivity(co);
 
             }
@@ -72,7 +72,7 @@ public class PostActivity extends AppCompatActivity {
         biomedical.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent bm=new Intent(PostActivity.this,BiomActivity.class);
+                Intent bm=new Intent(PosActivity.this,BiomedicalActivity.class);
                 startActivity(bm);
 
             }
@@ -80,26 +80,24 @@ public class PostActivity extends AppCompatActivity {
         communication.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent cs=new Intent(PostActivity.this,CSActivity.class);
+                Intent cs=new Intent(PosActivity.this,CommunicationActivity.class);
                 startActivity(cs);
             }
         });
         informations.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent cN=new Intent(PostActivity.this,CNActivity.class);
+                Intent cN=new Intent(PosActivity.this,InformationActivity.class);
                 startActivity(cN);
             }
         });
         materials.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent ms=new Intent(PostActivity.this,MS2Activity.class);
+                Intent ms=new Intent(PosActivity.this,MaterialsActivity.class);
                 startActivity(ms);
             }
         });
-
-
 
     }
 }

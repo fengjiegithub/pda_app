@@ -51,182 +51,182 @@ public class FacultyActivity extends AppCompatActivity {
         civil.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(FacultyActivity.this,civil.class);
-                startActivity(intent);
+                Intent ci=new Intent(FacultyActivity.this,MathActivity.class);
+                startActivity(ci);
             }
         });
         mechanical.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent1=new Intent(FacultyActivity.this,MechanicalActivity.class);
-                startActivity(intent1);
+                Intent me=new Intent(FacultyActivity.this,MechanicalActivity.class);
+                startActivity(me);
             }
         });
         electrical.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent2=new Intent(FacultyActivity.this,ElectricalActivity.class);
-                startActivity(intent2);
+                Intent el=new Intent(FacultyActivity.this,ElectricalActivity.class);
+                startActivity(el);
             }
         });
 
         electronics.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(FacultyActivity.this,ElectronicActivity.class);
-                startActivity(intent);
+                Intent ele=new Intent(FacultyActivity.this,ElectronicActivity.class);
+                startActivity(ele);
             }
         });
         industrial.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent1=new Intent(FacultyActivity.this,IndustrialActivity.class);
-                startActivity(intent1);
+                Intent ind=new Intent(FacultyActivity.this,IndustrialActivity.class);
+                startActivity(ind);
             }
         });
         instrumentation.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent2=new Intent(FacultyActivity.this,InstrumentationActivity.class);
-                startActivity(intent2);
+                Intent ins=new Intent(FacultyActivity.this,InstrumentationActivity.class);
+                startActivity(ins);
             }
         });
 
         architecture.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(FacultyActivity.this,ArchitectureActivity.class);
-                startActivity(intent);
+                Intent arc=new Intent(FacultyActivity.this,ArchitectureActivity.class);
+                startActivity(arc);
             }
         });
         ceramic.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent1=new Intent(FacultyActivity.this,CeramicActivity.class);
-                startActivity(intent1);
+                Intent ce=new Intent(FacultyActivity.this,CeramicActivity.class);
+                startActivity(ce);
             }
         });
         information.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent2=new Intent(FacultyActivity.this,InformationActivity.class);
-                startActivity(intent2);
+                Intent inf=new Intent(FacultyActivity.this,InformationActivity.class);
+                startActivity(inf);
             }
         });
 
         computer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(FacultyActivity.this,ComputerActivity.class);
-                startActivity(intent);
+                Intent co =new Intent(FacultyActivity.this,ComputerActivity.class);
+                startActivity(co);
             }
         });
         automobile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent1=new Intent(FacultyActivity.this,AutomobileActivity.class);
-                startActivity(intent1);
+                Intent au=new Intent(FacultyActivity.this,AutomobileActivity.class);
+                startActivity(au);
             }
         });
         physics.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent2=new Intent(FacultyActivity.this,PhysicsActivity.class);
-                startActivity(intent2);
+                Intent ph=new Intent(FacultyActivity.this,PhysicsActivity.class);
+                startActivity(ph);
             }
         });
 
         chemistry.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(FacultyActivity.this,ChemistryActivity.class);
-                startActivity(intent);
+                Intent ch=new Intent(FacultyActivity.this,ChemistryActivity.class);
+                startActivity(ch);
             }
         });
         mathematics.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent1=new Intent(FacultyActivity.this,MathActivity.class);
-                startActivity(intent1);
+                Intent mat=new Intent(FacultyActivity.this,MathActivity.class);
+                startActivity(mat);
             }
         });
         humanity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent2=new Intent(FacultyActivity.this,HumanityActivity.class);
-                startActivity(intent2);
+                Intent hu=new Intent(FacultyActivity.this,HumanityActivity.class);
+                startActivity(hu);
             }
         });
         power.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent1=new Intent(FacultyActivity.this,PowerActivity.class);
-                startActivity(intent1);
+                Intent po=new Intent(FacultyActivity.this,PowerActivity.class);
+                startActivity(po);
             }
         });
         thermal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent2=new Intent(FacultyActivity.this,ThermalActivity.class);
-                startActivity(intent2);
+                Intent th=new Intent(FacultyActivity.this,ThermalActivity.class);
+                startActivity(th);
             }
         });
 
         environmental.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(FacultyActivity.this,EnvironmentalActivity.class);
-                startActivity(intent);
+                Intent en=new Intent(FacultyActivity.this,EnvironmentalActivity.class);
+                startActivity(en);
             }
         });
         structural.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent1=new Intent(FacultyActivity.this,StructuralActivity.class);
-                startActivity(intent1);
+                Intent st=new Intent(FacultyActivity.this,StructuralActivity.class);
+                startActivity(st);
             }
         });
         production.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent2=new Intent(FacultyActivity.this,ProductionActivity.class);
-                startActivity(intent2);
+                Intent pr=new Intent(FacultyActivity.this,ProductionActivity.class);
+                startActivity(pr);
             }
         });
         computers.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent1=new Intent(FacultyActivity.this,ComputersActivity.class);
-                startActivity(intent1);
+                Intent com=new Intent(FacultyActivity.this,ComputersActivity.class);
+                startActivity(com);
             }
         });
         communication.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent2=new Intent(FacultyActivity.this,CommunicationActivity.class);
-                startActivity(intent2);
+                Intent bg=new Intent(FacultyActivity.this,CommunicationActivity.class);
+                startActivity(bg);
             }
         });
 
         informations.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(FacultyActivity.this,ComputernActivity.class);
-                startActivity(intent);
+                Intent mhj=new Intent(FacultyActivity.this,ComputernActivity.class);
+                startActivity(mhj);
             }
         });
         materials.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent1=new Intent(FacultyActivity.this,MaterialsActivity.class);
-                startActivity(intent1);
+                Intent lk=new Intent(FacultyActivity.this,MaterialsActivity.class);
+                startActivity(lk);
             }
         });
         biomedical.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent2=new Intent(FacultyActivity.this,BiomedicalActivity.class);
-                startActivity(intent2);
+                Intent bu=new Intent(FacultyActivity.this,BiomedicalActivity.class);
+                startActivity(bu);
             }
         });
 

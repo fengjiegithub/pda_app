@@ -3,15 +3,11 @@ package com.example.pdacollege;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.github.barteksc.pdfviewer.PDFView;
-
-public class AboutsActivity extends AppCompatActivity {
-    PDFView  myPdfViewer;
+public class CircularActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_abouts);
-
+        setContentView(R.layout.activity_circular);
     }
 }

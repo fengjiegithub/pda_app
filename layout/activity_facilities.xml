@@ -1,0 +1,877 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UnderActivity">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:cardUseCompatPadding="true"
+        app:cardElevation="5dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/my1">
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#048EF3"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Facilities"
+                android:textSize="23dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardUseCompatPadding="true"
+        app:cardElevation="5dp"
+        android:padding="5dp"
+        android:id="@+id/my2"
+        app:layout_constraintTop_toBottomOf="@+id/my1">
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Library"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:id="@+id/text1"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The mission of the central library is to provide information service and access to bibliographic in order to support the institute march towards its vision. It strives to provide information to faculty and students so as to meet their expectations. It has barcode reading. A separate facility for access of E-Journals is also available in the library. Under Indest Consortia, the faculty and students are able to access about 250 online journals. Through DELNET the students can access the Library facilities of many reputed organizations."
+                android:id="@+id/text2"
+                android:padding="5dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintTop_toBottomOf="@+id/text1"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The new library building is built with funds provided under TEQIP, which also includes a digital library. It is completely automated using EasyLib software and has the right environment for the students to read and gain Information. Central library is spread out in 1600 sq. mtrs. Library is housed in a 3 storied building. The library has nice ambient and aesthetic surrounding. Library has:-"
+                android:id="@+id/text3"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                app:layout_constraintTop_toBottomOf="@+id/text2"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/my3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardUseCompatPadding="true"
+        app:cardElevation="5dp"
+        android:layout_marginTop="7dp"
+        app:layout_constraintTop_toBottomOf="@+id/my2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:background="#f1f1f1"
+            android:weightSum="4">
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="Resources"
+                        android:textColor="#000"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="Numbers"
+                        android:textColor="#000"
+                        android:textStyle="bold" />
+
+
+
+
+
+                </TableRow>
+
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:layout_weight="2"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:text="Engineering and Technology" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="85000 + 1434 Architecture"
+                        android:background="#ffffff" />
+
+
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:layout_weight="2"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:text="Titles" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="24,629 + 1023 Architectyure"
+                        android:background="#ffffff" />
+
+
+
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:layout_weight="2"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:text="International Journals	" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_marginHorizontal="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="81"
+                        android:background="#ffffff" />
+
+
+
+
+
+
+                </TableRow>
+
+
+
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:layout_weight="2"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:text="National Journals	" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_marginHorizontal="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="20"
+                       android:background="#ffffff" />
+
+
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:layout_weight="2"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:text="E-Journals" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_marginHorizontal="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="AICTE Indest Consortium online journal"
+                        android:background="#ffffff" />
+
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/my4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardUseCompatPadding="true"
+        app:cardElevation="5dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintTop_toBottomOf="@+id/my3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:background="#f1f1f1"
+            android:weightSum="4">
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:layout_weight="4"
+                        android:gravity="center"
+                        android:text="Computer Network"
+                        android:textColor="#000"
+                        android:textStyle="bold" />
+
+
+
+
+
+
+                </TableRow>
+
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:layout_weight="2"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:text="Media" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="Wired (OFC and UTP)"
+                        android:background="#ffffff" />
+
+
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:layout_weight="2"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:text="Backbone" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="Both Manageable and Normal (100 mbps)"
+                        android:background="#ffffff" />
+
+
+
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:layout_weight="2"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:text="Leased Line" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_marginHorizontal="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="100 mbps Speed"
+                        android:background="#ffffff" />
+
+
+
+
+
+
+                </TableRow>
+
+
+
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:layout_weight="2"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:text=" Number of Systems Under N/W		" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_marginHorizontal="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="800"
+                        android:background="#ffffff" />
+
+
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:layout_weight="2"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:text="E-Journals" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_marginHorizontal="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="AICTE Indest Consortium online journal"
+                        android:background="#ffffff" />
+
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/my4">
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Career Guidance, Training and Placement"
+                    android:textColor="#000"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:id="@+id/text5"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"  />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="=> Please click here to see details"
+                    android:textColor="#17A7E9"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold"
+                    android:id="@+id/text6"
+                    app:layout_constraintTop_toBottomOf="@+id/text5"
+                    app:layout_constraintLeft_toLeftOf="parent"  />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Power"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold"
+                    android:id="@+id/text7"
+                    android:layout_marginTop="15dp"
+                    app:layout_constraintTop_toBottomOf="@+id/text6"
+                    app:layout_constraintLeft_toLeftOf="parent"  />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The college has two generator backup supply of each82.5KVA for use in case of power failure. Most of the labs are connected with UPS facility."
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text8"
+                    app:layout_constraintTop_toBottomOf="@+id/text7"
+                    app:layout_constraintLeft_toLeftOf="parent"  />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hostel Facility"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:id="@+id/text9"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="5dp"
+                    app:layout_constraintTop_toBottomOf="@+id/text8"
+                    app:layout_constraintLeft_toLeftOf="parent"  />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Available separately for Boys (for 400 students and 150 Girls)."
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text10"
+                    app:layout_constraintTop_toBottomOf="@+id/text9"
+                    app:layout_constraintLeft_toLeftOf="parent"  />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Consultancy"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:id="@+id/text11"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="5dp"
+                    app:layout_constraintTop_toBottomOf="@+id/text10"
+                    app:layout_constraintLeft_toLeftOf="parent"  />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The consultancy cell of the civil engineering department earns around Rs. 2 Lakhs every month. The department is recognized as state recourse institution under National Program for capacity building of engineers in earthquake risk Management."
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text12"
+                    app:layout_constraintTop_toBottomOf="@+id/text11"
+                    app:layout_constraintLeft_toLeftOf="parent"  />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Industry Institute Interaction Cell"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold"
+                    android:id="@+id/text13"
+                    android:layout_marginTop="15dp"
+                    app:layout_constraintTop_toBottomOf="@+id/text12"
+                    app:layout_constraintLeft_toLeftOf="parent"  />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The college maintains a regular interactions with industries and other organizations. It has signed MOU’s with some reputed industries. The Civil Engg. department has MOU with National Research Institute for Applied Mathematics, Bangalore and Karnataka State Polution Control Board,"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text14"
+                    app:layout_constraintTop_toBottomOf="@+id/text13"
+                    app:layout_constraintLeft_toLeftOf="parent"  />
+
+                <TextView
+                    android:id="@+id/text15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sports, Co-curricular and Extra-curricular Activities"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold"
+                    app:layout_constraintTop_toBottomOf="@+id/text14"
+                    app:layout_constraintLeft_toLeftOf="parent"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The college also gives emphasis for overall development of the students, by encouraging them to participate in indoors and outdoors Sports, cultural activities, seminars, excursions, industrial tours, and participation in technical exhibitions."
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:padding="5dp"
+                    android:id="@+id/text16"
+                    app:layout_constraintTop_toBottomOf="@+id/text15"
+                    app:layout_constraintLeft_toLeftOf="parent"  />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The college has facilities for many kind of indoor and outdoor sports such as 400 mtr track, cricket ground, two basket ball courts etc."
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:padding="5dp"
+                    android:id="@+id/text17"
+                    app:layout_constraintTop_toBottomOf="@+id/text16"
+                    app:layout_constraintLeft_toLeftOf="parent"  />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The college provides avenues for developing technical skills, updating knowledge on state-of-the–art subjects, personality development, tribal service and service to the society through the following professional societies and associations, each of which is coordinated by a faculty advisor who guides the students."
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:padding="5dp"
+                    android:id="@+id/text18"
+                    app:layout_constraintTop_toBottomOf="@+id/text17"
+                    app:layout_constraintLeft_toLeftOf="parent"  />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="*  Students council
+
+*  ISTE Chapter
+
+*  NSS
+
+*  Kannada Club
+
+*  Ecology Club
+
+*  Akshaya Urja Club
+
+*  Sky Watching Club
+
+*  IETE Sub center"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold"
+                    android:id="@+id/text19"
+                    app:layout_constraintTop_toBottomOf="@+id/text18"
+                    app:layout_constraintLeft_toLeftOf="parent"  />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Apart from the students Union of the college, all departments have students associations which conduct several cultural and sport activities through out the year. Organizing seminars, workshops, special lecturers, educational and industrial visits, paper presentation contests, technical quizzes, etc. are some of the activities of these associations. The college has an open-air theatre for cultural activities."
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:padding="5dp"
+                    android:id="@+id/text20"
+                    app:layout_constraintTop_toBottomOf="@+id/text19"
+                    app:layout_constraintLeft_toLeftOf="parent"  />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The college conducts every year a National level Project Exhibition named as 'Technovision', for the Final year students which will be kept open for common public."
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:padding="5dp"
+                    android:id="@+id/text21"
+                    app:layout_constraintTop_toBottomOf="@+id/text20"
+                    app:layout_constraintLeft_toLeftOf="parent"  />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The college brings out a quarterly News Letter publishing the events of the campus."
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:padding="5dp"
+                    android:id="@+id/text22"
+                    app:layout_constraintTop_toBottomOf="@+id/text21"
+                    app:layout_constraintLeft_toLeftOf="parent"  />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Reprographic Facilities"
+                    android:textColor="#000"
+                    android:padding="5dp"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold"
+                    android:id="@+id/text23"
+                    android:layout_marginTop="15dp"
+                    app:layout_constraintTop_toBottomOf="@+id/text22"
+                    app:layout_constraintLeft_toLeftOf="parent"  />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Xerox machines: Total 15 (Each Department - One, Office- 03 and Library- One)"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:padding="5dp"
+                    android:id="@+id/text24"
+                    app:layout_constraintTop_toBottomOf="@+id/text23"
+                    app:layout_constraintLeft_toLeftOf="parent"  />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Banking Facilities"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold"
+                    android:id="@+id/text25"
+                    android:layout_marginTop="15dp"
+                    app:layout_constraintTop_toBottomOf="@+id/text24"
+                    app:layout_constraintLeft_toLeftOf="parent"  />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="An exclusive extension counter of Canara Bank is operating in the campus"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:id="@+id/text26"
+                    app:layout_constraintTop_toBottomOf="@+id/text25"
+                    app:layout_constraintLeft_toLeftOf="parent"  />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Post Office"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:id="@+id/text27"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="5dp"
+                    app:layout_constraintTop_toBottomOf="@+id/text26"
+                    app:layout_constraintLeft_toLeftOf="parent"  />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="An exclusive extension counter of Post office(station bazar) area is provided the place for service in our society area in-front of college."
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:padding="5dp"
+                    android:id="@+id/text28"
+                    app:layout_constraintTop_toBottomOf="@+id/text27"
+                    app:layout_constraintLeft_toLeftOf="parent"  />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Canteen"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:id="@+id/text29"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="15dp"
+                    app:layout_constraintTop_toBottomOf="@+id/text28"
+                    app:layout_constraintLeft_toLeftOf="parent"  />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Two Canteens are available in the campus to cater to the refreshment needs of staff and students at reasonable prices"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:padding="5dp"
+                    android:id="@+id/text30"
+                    app:layout_constraintTop_toBottomOf="@+id/text29"
+                    app:layout_constraintLeft_toLeftOf="parent"  />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Medical Facilities"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold"
+                    android:id="@+id/text31"
+                    android:layout_marginTop="15dp"
+                    app:layout_constraintTop_toBottomOf="@+id/text30"
+                    app:layout_constraintLeft_toLeftOf="parent"  />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="College campus has the first aid facilities. Our society has two hospitals. One is Sangameshwar Hospital which is just 1 km and other is Basaveshwar Hospital around 2 km away from college. These hospitals have good medical facilities and these are providing medical service to us regularly and on emergency. Students are treated at free of cost and staff are getting 25% concession for treatment."
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:padding="5dp"
+                    android:id="@+id/text32"
+                    app:layout_constraintTop_toBottomOf="@+id/text31"
+                    app:layout_constraintLeft_toLeftOf="parent"  />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Transport Facility"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:id="@+id/text33"
+                    android:layout_marginTop="15dp"
+                    app:layout_constraintTop_toBottomOf="@+id/text32"
+                    app:layout_constraintLeft_toLeftOf="parent"  />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The college has 2 Buses. One is exclusively used to bring girl students from hostels and the other is used for excursions, picnics, industrial tours etc."
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:padding="5dp"
+                    android:id="@+id/text34"
+                    app:layout_constraintTop_toBottomOf="@+id/text33"
+                    app:layout_constraintLeft_toLeftOf="parent"  />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Stationary and Printing press"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold"
+                    android:id="@+id/text35"
+                    android:layout_marginTop="15dp"
+                    app:layout_constraintTop_toBottomOf="@+id/text34"
+                    app:layout_constraintLeft_toLeftOf="parent"  />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A stationary and printing press has been made available in the college campus to cater the stationary and other needs of students and staff."
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:padding="5dp"
+                    android:id="@+id/text36"
+                    app:layout_constraintTop_toBottomOf="@+id/text35"
+                    app:layout_constraintLeft_toLeftOf="parent"  />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Drinking Water Facility"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold"
+                    android:id="@+id/text37"
+                    android:layout_marginTop="15dp"
+                    app:layout_constraintTop_toBottomOf="@+id/text36"
+                    app:layout_constraintLeft_toLeftOf="parent"  />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Our Campus provides safe drinking water at different locations."
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:padding="5dp"
+                    android:id="@+id/text38"
+                    app:layout_constraintTop_toBottomOf="@+id/text37"
+                    app:layout_constraintLeft_toLeftOf="parent"  />
+
+
+
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+
+
+    </android.support.constraint.ConstraintLayout>
+ </ScrollView>
+
+

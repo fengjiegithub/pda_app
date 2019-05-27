@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PhotoActivity">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/my1"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:text="Photo Gallery"
+                android:id="@+id/text3"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textColor="#000"
+                android:layout_marginLeft="10dp"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:text="INNOVATIVE TALK FOR STUDENTS AND FACULTY ON “INNOVATION FOR TOMMOROW” BY R.S HIREMATH, CEO, FLEXITRON, BENGALURU"
+                android:textColor="#F71B39EB"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text3" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/text4"
+                android:id="@+id/img1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/c1"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+                <ImageView
+                    android:layout_width="186dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/c2"
+                    app:layout_constraintLeft_toRightOf="@+id/img1"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text4" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/img1"
+                    android:id="@+id/img2"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/c3"
+                    app:layout_constraintLeft_toLeftOf="parent"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/img1"
+                    app:layout_constraintLeft_toRightOf="@+id/img2"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/c4"
+                    app:layout_constraintRight_toRightOf="parent"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/img2"
+                    android:id="@+id/img3"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/c5"
+                    app:layout_constraintLeft_toLeftOf="parent"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/img2"
+                    app:layout_constraintLeft_toRightOf="@+id/img3"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/c6"
+                    app:layout_constraintRight_toRightOf="parent"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/img3"
+                    android:id="@+id/img4"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/c7"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"/>
+
+
+            </android.support.constraint.ConstraintLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/my2"
+            app:layout_constraintTop_toBottomOf="@+id/my1">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/text5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Automation using IoTs - CSE Department"
+                    android:textColor="#F71B39EB"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/text5"
+                    android:id="@+id/img5"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/c8"
+                    app:layout_constraintLeft_toLeftOf="parent"/>
+
+                <ImageView
+                    android:layout_width="186dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/c9"
+                    app:layout_constraintLeft_toRightOf="@+id/img5"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text5" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/img5"
+                    android:id="@+id/img6"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/c10"
+                    app:layout_constraintLeft_toLeftOf="parent"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/img5"
+                    app:layout_constraintLeft_toRightOf="@+id/img6"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/c11"
+                    app:layout_constraintRight_toRightOf="parent"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/img6"
+                    android:id="@+id/img7"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/c12"
+                    app:layout_constraintLeft_toLeftOf="parent"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/img6"
+                    app:layout_constraintLeft_toRightOf="@+id/img7"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/c13"
+                    app:layout_constraintRight_toRightOf="parent"/>
+
+
+            </android.support.constraint.ConstraintLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/my3"
+        app:layout_constraintTop_toBottomOf="@+id/my2">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="Best Principal Award to Dr.S.S. Awanti, Principal from Global Teacher Role Model 2018 (on 5th Sept. 2018)"
+            android:textColor="#F71B39EB"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/text6"
+            android:id="@+id/img8"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/c14"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/c15"
+            app:layout_constraintLeft_toRightOf="@+id/img8"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text6" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/img8"
+            android:id="@+id/img9"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/c16"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"/>
+
+
+    </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/my4"
+            app:layout_constraintTop_toBottomOf="@+id/my3">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/text7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Civil Alumni meet1"
+                    android:textColor="#F71B39EB"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/text7"
+                    android:id="@+id/img10"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/po1"
+                    app:layout_constraintLeft_toLeftOf="parent"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/po2"
+                    app:layout_constraintLeft_toRightOf="@+id/img10"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text7" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/img10"
+                    android:id="@+id/img11"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/po3"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/img10"
+                    app:layout_constraintLeft_toRightOf="@+id/img11"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/po4"
+                    app:layout_constraintRight_toRightOf="parent"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/img11"
+                    android:id="@+id/img12"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/p5"
+                    app:layout_constraintLeft_toLeftOf="parent"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/img11"
+                    app:layout_constraintLeft_toRightOf="@+id/img12"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/p6"
+                    app:layout_constraintRight_toRightOf="parent"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/img12"
+                    android:id="@+id/img13"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/p7"
+                    app:layout_constraintLeft_toLeftOf="parent"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/img12"
+                    app:layout_constraintLeft_toRightOf="@+id/img13"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/p8"
+                    app:layout_constraintRight_toRightOf="parent"/>
+
+
+
+
+
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VisionActivity">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:cardElevation="5dp"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/my1">
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#048EF3"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Vision and Mission"
+                android:textSize="23dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            
+            
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+    
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardUseCompatPadding="true"
+        app:cardElevation="5dp"
+        android:layout_margin="3dp"
+        app:layout_constraintTop_toBottomOf="@+id/my1">
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vision"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:id="@+id/text1"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The mission of the central library is to provide information service and access to bibliographic in order to support the institute march towards its vision. It strives to provide information to faculty and students so as to meet their expectations. It has barcode reading. A separate facility for access of E-Journals is also available in the library. Under Indest Consortia, the faculty and students are able to access about 250 online journals. Through DELNET the students can access the Library facilities of many reputed organizations."
+                android:id="@+id/text2"
+                android:padding="5dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintTop_toBottomOf="@+id/text1"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mission"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:id="@+id/text3"
+                app:layout_constraintTop_toBottomOf="@+id/text2"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="To provide a high-quality educational experience for students with values and ethics that enables them to become leaders in their chosen professions."
+                android:id="@+id/text4"
+                android:padding="5dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintTop_toBottomOf="@+id/text3"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="To explore, create and develop innovations in engineering and science through research and development activities."
+                android:id="@+id/text5"
+                android:padding="5dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintTop_toBottomOf="@+id/text4"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="To provide beneficial service to the national and multinational industries and communities through educational, technical, and professional activities."
+                android:id="@+id/text6"
+                android:padding="5dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintTop_toBottomOf="@+id/text5"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

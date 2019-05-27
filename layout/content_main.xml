@@ -9,386 +9,697 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-    <ViewFlipper
-        android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:id="@+id/flipper"
-        app:layout_constraintTop_toTopOf="parent"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:layout_constraintTop_toBottomOf="@+id/flipper"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            android:textStyle="bold"
-            android:textColor="#000"
-            android:id="@+id/text"
-            android:text="Affiliations and Accreditation"
-            android:textSize="25dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="1. Autonomous College"
-            android:textSize="15dp"
-            app:layout_constraintTop_toBottomOf="@+id/text"
-            app:layout_constraintLeft_toLeftOf="parent"
-            tools:layout_editor_absoluteX="22dp"
-            android:id="@+id/text2"
-            app:layout_editor_absoluteY="0dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="15dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="2. Established in the year 1958"
-            android:textSize="15dp"
-            app:layout_constraintTop_toBottomOf="@+id/text2"
-            app:layout_constraintLeft_toLeftOf="parent"
-            tools:layout_editor_absoluteX="22dp"
-            android:id="@+id/text3"
-            app:layout_editor_absoluteY="0dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="5dp"/>
-
-        <TextView
+        <android.support.v7.widget.CardView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="3. Government Aided College,Karnataka State"
-            android:textSize="15dp"
-            app:layout_constraintTop_toBottomOf="@+id/text3"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent  "
-            tools:layout_editor_absoluteX="29dp"
-            android:id="@+id/text4"
-            app:layout_editor_absoluteY="0dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="5dp"/>
+            android:layout_height="300dp"
+            android:id="@+id/my"
+            android:layout_marginTop="10dp"
+            tools:ignore="MissingConstraints">
 
-        <TextView
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ViewFlipper
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:id="@+id/flipper"
+                    android:layout_marginTop="5dp"
+                    app:layout_constraintTop_toTopOf="parent"/>
+
+
+            </android.support.constraint.ConstraintLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="4. Approved by AICTE,New Delhi"
-            android:textSize="15dp"
-            app:layout_constraintTop_toBottomOf="@+id/text4"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent  "
-            tools:layout_editor_absoluteX="29dp"
-            android:id="@+id/text5"
-            app:layout_editor_absoluteY="0dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="5dp"/>
+            android:layout_height="280dp"
+            android:layout_margin="5dp"
+            app:cardElevation="10dp"
+            android:id="@+id/my1"
+            app:layout_constraintTop_toBottomOf="@+id/my">
 
-        <TextView
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:textSize="25dp"
+                    android:textColor="#FCFEFF"
+                    android:id="@+id/flipp11"
+                    android:layout_margin="5dp"
+                    android:textStyle="bold"
+                    android:text="News and Events"/>
+
+                <TextView
+                    android:id="@+id/flippe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:singleLine="true"
+                    android:ellipsize="marquee"
+                    android:layout_marginTop="10dp"
+                    android:fadingEdge="horizontal"
+                    app:layout_constraintTop_toBottomOf="@+id/flipp11"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:scrollHorizontally="true"
+                    android:textColor="#0A8CF3"
+                    android:text="=> Provisional Result of First Semester M Tech Power Electonics-2019"
+                    tools:ignore="MissingConstraints" />
+
+
+                <TextView
+                    android:id="@+id/flippe1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:ellipsize="marquee"
+                    android:singleLine="true"
+                    android:fadingEdge="horizontal"
+                    app:layout_constraintTop_toBottomOf="@+id/flippe"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:scrollHorizontally="true"
+                    android:textColor="#0A8CF3"
+                    android:text="=> INNOVATIVE TALK FOR STUDENTS AND FACULTY WAS ARRANGED ON 'INNOVATION FOR TOMMOROW' BY R.S HIREMATH,CEO"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/flippe2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:ellipsize="marquee"
+                    android:singleLine="true"
+                    android:fadingEdge="horizontal"
+                    app:layout_constraintTop_toBottomOf="@+id/flippe1"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:scrollHorizontally="true"
+                    android:textColor="#0A8CF3"
+                    android:text="=> Award for Best Women Engineering College Teacher"
+                    tools:ignore="MissingConstraints" />
+
+
+
+                <TextView
+                    android:id="@+id/flippe3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:singleLine="true"
+                    android:ellipsize="marquee"
+                    android:fadingEdge="horizontal"
+                    app:layout_constraintTop_toBottomOf="@+id/flippe2"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:scrollHorizontally="true"
+                    android:textColor="#0A8CF3"
+                    android:text="=> TEQIP Sponsored One Day Seminar on Effective Teaching and Learning in OBE and Life Skills for Engineers"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/flippe4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:singleLine="true"
+                    android:ellipsize="marquee"
+                    android:fadingEdge="horizontal"
+                    app:layout_constraintTop_toBottomOf="@+id/flippe3"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:scrollHorizontally="true"
+                    android:textColor="#0A8CF3"
+                    android:text="=> VGST Project Sanctions"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/flippe5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:singleLine="true"
+                    android:ellipsize="marquee"
+                    android:fadingEdge="horizontal"
+                    app:layout_constraintTop_toBottomOf="@+id/flippe4"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:scrollHorizontally="true"
+                    android:textColor="#0A8CF3"
+                    android:text="=> Computer Science First Year Question Papers And viva Questions"
+                    tools:ignore="MissingConstraints" />
+
+
+
+                <TextView
+                    android:id="@+id/flippe7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:singleLine="true"
+                    android:ellipsize="marquee"
+                    android:fadingEdge="horizontal"
+                    app:layout_constraintTop_toBottomOf="@+id/flippe5"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:scrollHorizontally="true"
+                    android:textColor="#0A8CF3"
+                    android:text="=> Notice(M.Tech 1st/2nd Sem)Students 2017-Batch-Update 27-07-2018"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/flippe8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:singleLine="true"
+                    android:ellipsize="marquee"
+                    android:fadingEdge="horizontal"
+                    app:layout_constraintTop_toBottomOf="@+id/flippe7"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:scrollHorizontally="true"
+                    android:textColor="#0A8CF3"
+                    android:text="=> Notice(B.E 1st/2nd Sem)Students 2017-Batch-Update 27-07-2018"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/flippe9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:ellipsize="marquee"
+                    android:singleLine="true"
+                    android:fadingEdge="horizontal"
+                    app:layout_constraintTop_toBottomOf="@+id/flippe8"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:scrollHorizontally="true"
+                    android:textColor="#0A8CF3"
+                    android:text="=> LIST OF BE PROJECTS SANCTIONEDN UNDER KSCST (39tH SERIES PROJECT PROJECT PROGRAM 2015-2016)"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/flippe10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:singleLine="true"
+                    android:ellipsize="marquee"
+                    android:fadingEdge="horizontal"
+                    app:layout_constraintTop_toBottomOf="@+id/flippe9"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:scrollHorizontally="true"
+                    android:textColor="#0A8CF3"
+                    android:text="=> Proceedings of 11th BOG Meeting held under TEQIP 2 - 6th Nov.2015"
+                    tools:ignore="MissingConstraints" />
+
+
+
+            </android.support.constraint.ConstraintLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="5. Permanent affiliation to Visvesvaraya Technological University,Belgaum"
-            android:textSize="15dp"
-            app:layout_constraintTop_toBottomOf="@+id/text5"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            tools:layout_editor_absoluteX="29dp"
-            android:id="@+id/text6"
-            app:layout_editor_absoluteY="0dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="5dp"/>
+            android:layout_height="400dp"
+            android:id="@+id/my2"
+            app:cardElevation="10dp"
+android:layout_margin="5dp"
+            app:layout_constraintTop_toBottomOf="@+id/my1">
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000">
 
-        <TextView
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:text="Important Links"
+                    android:textSize="25dp"
+                    android:layout_margin="10dp"
+                    android:id="@+id/imp"
+                    android:textStyle="bold"
+                    android:textColor="#0A8CF3"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/imp"
+                    android:text="Circulars and Notice"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="15dp"
+                    android:id="@+id/imp2"
+                    android:layout_margin="15dp"
+                    android:textColor="#B0FAF8F7"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/imp2"
+                    android:text="SC/ST Greievance and Redress Cell (2015-2016)"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="15dp"
+                    android:id="@+id/imp3"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#B0FAF8F7"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/imp3"
+                    android:text="SC/ST Students can lodge such of caste discrimination online"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="15dp"
+                    android:id="@+id/imp4"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#B0FAF8F7"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/imp4"
+                    android:text="Rools Book 2016"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="15dp"
+                    android:id="@+id/imp5"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#B0FAF8F7"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/imp5"
+                    android:text="Anti Ragging Committee and Anti Ragging Squad"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="15dp"
+                    android:id="@+id/imp6"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#B0FAF8F7"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/imp6"
+                    android:text="First and Second Sem Syllabus with effect from 2016-2017"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="15dp"
+                    android:id="@+id/imp7"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#B0FAF8F7"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/imp7"
+                    android:text="Audit Reports and Other Details"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="15dp"
+                    android:id="@+id/imp8"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#B0FAF8F7"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/imp8"
+                    android:text="PDACE Digital Library Access"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="15dp"
+                    android:id="@+id/imp9"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#B0FAF8F7"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/imp9"
+                    android:text="NIRF-2019"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="15dp"
+                    android:id="@+id/imp10"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#B0FAF8F7"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/imp10"
+                    android:text="FlashMob Nirman 2019"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="15dp"
+                    android:id="@+id/imp11"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#B0FAF8F7"/>
+
+
+
+
+            </android.support.constraint.ConstraintLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/me"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="6. TEQIP- Phase 1 and 2 institute and selected for Phase 3 as Mentoring Institute to BIET Jhansi(U.P)"
-            android:textSize="15dp"
-            app:layout_constraintTop_toBottomOf="@+id/text6"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent  "
-            tools:layout_editor_absoluteX="29dp"
-            android:id="@+id/text7"
-            app:layout_editor_absoluteY="0dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="5dp"/>
+            android:layout_height="390dp"
+            app:cardElevation="10dp"
+            android:layout_margin="5dp"
+            app:layout_constraintTop_toBottomOf="@+id/my2">
 
-        <TextView
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/consta"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#E4E2E2">
+
+                <TextView
+                    android:id="@+id/text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Affiliations and Accreditation"
+                    android:textColor="#000"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/card"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Autonomous College"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text" />
+
+                <TextView
+                    android:id="@+id/card1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Established in the year 1958"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/card" />
+
+                <TextView
+                    android:id="@+id/card2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Government Aided College,Karnataka State"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/card1" />
+
+                <TextView
+                    android:id="@+id/card3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Approved by AICTE,New Delhi"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/card2" />
+
+                <TextView
+                    android:id="@+id/card4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Permanent affiliation to Visvesvaraya Technological University,Belgaum"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/card3" />
+
+                <TextView
+                    android:id="@+id/card5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="2dp"
+                    android:text="TEQIP- Phase 1 and 2 institute and selected for Phase 3 as Mentoring Institute to BIET  Jhansi(U.P)"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/card4" />
+
+                <TextView
+                    android:id="@+id/card6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="All the departments of Institute got accreditation by NBA twice during 2005-08 and 2009-12(each time for 3 years).For third time,five departments have applied for NBA accredition (TIER 1,under Washington accord"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/card5" />
+
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="7. All the departments of Institute got accreditation by NBA twice during 2005-08 and 2009-12(each time for 3 years).For third time,five departments have applied for NBA accredition (TIER 1,under Washington accord)."
-            android:textSize="15dp"
-            app:layout_constraintTop_toBottomOf="@+id/text7"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent  "
-            tools:layout_editor_absoluteX="29dp"
-            android:id="@+id/text8"
-            app:layout_editor_absoluteY="0dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="5dp"/>
+            android:layout_height="480dp"
+            app:cardElevation="10dp"
+            android:layout_margin="5dp"
+            android:id="@+id/me1"
+            app:layout_constraintTop_toBottomOf="@id/me">
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/consta1"
+                android:background="#E4E2E2">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text=" Campus Infrastructure"
-            android:textSize="25dp"
-            app:layout_constraintTop_toBottomOf="@+id/text8"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            android:id="@+id/text9"
-            android:textStyle="bold"
-            android:textColor="#000"
-            app:layout_editor_absoluteY="0dp"
-            android:layout_margin="25dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/card7"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:layout_marginTop="5dp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:text="Campus Infrastructure"/>
 
-        <TextView
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/card8"
+                    app:layout_constraintTop_toBottomOf="@+id/card7"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:text="71 acres campus area with lush green lawns and wide clean pathways."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/card9"
+                    app:layout_constraintTop_toBottomOf="@+id/card8"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:text="WiFi enabled campus with 100Mbps Internet Leased Line connectivity"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="5dp"
+                    android:text="900 computers and state-of-art laboratories"
+                    app:layout_constraintTop_toBottomOf="@+id/card9"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:id="@+id/card10"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Seminar halls,computer centre and reading room in each department"
+                    app:layout_constraintTop_toBottomOf="@+id/card10"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:id="@+id/card11"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Library and Information Centre (over 85000 volumes)"
+                    app:layout_constraintTop_toBottomOf="@+id/card11"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:id="@+id/card12"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Digital Library equipped with high-speed internet and computers to access e-resources"
+                    app:layout_constraintTop_toBottomOf="@+id/card12"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:id="@+id/card13"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:text="ITBI Center established by IT Dept.Govt.of Karnataka for students IT incubation activities."
+                    app:layout_constraintTop_toBottomOf="@+id/card13"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:id="@+id/card14"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="5dp"
+                    android:text="1000 capacity auditorium, 200 seater gallery hall"
+                    app:layout_constraintTop_toBottomOf="@+id/card14"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:id="@+id/card15"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Hostel:1 boys and 1 girls hostels"
+                    app:layout_constraintTop_toBottomOf="@+id/card15"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:id="@+id/card16"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Amenities: First aid and Medical facilities,Bank Cooperative store,Canteens,Power back up,Sports club,Girls common room,Boys common room Etc."
+                    app:layout_constraintTop_toBottomOf="@+id/card16"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:id="@+id/card17"/>
+
+
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="1. 71 acres campus area with lush green lawns and wide clean pathways."
-            android:textSize="15dp"
-            app:layout_constraintTop_toBottomOf="@+id/text9"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent  "
-            tools:layout_editor_absoluteX="29dp"
-            android:id="@+id/text10"
-            app:layout_editor_absoluteY="0dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="15dp"/>
+            android:layout_height="350dp"
+             app:cardElevation="10dp"
+            android:layout_margin="5dp"
+             app:layout_constraintTop_toBottomOf="@id/me1">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="2. WiFi enabled campus with 100Mbps Internet Leased Line connectivity"
-            android:textSize="15dp"
-            app:layout_constraintTop_toBottomOf="@+id/text10"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent  "
-            tools:layout_editor_absoluteX="29dp"
-            android:id="@+id/text11"
-            app:layout_editor_absoluteY="0dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="5dp"/>
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="330dp"
+                android:id="@+id/consta2"
+                android:background="#E4E2E2">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="3. 900 computers and state-of-art laboratories"
-            android:textSize="15dp"
-            app:layout_constraintTop_toBottomOf="@+id/text11"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent  "
-            tools:layout_editor_absoluteX="29dp"
-            android:id="@+id/text12"
-            app:layout_editor_absoluteY="0dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="5dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/card18"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:text="Courses and Resources"
+                    android:textSize="25dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"/>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="4. Seminar halls,computer centre and reading room in each department"
-            android:textSize="15dp"
-            app:layout_constraintTop_toBottomOf="@+id/text12"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent  "
-            tools:layout_editor_absoluteX="29dp"
-            android:id="@+id/text13"
-            app:layout_editor_absoluteY="0dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="5dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/card19"
+                    android:text="11 Under Graduate (B.E) courses with 980 intake"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintTop_toBottomOf="@+id/card18"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="5. Library and Information Centre (over 85000 volumes)"
-            android:textSize="15dp"
-            app:layout_constraintTop_toBottomOf="@+id/text13"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent  "
-            tools:layout_editor_absoluteX="29dp"
-            android:id="@+id/text14"
-            app:layout_editor_absoluteY="0dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="5dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/card20"
+                    android:text="10 M.Tech programs with total 193 intake under various departments"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    app:layout_constraintTop_toBottomOf="@+id/card19"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="6. Digital Library equipped with high-speed internet and computers to access e-resources)"
-            android:textSize="15dp"
-            app:layout_constraintTop_toBottomOf="@+id/text14"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent  "
-            tools:layout_editor_absoluteX="29dp"
-            android:id="@+id/text15"
-            app:layout_editor_absoluteY="0dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="5dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/card21"
+                    android:text="VTU recognized 12 Research centers offering   Ph.D under various Engg. and other disciplnes"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    app:layout_constraintTop_toBottomOf="@+id/card20"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="7. ITBI Center established by IT Dept.Govt.of Karnataka for students IT incubation activities.)"
-            android:textSize="15dp"
-            app:layout_constraintTop_toBottomOf="@+id/text15"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent  "
-            tools:layout_editor_absoluteX="29dp"
-            android:id="@+id/text16"
-            app:layout_editor_absoluteY="0dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="5dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/card22"
+                    android:text="Students strength on campus nearly 3200"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginTop="5dp"
+                    app:layout_constraintTop_toBottomOf="@+id/card21"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="8. 1000 capacity auditorium, 200 seater gallery hall)"
-            android:textSize="15dp"
-            app:layout_constraintTop_toBottomOf="@+id/text16"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent  "
-            tools:layout_editor_absoluteX="29dp"
-            android:id="@+id/text17"
-            app:layout_editor_absoluteY="0dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="5dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/card23"
+                    android:text="239 Teaching Faculty with 667 Ph.Ds and 137    PGs among them more than 70 have registered   for Ph.D under reputed institutions like IITs,NIITs,   and Universities like VTU,JNTU"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    app:layout_constraintTop_toBottomOf="@+id/card22"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="9. Hostel:1 boys and 1 girls hostels)"
-            android:textSize="15dp"
-            app:layout_constraintTop_toBottomOf="@+id/text17"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent  "
-            tools:layout_editor_absoluteX="29dp"
-            android:id="@+id/text18"
-            app:layout_editor_absoluteY="0dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="5dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/card24"
+                    android:text="215 Non-teaching staff including Technical,  Admin and Supporting staff"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    app:layout_constraintTop_toBottomOf="@+id/card23"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    />
+            </android.support.constraint.ConstraintLayout>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="10. Amenities: First aid and Medical facilities,Bank Cooperative store,Canteens,Power back up,Sports club,Girls common room,Boys common room Etc.)"
-            android:textSize="15dp"
-            app:layout_constraintTop_toBottomOf="@+id/text18"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            tools:layout_editor_absoluteX="29dp"
-            android:id="@+id/text19"
-            app:layout_editor_absoluteY="0dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="5dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Course and Resources"
-            android:textSize="25dp"
-            app:layout_constraintTop_toBottomOf="@+id/text19"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            android:id="@+id/text20"
-            android:textStyle="bold"
-            android:textColor="#000"
-            app:layout_editor_absoluteY="0dp"
-            android:layout_margin="25dp"/>
-
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="1. 11 Under Graduate (B.E) courses with 980 intake"
-            android:textSize="15dp"
-            app:layout_constraintTop_toBottomOf="@+id/text20"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            tools:layout_editor_absoluteX="29dp"
-            android:id="@+id/text21"
-            app:layout_editor_absoluteY="0dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="15dp"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="2. 10 M.Tech programs with total 193 intake under various departments"
-            android:textSize="15dp"
-            app:layout_constraintTop_toBottomOf="@+id/text21"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            tools:layout_editor_absoluteX="29dp"
-            android:id="@+id/text22"
-            app:layout_editor_absoluteY="0dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="5dp"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="3. VTU recognized 12 Research centers offering Ph.D under various Engg. and other disciplnes"
-            android:textSize="15dp"
-            app:layout_constraintTop_toBottomOf="@+id/text22"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            tools:layout_editor_absoluteX="29dp"
-            android:id="@+id/text23"
-            app:layout_editor_absoluteY="0dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="5dp"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="4.  Students strength on campus nearly 3200"
-            android:textSize="15dp"
-            app:layout_constraintTop_toBottomOf="@+id/text23"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            tools:layout_editor_absoluteX="29dp"
-            android:id="@+id/text24"
-            app:layout_editor_absoluteY="0dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="5dp"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="5.  239 Teaching Faculty with 667 Ph.Ds and 137 PGs among them more than 70 have registered for Ph.D under reputed institutions like IITs,NIITs,and Universities like VTU,JNTU"
-            android:textSize="15dp"
-            app:layout_constraintTop_toBottomOf="@+id/text24"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            tools:layout_editor_absoluteX="29dp"
-            android:id="@+id/text25"
-            app:layout_editor_absoluteY="0dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="5dp"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="6.  215 Non-teaching staff including Technical,Admin and Supporting staff"
-            android:textSize="15dp"
-            app:layout_constraintTop_toBottomOf="@+id/text25"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            tools:layout_editor_absoluteX="29dp"
-            android:id="@+id/text26"
-            app:layout_editor_absoluteY="0dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="15dp"/>
-
-
-
-
-
-
-
-
-
-
-
-
-
+        </android.support.v7.widget.CardView>
 
     </android.support.constraint.ConstraintLayout>
 </ScrollView>

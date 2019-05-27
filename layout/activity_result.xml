@@ -1,0 +1,1155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/my1"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintTop_toTopOf="parent">
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/card"
+            android:background="#048EF3">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Examination Results"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:gravity="center"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:textSize="30dp"/>
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintTop_toBottomOf="@+id/my1">
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Results"
+                android:id="@+id/tex13"
+                android:textSize="20sp"
+                app:layout_constraintTop_toBottomOf="@+id/text35"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:textColor="#000"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex14"
+                android:layout_margin="10dp"
+                android:textColor="#0A8CF3"
+                app:layout_constraintTop_toBottomOf="@+id/tex13"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Result of [CV] lll Semester [Challege Re-valuation]Make Up Examination - Jan 2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex15"
+                android:layout_margin="10dp"
+                android:textColor="#0A8CF3"
+                app:layout_constraintTop_toBottomOf="@id/tex14"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Result of [EC] lll Semester [Challege Re-valuation] Examination - Jan 2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex16"
+                android:layout_margin="10dp"
+                android:textColor="#0A8CF3"
+                app:layout_constraintTop_toBottomOf="@id/tex15"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Result of ECE V Semester [Challege Re-valuation] of 3PD11CV020, SubCode 16CV53 - Jan 2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex17"
+                android:layout_margin="10dp"
+                android:textColor="#0A8CF3"
+                app:layout_constraintTop_toBottomOf="@id/tex16"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Result of ECE Fifth Semester Examination(Revaluation)- Jan 2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex18"
+                android:layout_margin="10dp"
+                android:textColor="#0A8CF3"
+                app:layout_constraintTop_toBottomOf="@id/tex17"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Result of 3PD15ECC002 (COB Student) Third Semester -(Revaluation)- Jan 2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex19"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@id/tex18"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Result of lll Semester Make up Examination - Jan 2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex20"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@id/tex19"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Result of [ISE] I Semester Make up Examination - Jan 2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex21"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@id/tex20"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Result of [CV] I Semester Make up Examination - Jan 2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex22"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@+id/tex21"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Result of [CSE] I Semester Make up Examination - Jan 2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex23"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@id/tex22"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Result of [AU] V Semester Make up Examination - Jan 2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex24"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@id/tex23"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Result of ECE Fifth Semester Examination(Makeup)- Jan 2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex25"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@id/tex24"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Result of [CS] V Semester Make up Examination - Jan 2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex26"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@id/tex25"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text=" Provisional Result of [CV] V Semester Make up Examination - Jan 2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex27"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@id/tex26"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text=" Provisional Result of Seventh Semester MakeUp Examination - Jan 2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex28"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@id/tex27"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Result of CV Third Semester Make up Examination - Jan 2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex29"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@id/tex28"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Result of ISE Third Semester Make up Examination - Jan 2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex30"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@id/tex29"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Result of ME Third Semester Make up Examination - Jan 2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex31"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@+id/tex30"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Result of CSE Third Semester Make up Examination - Jan 2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex32"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@id/tex31"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Result of ECE Third Semester Make up Examination - Jan 2019 "/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex33"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@id/tex32"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Result of EEE Third Semester Make up Examination - Jan 2019 "/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex34"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@id/tex33"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Result of EEE Fifth Semester Make up Examination - Jan 2019 "/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex35"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@id/tex34"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Result of ISE Fifth Semester Make up Examination - Jan 2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex36"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@id/tex35"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Result of Mechanical Fifth Semester Make up Examination - Jan 2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex37"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@id/tex36"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Result of,V, Semester Odd Make up [EE] Examination - Jan 2019 "/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex38"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@id/tex37"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Result of lll,V Semester Odd Make up [EI,IP] Examination - Jan 2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex39"
+                android:layout_margin="10dp"
+                android:textColor="#0A8CF3"
+                app:layout_constraintTop_toBottomOf="@+id/tex38"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Result of l Semester M Tech Odd Make up Examination -2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex40"
+                android:layout_margin="10dp"
+                android:textColor="#0A8CF3"
+                app:layout_constraintTop_toBottomOf="@id/tex39"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Result of First Semester M Tech Power Electronics - Jan 2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex41"
+                android:layout_margin="10dp"
+                android:textColor="#0A8CF3"
+                app:layout_constraintTop_toBottomOf="@id/tex40"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Result of First Semester M Tech Thermal Power - Jan 2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex42"
+                android:layout_margin="10dp"
+                android:textColor="#0A8CF3"
+                app:layout_constraintTop_toBottomOf="@id/tex41"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Result of First Semester M Tech Structural - Jan 2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex43"
+                android:layout_margin="10dp"
+                android:textColor="#0A8CF3"
+                app:layout_constraintTop_toBottomOf="@id/tex42"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Result of First Semester M Tech Environmental - Jan 2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex44"
+                android:layout_margin="10dp"
+                android:textColor="#0A8CF3"
+                app:layout_constraintTop_toBottomOf="@+id/tex43"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Result of First Semester M Tech Computer Science - Jan 2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex45"
+                android:layout_margin="10dp"
+                android:textColor="#0A8CF3"
+                app:layout_constraintTop_toBottomOf="@id/tex44"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Result of First Semester M Tech BioMedical - Jan 2019 "/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex46"
+                android:layout_margin="10dp"
+                android:textColor="#0A8CF3"
+                app:layout_constraintTop_toBottomOf="@id/tex45"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Result of First Semester M Tech Computer Network Engg - Jan 2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex47"
+                android:layout_margin="10dp"
+                android:textColor="#0A8CF3"
+                app:layout_constraintTop_toBottomOf="@id/tex46"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Result of First Semester M Tech Environmental Engg - Jan 2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex48"
+                android:layout_margin="10dp"
+                android:textColor="#0A8CF3"
+                app:layout_constraintTop_toBottomOf="@id/tex47"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Result of l Semester M Tech Production Examination - Jan 2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex49"
+                android:layout_margin="10dp"
+                android:textColor="#0A8CF3"
+                app:layout_constraintTop_toBottomOf="@id/tex48"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Result of l Semester M Tech MST Examination - Jan 2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex50"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@id/tex49"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Result of Re-valuation lll,V Semester [EI] Examination - Jan 2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex51"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@id/tex50"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Result of Vll Semester Makeup (Practical Courses)-Jan 2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex52"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@id/tex51"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Result of B. Arch Makeup-Jan 2019, Sem3,5 and 7 and B. E. CCT Sem5"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex53"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@+id/tex52"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Result of Re-valuation lll and V Semester B Arch Examination - Jan 2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex54"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@id/tex53"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Result of Re-valuation lll Semester B E Examination - Jan 2019 16CV34"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex55"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@id/tex54"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Result of Re-valuation lll Semester B Arch Examination - Jan 2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex56"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@id/tex55"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Result of Re-valuation CCT,CS,CV ,V Semester Examination - Jan 2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex57"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@id/tex56"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text=" Provisional Result of Re-valuation l,lll,V Semester Examination - Jan 2019"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex58"
+                android:layout_margin="10dp"
+                android:textColor="#0A8CF3"
+                app:layout_constraintTop_toBottomOf="@id/tex57"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Result of lll Semester M Tech MST Examination - Jan 2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex59"
+                android:layout_margin="10dp"
+                android:textColor="#0A8CF3"
+                app:layout_constraintTop_toBottomOf="@id/tex58"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Result of lll Semester M Tech Examination - Jan 2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex60"
+                android:layout_margin="10dp"
+                android:textColor="#0A8CF3"
+                app:layout_constraintTop_toBottomOf="@id/tex59"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Result of Re-valuation l,lll,V Semester Examination - Jan 2019"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex61"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@id/tex60"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Result of Revaluation - Jan 2019 Part1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex62"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@+id/tex61"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Result of Revaluation - Jan 2019 Architecture Sem 3 and 5"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex63"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@id/tex62"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Result of Revaluation - Jan 2019 IPE Sem 5"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex64"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@id/tex63"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Results of Ninth Semester Architecture JAN-2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex65"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@id/tex64"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Revaluation Result Vll Semester[E and CE JAN-2019]"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex66"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@id/tex65"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Revaluation Result Vll Semester JAN-2019"/>
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="l Semester Re_Registered Result"
+                android:id="@+id/tex67"
+                android:textSize="20sp"
+                app:layout_constraintTop_toBottomOf="@+id/tex66"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:textColor="#000"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex68"
+                android:layout_margin="10dp"
+                android:textColor="#0A8CF3"
+                app:layout_constraintTop_toBottomOf="@+id/tex67"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Results of I Semester EEE JAN-2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex69"
+                android:layout_margin="10dp"
+                android:textColor="#0A8CF3"
+                app:layout_constraintTop_toBottomOf="@id/tex68"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Results of I Semester ISE JAN-2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex70"
+                android:layout_margin="10dp"
+                android:textColor="#0A8CF3"
+                app:layout_constraintTop_toBottomOf="@id/tex69"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Results of I Semester Automobile JAN-2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex71"
+                android:layout_margin="10dp"
+                android:textColor="#0A8CF3"
+                app:layout_constraintTop_toBottomOf="@id/tex70"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Results of I Semester ME JAN-2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex72"
+                android:layout_margin="10dp"
+                android:textColor="#0A8CF3"
+                app:layout_constraintTop_toBottomOf="@id/tex71"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Results of I Semester Civil JAN-2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex73"
+                android:layout_margin="10dp"
+                android:textColor="#0A8CF3"
+                app:layout_constraintTop_toBottomOf="@+id/tex72"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Results of I Semester IPE JAN-2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex74"
+                android:layout_margin="10dp"
+                android:textColor="#0A8CF3"
+                app:layout_constraintTop_toBottomOf="@id/tex73"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Results of I Semester CCT JAN-2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex75"
+                android:layout_margin="10dp"
+                android:textColor="#0A8CF3"
+                app:layout_constraintTop_toBottomOf="@id/tex74"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Results of I Semester CSE JAN-2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex76"
+                android:layout_margin="10dp"
+                android:textColor="#0A8CF3"
+                app:layout_constraintTop_toBottomOf="@id/tex75"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Results of I Semester IT JAN-2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex77"
+                android:layout_margin="10dp"
+                android:textColor="#0A8CF3"
+                app:layout_constraintTop_toBottomOf="@id/tex76"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Results of I Semester EI JAN-2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex78"
+                android:layout_margin="10dp"
+                android:textColor="#0A8CF3"
+                app:layout_constraintTop_toBottomOf="@id/tex77"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Results of I Semester ECE JAN-2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="V Semester"
+                android:id="@+id/tex79"
+                android:textSize="20sp"
+                app:layout_constraintTop_toBottomOf="@+id/tex78"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:textColor="#000"
+                android:textStyle="bold"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex80"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@id/tex79"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Results of B.E V Semester CV JAN-2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex81"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@+id/tex80"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Results of B.E V Semester CSE JAN-2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex82"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@id/tex81"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Results of B.E V Semester Electronics JAN-2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex83"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@id/tex82"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Results of B.E V Semester EI JAN-2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex84"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@id/tex83"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Results of B.E V Semester Automobile JAN-2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex85"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@id/tex84"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Results of B.E V Semester CCT JAN-2019"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex86"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@+id/tex85"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Results of B.E V Semester IPE JAN-2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex87"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@id/tex86"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Results of B.Arch V Semester JAN-2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex88"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@id/tex87"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Results of B.E V Semester ISE JAN-2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex89"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@id/tex88"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Results of B.E V Semester Electrical JAN-2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex90"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@id/tex89"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Results of B.E V Semester Mechanical JAN-2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="III Semester"
+                android:id="@+id/tex91"
+                android:textSize="20sp"
+                app:layout_constraintTop_toBottomOf="@+id/tex90"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:textColor="#000"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex92"
+                android:layout_margin="10dp"
+                android:textColor="#0A8CF3"
+                app:layout_constraintTop_toBottomOf="@+id/tex91"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Results of B.E III Semester Civil JAN-2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex93"
+                android:layout_margin="10dp"
+                android:textColor="#0A8CF3"
+                app:layout_constraintTop_toBottomOf="@id/tex92"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Results of B.E III Semester ISE JAN-2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex94"
+                android:layout_margin="10dp"
+                android:textColor="#0A8CF3"
+                app:layout_constraintTop_toBottomOf="@id/tex93"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Results of B.E III Semester CSE JAN-2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex95"
+                android:layout_margin="10dp"
+                android:textColor="#0A8CF3"
+                app:layout_constraintTop_toBottomOf="@id/tex94"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Results of B.E III Semester IPE JAN-2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex96"
+                android:layout_margin="10dp"
+                android:textColor="#0A8CF3"
+                app:layout_constraintTop_toBottomOf="@id/tex95"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Results of B.E III Semester IT JAN-2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex97"
+                android:layout_margin="10dp"
+                android:textColor="#0A8CF3"
+                app:layout_constraintTop_toBottomOf="@+id/tex96"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Results of B.E III Semester EI JAN-2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex98"
+                android:layout_margin="10dp"
+                android:textColor="#0A8CF3"
+                app:layout_constraintTop_toBottomOf="@id/tex97"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Results of B.E III Semester Electrical JAN-2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex99"
+                android:layout_margin="10dp"
+                android:textColor="#0A8CF3"
+                app:layout_constraintTop_toBottomOf="@id/tex98"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Results of B.E III Semester CCT JAN-2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/te1"
+                android:layout_margin="10dp"
+                android:textColor="#0A8CF3"
+                app:layout_constraintTop_toBottomOf="@id/tex99"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Results of B.E III Semester Automobile JAN-2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/te2"
+                android:layout_margin="10dp"
+                android:textColor="#0A8CF3"
+                app:layout_constraintTop_toBottomOf="@id/te1"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Results of B.E III Semester Mechanical JAN-2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/te3"
+                android:layout_margin="10dp"
+                android:textColor="#0A8CF3"
+                app:layout_constraintTop_toBottomOf="@id/te2"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Results of B.E III Semester ECE JAN-2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/te4"
+                android:layout_margin="10dp"
+                android:textColor="#0A8CF3"
+                app:layout_constraintTop_toBottomOf="@id/te3"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Results of B.Arch III Semester JAN-2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" I Semester"
+                android:id="@+id/te5"
+                android:textSize="20sp"
+                app:layout_constraintTop_toBottomOf="@+id/te4"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:textColor="#000"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/te6"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@id/te5"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Results of I Semester Architecture JAN-2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/te7"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@+id/te6"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Results of I Semester Mechanical JAN-2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/te8"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@id/te7"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Results of I Semester ISE JAN-2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/te9"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@id/te8"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Results of I Semester IPE_ JAN-2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/te10"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@id/te9"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Results of I Semester EI JAN-2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/te11"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@id/te10"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Results of I Semester Electronics JAN-2019"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/te12"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@+id/te11"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Results of I Semester Electrical. JAN-2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/te13"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@id/te12"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Results of I Semester CSE JAN-2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/te14"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@id/te13"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Results of I Semester Civil JAN-2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/te15"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@id/te14"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Results of I Semester _Ceramic _JAN-2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/te16"
+                android:layout_margin="10dp"
+                android:textColor="#F7F50303"
+                app:layout_constraintTop_toBottomOf="@id/te15"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Provisional Results of I Semester Automobile JAN-2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VII Semester"
+                android:id="@+id/te17"
+                android:textSize="20sp"
+                app:layout_constraintTop_toBottomOf="@+id/te16"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:textColor="#000"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/te18"
+                android:layout_margin="10dp"
+                android:textColor="#0A8CF3"
+                app:layout_constraintTop_toBottomOf="@id/te17"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Results for VII Semester B. EC for JAN-2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/te19"
+                android:layout_margin="10dp"
+                android:textColor="#0A8CF3"
+                app:layout_constraintTop_toBottomOf="@id/te18"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Results for VII Semester B.E ME for JAN-2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/te20"
+                android:layout_margin="10dp"
+                android:textColor="#0A8CF3"
+                app:layout_constraintTop_toBottomOf="@id/te19"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Results for VII Semester B.E (AU, EIE, IP, CCT,ISE, IT) for JAN-2019"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/te21"
+                android:layout_margin="10dp"
+                android:textColor="#0A8CF3"
+                app:layout_constraintTop_toBottomOf="@id/te20"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Results for VII Semester B.E (AT,EE,CS) for JAN-2019"/>
+
+
+
+
+
+
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

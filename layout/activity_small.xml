@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SmallActivity">
+
+
+    <android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:cardElevation="5dp"
+        app:cardUseCompatPadding="true"
+        android:id="@+id/my1"
+        app:layout_constraintTop_toTopOf="parent">
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#EC6290">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ceramic and Cement Technology"
+                android:textStyle="bold"
+                android:gravity="center"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:textSize="25dp"/>
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/my2"
+        app:cardElevation="5dp"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintTop_toBottomOf="@+id/my1">
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="#CDF03D05"
+                android:textSize="14sp"
+                android:padding="5dp"
+                android:gravity="fill"
+                android:layout_marginRight="5dp"
+                android:text="The department of Ceramic and Cement technology was established in 1981 with vision to provide learned and skilled engineers and provide a exciting learning environment in the field of ceramic and cement technology to serve the local and global industries and institutes. Since inception department has created more than 500 graduates who are serving premier industries, to name a few BHEL, corning glass, JSW, ACC, Ultratech, Shree Cements, Saint-Gobin, Johnson, Bharat potteries, etc.
+
+
+The department is equipped with sophisticated instruments like Induction furnaces, surface area measurement, pyro-metric cone equivalent and Refractoriness under load, etc. our department have well qualified faculties with masters and PhD from IITs, IISc and NITs.
+
+
+Department teaching and learning process is well planned and designed to develop potential of students in ceramic and cement technology field, encourages independent thinking and ensures each graduate will have professional ethics, self-esteem, life-long love for learning and confidence. The curriculum provides ample opportunities for co-curricular activities by conducting seminars, conferences and encouraging students to actively participate in seminars and conferences.
+
+
+Many of interested students of our department actively participate in cultural activities in intra institute level, like “Nirmana” and inter Institute functions like “Techfest” of various premier institutes. Our department faculty and students are active participants in professional bodies like Indian Ceramic Society, Material research society of India, Institute of engineers. Our institute has a dedicated separate department for sports to cater the needs of physical fitness and ethical values to the students.
+
+
+Recently our department has started a post-graduate course during the year (2014-15) which offers interdisciplinary Master of technology in Material science and Technology, to encourage B.E. graduates of various disciplines such as Ceramic and Cement Technology, Civil Engineering, Mechanical Engineering, Metallurgical Engineering, Industrial and Production Engineering, Automobile Engineering, Polymer Science and Engineering, etc. for lifelong learning. As on today 25 students have completed M.Tech program from this department and are working in organization such ARCI Hyderabad, Springer Verlag publishers, NAL Bangalore, ISRO Bangalore, Ashapura Industries, etc."
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/my3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="5dp"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintTop_toBottomOf="@+id/my2">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:text="Vision and Mission"
+                android:id="@+id/text3"
+                android:padding="5dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#479913"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:layout_marginTop="15dp"
+                />
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:text="Vision of the Department"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text3"/>
+
+            <TextView
+                android:id="@+id/text5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:padding="5dp"
+                android:layout_marginTop="10dp"
+                android:text="To earn recognition as a department par excellence, in the field of ceramics and materials engineering education and research so as to create a workforce of technocrats to serve the needs of industries and society across the globe."
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text4" />
+
+            <TextView
+                android:id="@+id/text6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:padding="5dp"
+                android:text="Mission of the Department"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text5" />
+
+            <TextView
+                android:id="@+id/text7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:text="To create conducive ambience for quality education for experimental learning with ethical and moral values inculcated for better leadership."
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text6" />
+
+            <TextView
+                android:id="@+id/text8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:text="To develop creative, exploratory and innovative skills in research and development activities related to ceramics, cement and materials engineering field."
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text7" />
+
+            <TextView
+                android:id="@+id/text9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:padding="5dp"
+                android:layout_marginTop="10dp"
+                android:text="To provide skilled workforce to serve, for the benefit of society and transnational organizations with better societal, technical and professional activities to increase interaction with alumni and industry."
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text8" />
+
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/my4"
+            app:cardUseCompatPadding="true"
+            app:cardElevation="10dp"
+            app:layout_constraintTop_toBottomOf="@+id/my3">
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#479913"
+                    android:id="@+id/text11"
+                    android:text="Academic,Programmes,Eligibility and Objectives"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="10dp"
+                    app:layout_constraintTop_toBottomOf="@+id/text11"
+                    android:textSize="20sp"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:id="@+id/text2"
+                    android:text="Programmes Offered"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:padding="5dp"
+                    android:textSize="15sp"
+                    android:id="@+id/text12"
+                    app:layout_constraintTop_toBottomOf="@+id/text2"
+                    android:text="B.E Ceramic and Cement Technology (60 Intake)."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:padding="5dp"
+                    android:textSize="15sp"
+                    android:id="@+id/text13"
+                    app:layout_constraintTop_toBottomOf="@+id/text12"
+                    android:text="M.Tech in Materials Science and Technology (18 Intake) (Full time)."/>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/text27"
+                    app:layout_constraintTop_toBottomOf="@+id/text13"
+                    android:text="Academic Eligibility"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:textColor="#000"
+                    android:id="@+id/text28"
+                    app:layout_constraintTop_toBottomOf="@+id/text27"
+                    android:text="Admission to B.E. courses:"/>
+
+                <TextView
+                    android:id="@+id/text29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="The student should have passed 2nd PUC / 12th standard or equivalent examination with English as one of the languages and obtained 45% of marks in aggregate in Physics and Mathematics along with Chemistry / Bio-Technology / Computer Science / Electronics / Biology In case of candidates belonging to Karnataka Scheduled Caste, Scheduled Tribe and other Backward Classes (Category I, 2A, 2B, 3A and 3B,) the minimum marks for the purpose of eligibility will be 40% of marks in aggregate in the optional subjects in the qualifying examination."
+                    app:layout_constraintTop_toBottomOf="@+id/text28"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp" />
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:id="@+id/text30"
+                    app:layout_constraintTop_toBottomOf="@+id/text29"
+                    android:text="Admission to M.Tech Full Time: "/>
+
+                <TextView
+                    android:id="@+id/text31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Admission to M.Tech. course shall be open to candidates who have passed B.E/B.Tech in relevant descipline with not less than 50% of the marks in aggregate of all the semester / years of the degree examination (cumulative sum of secured marks of all the semesters / years divided by the sum of maximum marks). However, in the case of candidates from Karnataka belonging to **SC/ST/Cat-I, marks shall not be less than 45%. The M.Tech (MST) is a two years four semester programme devised for students who have completed BE (CCT/IP/MECH/AERONOTICAL/Automobile/Chemical/Civil/Metallurgical Engg./Polymer Science) and complete the admission requirement."
+                    app:layout_constraintTop_toBottomOf="@+id/text30"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/text32"
+                    android:layout_marginLeft="10dp"
+                    app:layout_constraintTop_toBottomOf="@+id/text31"
+                    android:text="PROGRAM EDUCATIONAL OBJECTIVES (PEOS)"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:padding="5dp"
+                    android:id="@+id/text33"
+                    app:layout_constraintTop_toBottomOf="@+id/text32"
+                    android:text="PEO1: To enable the graduates to apply principles of ceramic engineering in design, analysis and processing in allied technologies."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:padding="5dp"
+                    android:id="@+id/text34"
+                    app:layout_constraintTop_toBottomOf="@+id/text33"
+                    android:text="PEO2: To enable the graduates to contribute successfully in multidisciplinary teams with leadership and communication skills"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:padding="5dp"
+                    android:id="@+id/text35"
+                    app:layout_constraintTop_toBottomOf="@+id/text34"
+                    android:text="PEO3: To enable the graduates to continue their higher education in materials / ceramic engineering and other interdisciplinary areas to emerge as competent technologists, experts, educators and researchers."/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text36"
+                    app:layout_constraintTop_toBottomOf="@+id/text35"
+                    android:text="PEO4: To enable the graduates with skills for fast learning and exhibit social responsibility and ethical attitude"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/text37"
+                    app:layout_constraintTop_toBottomOf="@+id/text36"
+                    android:text="PROGRAM SPECIFIC OUTCOMES (PSOs):"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text38"
+                    android:padding="5dp"
+                    app:layout_constraintTop_toBottomOf="@+id/text37"
+                    android:text="PSO1:Apply the background technical knowledge acquired in the area of material science, traditional- engineering ceramics and process engineering"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:padding="5dp"
+                    android:id="@+id/text39"
+                    app:layout_constraintTop_toBottomOf="@+id/text38"
+                    android:text="PSO2: Improve product design and development through practical knowledge and research activities."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:padding="5dp"
+                    android:id="@+id/text40"
+                    app:layout_constraintTop_toBottomOf="@+id/text39"
+                    android:text="PSO3: Utilize knowledge of ceramic engineering in sustainable technologies."/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Syllabus"
+                    android:id="@+id/tex13"
+                    android:textSize="20sp"
+                    android:padding="5dp"
+                    app:layout_constraintTop_toBottomOf="@+id/text40"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:textColor="#479913"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tex14"
+                    android:layout_margin="10dp"
+                    android:padding="5dp"
+                    android:textColor="#0A8CF3"
+                    app:layout_constraintTop_toBottomOf="@+id/tex13"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:text="Third and Fourth sem"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tex15"
+                    android:layout_margin="10dp"
+                    android:padding="5dp"
+                    android:textColor="#0A8CF3"
+                    app:layout_constraintTop_toBottomOf="@id/tex14"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:text="Fifth and Sixth sem"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tex16"
+                    android:layout_margin="10dp"
+                    android:padding="5dp"
+                    android:textColor="#0A8CF3"
+                    app:layout_constraintTop_toBottomOf="@id/tex15"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:text="Seventh and Eighth Sem Syllabus"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lab Manual"
+                    android:id="@+id/tex22"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    app:layout_constraintTop_toBottomOf="@+id/tex16"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:textColor="#000"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tex17"
+                    android:layout_margin="10dp"
+                    android:padding="5dp"
+                    android:textColor="#0A8CF3"
+                    app:layout_constraintTop_toBottomOf="@id/tex22"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:text="MTMO lab manual latest"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tex18"
+                    android:layout_margin="10dp"
+                    android:padding="5dp"
+                    android:textColor="#0A8CF3"
+                    app:layout_constraintTop_toBottomOf="@id/tex17"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:text="Cement lab Manual"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tex19"
+                    android:layout_margin="10dp"
+                    android:padding="5dp"
+                    android:textColor="#0A8CF3"
+                    app:layout_constraintTop_toBottomOf="@id/tex18"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:text="RAW MATERIALS LAB MANUAL"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tex20"
+                    android:layout_margin="10dp"
+                    android:padding="5dp"
+                    android:textColor="#0A8CF3"
+                    app:layout_constraintTop_toBottomOf="@id/tex19"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:text="Refractory Lab"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tex21"
+                    android:layout_margin="10dp"
+                    android:padding="5dp"
+                    android:textColor="#0A8CF3"
+                    app:layout_constraintTop_toBottomOf="@id/tex20"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:text="HMT Lab Manual"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lesson Plan"
+                    android:id="@+id/texx22"
+                    android:padding="5dp"
+                    android:textSize="20sp"
+                    app:layout_constraintTop_toBottomOf="@+id/tex21"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:textColor="#479913"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tex23"
+                    android:padding="5dp"
+                    android:layout_margin="10dp"
+                    android:textColor="#0A8CF3"
+                    app:layout_constraintTop_toBottomOf="@+id/texx22"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:text="Lesson Plans (Click to download)"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tex24"
+                    android:padding="5dp"
+                    android:layout_margin="10dp"
+                    android:textColor="#0A8CF3"
+                    app:layout_constraintTop_toBottomOf="@id/tex23"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:text="4th sem lesson plan"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tex25"
+                    android:padding="5dp"
+                    android:layout_margin="10dp"
+                    android:textColor="#0A8CF3"
+                    app:layout_constraintTop_toBottomOf="@id/tex24"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:text="6th sem lesson plan"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/texx25"
+                    android:padding="5dp"
+                    android:layout_margin="10dp"
+                    android:textColor="#0A8CF3"
+                    app:layout_constraintTop_toBottomOf="@id/tex25"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:text="8th sem lesson plan"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Question Bank"
+                    android:id="@+id/tex26"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    app:layout_constraintTop_toBottomOf="@+id/texx25"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:textColor="#000"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tex27"
+                    android:layout_margin="10dp"
+                    android:textColor="#0A8CF3"
+                    android:padding="5dp"
+                    app:layout_constraintTop_toBottomOf="@id/tex26"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:text="16CC46"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tex28"
+                    android:layout_margin="10dp"
+                    android:textColor="#0A8CF3"
+                    android:padding="5dp"
+                    app:layout_constraintTop_toBottomOf="@id/tex27"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:text="CETD QB"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Question paper samples"
+                    android:id="@+id/texx26"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    app:layout_constraintTop_toBottomOf="@+id/tex28"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:textColor="#000"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tex29"
+                    android:layout_margin="10dp"
+                    android:textColor="#0A8CF3"
+                    android:padding="5dp"
+                    app:layout_constraintTop_toBottomOf="@id/texx26"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:text="11CC65A"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tex30"
+                    android:padding="5dp"
+                    android:layout_margin="10dp"
+                    android:textColor="#0A8CF3"
+                    app:layout_constraintTop_toBottomOf="@id/tex29"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:text="11CC81"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tex31"
+                    android:padding="5dp"
+                    android:layout_margin="10dp"
+                    android:textColor="#0A8CF3"
+                    app:layout_constraintTop_toBottomOf="@id/tex30"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:text="15CC61"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tex32"
+                    android:padding="5dp"
+                    android:layout_margin="10dp"
+                    android:textColor="#0A8CF3"
+                    app:layout_constraintTop_toBottomOf="@id/tex31"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:text="CETD SEE QP"/>
+
+
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+
+
+</android.support.constraint.ConstraintLayout>
+</ScrollView>

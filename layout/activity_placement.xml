@@ -1,0 +1,3727 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlacementActivity">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#E91E63"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/my1">
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#E91E63"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Placement"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/my2"
+        app:layout_constraintTop_toBottomOf="@+id/my1">
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CAREER GUIDANCE, TRAINING, PLACEMENT"
+                android:textColor="#A5261D"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                app:layout_constraintRight_toRightOf="parent"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:id="@+id/text1"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" The Training and Placement Office at PDA  College of Engineering provides guidance on all  aspects of career planning, job searching and  post-graduate studies. The Cell strives to provide  individual counseling for all the students towards  their career goals. The College has an independent Training and Placement  Office headed by a Professor designated  as Training and Placement Officer and supported  by a Placement Coordinator of  each department."
+                android:id="@+id/text2"
+                android:layout_marginTop="10dp"
+                app:layout_constraintTop_toBottomOf="@+id/text1"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Training and Placement Cell has been striving continuously for the placement of the students in reputed organizations. Also, assistance is given to students who are not placed through campus interviews, to take up jobs through off campus mode. Reputed national and multinational companies visit the college for campus recruitment annually. Good number of the students secure job offers before they complete their courses."
+                android:id="@+id/text3"
+                android:layout_marginTop="10dp"
+                app:layout_constraintTop_toBottomOf="@+id/text2"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The organization chart of Training and Placement Cell at PDACE is as follows:"
+                android:textColor="#A5261D"
+                android:textStyle="bold"
+                android:id="@+id/text4"
+                android:layout_marginTop="12dp"
+                app:layout_constraintTop_toBottomOf="@+id/text3"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/organization"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Availability of Career Guidance facilities:"
+                android:textColor="#A5261D"
+                android:textSize="14sp"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+                android:id="@+id/text5"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/img1"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The activities of career guidance is taken care by Training and Placement Cell and its activities can be classified into::"
+                android:id="@+id/text6"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/text5"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Pre Placement training for the recruitment process in soft skills, aptitude and technical training, etc."
+                android:id="@+id/text7"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="5dp"
+                app:layout_constraintTop_toBottomOf="@+id/text6"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Career guidance"
+                android:id="@+id/text8"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="5dp"
+                app:layout_constraintTop_toBottomOf="@+id/text7"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Conducting placement drives."
+                android:id="@+id/text9"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="5dp"
+                app:layout_constraintTop_toBottomOf="@+id/text8"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. Assistance in industrial training and internship."
+                android:id="@+id/text10"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="5dp"
+                app:layout_constraintTop_toBottomOf="@+id/text9"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5. Support to students for appearing GATE Exam."
+                android:id="@+id/text11"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="5dp"
+                app:layout_constraintTop_toBottomOf="@+id/text10"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Manpower:"
+                android:textColor="#A5261D"
+                android:layout_marginLeft="5dp"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:id="@+id/text12"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/text11"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Training and Placement Cell at PDA College of Engineering functions under the administrative control of Dr. Mahadevappa Gadge as Training and Placement Officer and with Mr. Avinash Sambrani as Training and Placement Coordinator, along with Department Faculty and student coordinators provide career guidance, placement training and arrange placement drives for its students."
+                android:id="@+id/text13"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="5dp"
+                app:layout_constraintTop_toBottomOf="@+id/text12"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Infrastructure:"
+                android:textColor="#A5261D"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@+id/text13"
+                android:id="@+id/text14"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Training and Placement Office functions in a separate block with all audiovisual facilities for PPT, written test, group discussion and interviews."
+                android:id="@+id/text15"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="5dp"
+                app:layout_constraintTop_toBottomOf="@+id/text14"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A well furnished training centre with 120 Core i5 systems has been setup to provide Technical training, Conduct workshops, webinars, seminars and online tests. The setup is interconnected with Local Area Network (LAN) and Internet Speed up to 100 MBPS."
+                android:id="@+id/text16"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="5dp"
+                app:layout_constraintTop_toBottomOf="@+id/text15"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Many books and periodicals are available in the library for the students to enable them to prepare for various Civil services and competitive examinations like GATE, CAT etc."
+                android:id="@+id/text17"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="5dp"
+                app:layout_constraintTop_toBottomOf="@+id/text16"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Counselling for Higher Studies:"
+                android:textColor="#A5261D"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@+id/text17"
+                android:id="@+id/text18"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The students are made aware of higher study opportunities by the Head of the Department/ faculty. The need for a GATE score to get employment in public sector units is highlighted. The students are encouraged to appear for GATE and the Institute motivates them by reimbursing the GATE fees. The department faculty guide/train students for their GATE preparation.   This also helps the students to prepare for entrance examination conducted by the state government/Indian Universities for higher studies."
+                android:id="@+id/text19"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="10dp"
+                app:layout_constraintTop_toBottomOf="@+id/text18"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The students are also made aware of opportunities through GRE, GMAT, TOEFL/IELTS. Alumni who have done their higher studies in foreign universities conduct seminar whenever they visit the college."
+                android:id="@+id/text20"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="10dp"
+                app:layout_constraintTop_toBottomOf="@+id/text19"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pre-Placement Training"
+                android:textColor="#A5261D"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@+id/text20"
+                android:id="@+id/text21"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The placement cell organizes on-campus and off-campus recruitments and pre placement training programs in aptitude test, group discussions, interviews and presentation. The pre-placement training is embedded in the curriculum from the academic year 2016-17 as follows"
+                android:id="@+id/text22"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="10dp"
+                app:layout_constraintTop_toBottomOf="@+id/text21"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="o   Communication Skill - I and II semester
+
+o   Soft Skills - III and IV Semester
+
+o   Aptitude - V and VI Semester"
+                android:id="@+id/text23"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="10dp"
+                app:layout_constraintTop_toBottomOf="@+id/text22"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Professional trainers are hired to handle the above courses."
+                android:id="@+id/text24"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="10dp"
+                app:layout_constraintTop_toBottomOf="@+id/text23"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Earlier the Pre-Placement training was conducted for a duration of 3 to 6 days during the semester/vacation from the III semester onwards. By introducing pre-placement training as a course in the curriculum, the delivery of the course is steady, the learning is effective and the performance is measurable.
+
+Mock interviews and GDs are conducted from the IV semester to VI semester in the pre-placement training course to face the challenges of recruitment scenario."
+                android:id="@+id/text25"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="10dp"
+                app:layout_constraintTop_toBottomOf="@+id/text24"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Enhancement of technical skills such as Programming, Networking, Computer aided design and development etc are made through workshops. The cell motivates the students to get exposed to best industry practices through Industrial training and Internship during their vacations."
+                android:id="@+id/text26"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="10dp"
+                app:layout_constraintTop_toBottomOf="@+id/text25"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Technical and domain related sessions are conducted as Value Added Programs in related domain areas of Engineering to empower the student with the essential skill needed in industry."
+                android:id="@+id/text27"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="10dp"
+                app:layout_constraintTop_toBottomOf="@+id/text26"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  From academic year 2017-18 Industry Internship Training program is made mandatory for UG students."
+                android:id="@+id/text28"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="10dp"
+                app:layout_constraintTop_toBottomOf="@+id/text27"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Placement Process and Support"
+                android:textColor="#A5261D"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@+id/text28"
+                android:id="@+id/text29"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The students who are interested in placement are informed to register in the Training and Placement Office (TPO) at the end of VI semester. The students are categorised under below 60, 60+, 65+ and 70+ based on their academic performance in 10th, 12th and Engineering (upto VI semester). They are further categorized under IT and non-IT related domains."
+                android:id="@+id/text30"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="10dp"
+                app:layout_constraintTop_toBottomOf="@+id/text29"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="        The TPO approaches the companies either in person or through mail along with the details of the students performance and invites them for the campus drive.
+
+"
+                android:id="@+id/text31"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="10dp"
+                app:layout_constraintTop_toBottomOf="@+id/text30"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  One student coordinator recommended by Head of the Department/Department faculty coordinator is appointed from each department. A whatsapp group is created consisting of office bearers of TPO and department faculty and student coordinators. The student coordinators of the department in turn have a whatsapp group of all the students of their department. All the messages from the TPO are sent in the whatsapp group to the student coordinator, who in turn forwards it to the student of department group."
+                android:id="@+id/text32"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="10dp"
+                app:layout_constraintTop_toBottomOf="@+id/text31"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   The details of the company visiting the campus along with the eligibility criteria is sent in the whatsapp group. The interested students are informed to register their names with the TPO for the drive. On the day of drive the students attend the pre-placement talk, written/online test, Group discussion, technical and personal interview. The company officials are requested to announce the short listed students names on the day of the interview as the college follows the policy of one student one job on campus."
+                android:id="@+id/text33"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="10dp"
+                app:layout_constraintTop_toBottomOf="@+id/text32"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  An employability test by Aspiring Minds - AMCAT is conducted every year for interested students. The students are tested in English language, Aptitude, Programming Skills, Domain knowledge etc. The test scores along with their strength and weakness is sent to the students. The test scores are also shared by Aspiring Minds with the companies. The companies shortlist the students and send interview letters to the students mail. Interested students attend the interview and get selected for the job."
+                android:id="@+id/text34"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="10dp"
+                app:layout_constraintTop_toBottomOf="@+id/text33"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="        Awareness of Career opportunities in various fields is given to the students through Seminars and invited talks by experts. Students are also made aware of opportunities in higher education in India and abroad.
+"
+                android:id="@+id/text35"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="10dp"
+                app:layout_constraintTop_toBottomOf="@+id/text34"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Improving Linkages with Industry for Internship  and Placement"
+                android:textColor="#A5261D"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@+id/text35"
+                android:id="@+id/text36"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" The cell is making continuous efforts to enhance linkages with Industries for Internship and placement of our students. Seven MoU's have been made by T and P Cell for placements purposes only apart from several MoU's made at departmental level.
+"
+                android:id="@+id/text37"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="10dp"
+                app:layout_constraintTop_toBottomOf="@+id/text36"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" As per new syllabus students undertake Industry Internship which enriches their knowledge and skill and help in placements and academic progression. The T and    P Cell at college facilitates student’s internship during semester break to various industries.
+"
+                android:id="@+id/text38"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="10dp"
+                app:layout_constraintTop_toBottomOf="@+id/text37"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Different departments also organise industrial visit for students to expose them with the technologies and processes in Industry, which help them in career choice and placement.
+"
+                android:id="@+id/text39"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="10dp"
+                app:layout_constraintTop_toBottomOf="@+id/text38"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Improving linkages with Alumni"
+                android:textColor="#A5261D"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@+id/text39"
+                android:id="@+id/text40"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   PDA College of Engineering being established in 1958, many of our alumni are in the top positions in the different industries. They also extend support in our placements drives. Some of torch bearer alumni of our college are:
+
+1. Vinayak Hegde – Vice President, CGI Systems India Ltd.
+2. Pradeep Oak – CEO, Oak Systems Bangaluru
+3. Sunil Katria- Vice President, JSW Bellery
+4. Raghvendra Auradkar – DIGP, KSRP Bangaluru-Karnataka
+5. Capt. R R Doddihal- Chief Engineer, NAMMA Metro Bangaluru
+6. Ajay Sambrani-Managing Director, Asia Pacific of Tubacek
+7. Dr. C. D. Madhusudhana- DGM, BHEL Bangaluru
+8. Shivanand Nimbargi- CEO and  MD, Hyderabad Metro
+9. Anand Rangrez – GM BSNL, Bangaluru
+10. Ananth Koppar – Chairman and CEO, KTwo Technology Solutions, Bangaluru
+11. Basawaraj Nelegave- Adl. Commissioner, Central Excise, Bangaluru
+12. Gangadhar – Director National Remote Sensing Agency, Hyderabad
+13. Shambuling Patil-Dy. General Manager, Vasavadatta Cements,
+14. Jaganath Reddy K.E.S Project Engineer, KSHIP, Bangalore
+15. Prakash S.Pai- Joint General Manager L and T, Worli Mumbai
+16. Pramod Reddy K.E.S Chief Engineer, PWD Karnataka
+17. Basawaraj Mulage- Chief Engineering Manager, L and T Construction Mumbai
+18. Hanumantrao V Kulkarni- Manager JSW Steel Ltd
+19. Amarnath Talwade ,IAS, Chief General Manager, Delhi Transport Corporation, New Delhi
+20. Ashok K- Deputy Manager, ACC Limited
+21. Mallangouda Patil- IPS, Hyderabad
+22. Kishan Rao Godbole - Chief Engineer, MIDC Mumbai
+23. Balappa Gol – Principal, Simhagad College of Engineering Pune
+24. Mallikarjun Gunge - Chief Engineer Bangaluru
+25. Ashok. H. Biradar – Principal GND Engineering College Bidar
+26. Navil Shetty , Director - Asset Management United Kingdom
+27. Arun Kumar, GM, U.P. Rajkiya Nirman Nigam Ltd. Lucknow
+28. Ramdas Bhanushali-Ashapur Infrastrute and Township Developers Mumbai
+
+"
+                android:id="@+id/text41"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="10dp"
+                app:layout_constraintTop_toBottomOf="@+id/text40"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:id="@+id/img2"
+                android:src="@drawable/tpo"
+                app:layout_constraintTop_toBottomOf="@+id/text41"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:src="@drawable/tpo"
+                android:id="@+id/img3"
+                app:layout_constraintLeft_toRightOf="@+id/img2"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text41"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" TPO Computer Centre"
+                android:textColor="#000"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@+id/img2"
+                android:id="@+id/text42"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Training and Placement Officer, PDA College of Engg., Gulbarga."
+                android:textColor="#A5261D"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@+id/text42"
+                android:id="@+id/text43"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Webinar on Management of Examination Stress by Prime Minister, Govt. of India"
+                android:textColor="#000"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@+id/img2"
+                app:layout_constraintLeft_toRightOf="@+id/text43"
+                android:id="@+id/text44"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="35dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mahadevappa"
+                android:id="@+id/img4"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="15dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text43"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dr. Mahadevappa Gadge
+
+Cell: 9880351592
+
+E-Mail: pdaplacemnets@gmail.com
+"
+                android:textColor="#000"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@+id/img4"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:id="@+id/text45"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="25dp" />
+
+            <ImageView
+                android:id="@+id/img5"
+                android:layout_width="166dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/avinash"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text45" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prof. Avinash Sambrani
+Training and Placement Coordinator,
+PDACE, Gulbarga
+
+Cell: +919448320217
+Email: yojsam@rediffmail.com"
+                android:textColor="#000"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@+id/img5"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:id="@+id/text46"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="25dp" />
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/my3"
+            app:layout_constraintTop_toBottomOf="@+id/my2">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:weightSum="3">
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TableRow>
+                        <TextView
+                            android:layout_height="match_parent"
+                            android:layout_width="0dp"
+                            android:gravity="center"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:layout_weight="3"
+                            android:text="All Department level Placement Coordinators:"/>
+                    </TableRow>
+                    <TableRow>
+
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:layout_width="0dp"
+                        android:gravity="center"
+                        android:layout_marginHorizontal="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:layout_weight="2"
+                        android:text="Name of Coordinator	"/>
+
+                        <TextView
+                            android:layout_height="match_parent"
+                            android:layout_width="0dp"
+                            android:gravity="center"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:text="Branch"/>
+                </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_height="match_parent"
+                            android:layout_width="0dp"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:layout_weight="2"
+                            android:text="Prof. Avinash Sambrani"/>
+
+                        <TextView
+                            android:layout_height="match_parent"
+                            android:layout_width="0dp"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:layout_weight="1"
+                            android:text="IPE"/>
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_height="match_parent"
+                            android:layout_width="0dp"
+                            android:gravity="center"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="#ffffff"
+                            android:layout_weight="2"
+                            android:text="Prof. Avinash Sambrani"/>
+
+                        <TextView
+                            android:layout_height="match_parent"
+                            android:layout_width="0dp"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:text="IPE"/>
+                    </TableRow>
+
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_height="match_parent"
+                            android:layout_width="0dp"
+                            android:gravity="center"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="#ffffff"
+                            android:layout_weight="2"
+                            android:text="Prof. Nagbhushan Patil"/>
+
+                        <TextView
+                            android:layout_height="match_parent"
+                            android:layout_width="0dp"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:text="IPE"/>
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_height="match_parent"
+                            android:layout_width="0dp"
+                            android:gravity="center"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="#ffffff"
+                            android:layout_weight="2"
+                            android:text="Prof.S.R Hotti"/>
+
+                        <TextView
+                            android:layout_height="match_parent"
+                            android:layout_width="0dp"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:text="AUTO"/>
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_height="match_parent"
+                            android:layout_width="0dp"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:layout_weight="2"
+                            android:text="Prof. V G Gugwad"/>
+
+                        <TextView
+                            android:layout_height="match_parent"
+                            android:layout_width="0dp"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:text="ECE"/>
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_height="match_parent"
+                            android:layout_width="0dp"
+                            android:gravity="center"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="#ffffff"
+                            android:layout_weight="2"
+                            android:text="Prof. Uday Balgar"/>
+
+                        <TextView
+                            android:layout_height="match_parent"
+                            android:layout_width="0dp"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:text="ISE"/>
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_height="match_parent"
+                            android:layout_width="0dp"
+                            android:gravity="center"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="#ffffff"
+                            android:layout_weight="2"
+                            android:text="Prof.Rajana Giradi"/>
+
+                        <TextView
+                            android:layout_height="match_parent"
+                            android:layout_width="0dp"
+                            android:gravity="center"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:text="IT"/>
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_height="match_parent"
+                            android:layout_width="0dp"
+                            android:gravity="center"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="#ffffff"
+                            android:layout_weight="2"
+                            android:text="Prof. Harishchandra Astagi"/>
+
+                        <TextView
+                            android:layout_height="match_parent"
+                            android:layout_width="0dp"
+                            android:gravity="center"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:text="MECH"/>
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_height="match_parent"
+                            android:layout_width="0dp"
+                            android:gravity="center"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="#ffffff"
+                            android:layout_weight="2"
+                            android:text="Dr. Baburao N Sherikar"/>
+
+                        <TextView
+                            android:layout_height="match_parent"
+                            android:layout_width="0dp"
+                            android:gravity="center"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:text="MECH"/>
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_height="match_parent"
+                            android:layout_width="0dp"
+                            android:gravity="center"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="#ffffff"
+                            android:layout_weight="2"
+                            android:text="Dr. Baburao N Sherikar"/>
+
+                        <TextView
+                            android:layout_height="match_parent"
+                            android:layout_width="0dp"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:text="CCT"/>
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_height="match_parent"
+                            android:layout_width="0dp"
+                            android:gravity="center"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="#ffffff"
+                            android:layout_weight="2"
+                            android:text="Prof. Siddraj	"/>
+
+                        <TextView
+                            android:layout_height="match_parent"
+                            android:layout_width="0dp"
+                            android:gravity="center"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:text="ARCH"/>
+                    </TableRow>
+
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_height="match_parent"
+                            android:layout_width="0dp"
+                            android:gravity="center"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="#ffffff"
+                            android:layout_weight="2"
+                            android:text="Prof. Udayshankar Bellary		"/>
+
+                        <TextView
+                            android:layout_height="match_parent"
+                            android:layout_width="0dp"
+                            android:gravity="center"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:text="CSE"/>
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/my4"
+            app:layout_constraintTop_toBottomOf="@+id/my3">
+           <android.support.constraint.ConstraintLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Some of the companies, which have recruited the students of our College, are:"
+                   android:textColor="#A5261D"
+                   android:textStyle="bold"
+                   app:layout_constraintTop_toTopOf="parent"
+                   android:id="@+id/text48"
+                   android:layout_marginTop="10dp"
+                   android:layout_marginLeft="5dp"
+                   app:layout_constraintLeft_toLeftOf="parent"/>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/text49"
+                   android:layout_marginTop="5dp"
+                   app:layout_constraintTop_toBottomOf="@+id/text48"
+                   app:layout_constraintLeft_toLeftOf="parent"
+                   android:text="
+*  Infosys Technologies Ltd.
+
+*  Cognizant Technology Solutions
+
+*  Jindal Steel Ltd.
+
+*  Mindtree
+
+*  Silver Software
+
+*  IBM
+
+*  KPIT Cummins
+
+*  Satyam Computers
+
+*  Gujarat Glass
+
+*  Mphasis
+
+*  SaskenJohnson and Johnson
+
+*  Wipro Technologies
+
+*  Integra Micro System
+
+*  Reliance Infocomm
+
+*  ACCCGI computers
+
+*  iGate Global Solutions
+
+*  Manhatten Associates
+
+*  CoreEL Technologies
+
+*  Nitco Tiles
+
+*  Caritor India Ltd.
+
+*  Vasavadatta Cements
+
+*  Tata Refractories
+
+*  OAK System
+
+*  Mahindra and Mahindra
+
+*  Alstom India"/>
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/text50"
+                   app:layout_constraintTop_toBottomOf="@+id/text48"
+                   app:layout_constraintLeft_toRightOf="@+id/text49"
+                   android:text="
+*  Kajaria Tiles
+
+*  Zurai Group Ltd.
+
+*  ProcSys
+
+*  HP
+
+*  HCL
+
+*  Tech Mahindra
+
+*  Ashok Leyland
+
+*  Accenture
+
+*  TCS
+
+*  Siemens
+
+*  Rajashree Cements
+
+*  Alcatel-Lucent
+
+*  Global Edge Technologies
+
+*  Patni
+
+*  Sonata Software
+
+*  Syntel Technologies
+
+*  Geometric Global
+
+*  L and T Ltd.Adobe
+
+*  Bharat Forge
+
+*  Kirloskar
+
+*  Force Motors
+
+*  Accent Technologies
+
+*  Magna Infotech
+"/>
+           </android.support.constraint.ConstraintLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/my5"
+            app:layout_constraintTop_toBottomOf="@+id/my4">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:weightSum="5"
+                android:background="#f1f1f1">
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="parent">
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="S.No"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:layout_weight="0.5"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Name of the Student"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:layout_weight="1"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="USN"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Name of the Company"
+                            android:layout_weight="2"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Package"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="1"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="GANESH BIRADAR"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3PD15CS018"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="TCS, BANGLORE"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3,36,000"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="2"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="NARAYAN PUJARI"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3PD15CS090"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="WIPRO, BANGLORE"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3,50,000"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="SNEHA P POTDAR"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3PD15CS074"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="CLOUD FABRIX SOFTWARE SOLUTION,HYDERABAD"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3,40,000"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                    </TableRow>
+
+                    <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="4"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:layout_weight="0.5"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="ROOPINI KULKARNI"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#ffffff"
+                        android:layout_weight="1"
+                        android:gravity="center"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="3PD16CS409"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:layout_weight="1"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="CLOUD FABRIX SOFTWARE SOLUTION,HYDERABAD"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:layout_weight="2"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="3,40,000"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:layout_weight="0.5"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="5"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="MOHAMMED ABDUR RAHMAN"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3PD15CS034"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="CLOUD FABRIX SOFTWARE SOLUTION,HYDERABAD"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3,40,000"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                    </TableRow>
+
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="6"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="SMITESHKUMAR MAKA"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3PD15CS073"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="CLOUD FABRIX SOFTWARE SOLUTION,HYDERABAD"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3,40,000"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="7"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="MEGHA GADA"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3PD15CS033"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="IBM"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="2,50,000"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="8"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="PAVAN KATAPUR"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3PD15CS047"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="GLOBAL EDGE"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3,00,000"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="9"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="ACHYUT KULKARNI"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3PD15CS002"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="GLOBAL EDGE"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3,00,000"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                    </TableRow>
+
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="10"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="NAGESHWARI"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3PD15CS039"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="COGNIZANT"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3,38,000"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="11"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="RAJESHWARI A M"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3PD15CS057"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="COGNIZANT"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3,38,000"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="12"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="ANURAG KUMAR"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3PD15CS010"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="INFOSYS,MYSORE"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3,60,000"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="13"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="KARUNA BADGANDI"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3PD15CS029"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="INFOSYS,MYSORE"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3,60,000"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                    </TableRow>
+
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="14"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="MEGHA TILGUL"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3PD15CS032"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="INFOSYS,MYSORE"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3,60,000"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                    </TableRow>
+
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="15"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="ROOPARANI PUNDLIK METRE"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3PD16CS408"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="INFOSYS,MYSORE"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3,60,000"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="16"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="SHRILAKSHMI M"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3PD15CS070"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="INFOSYS,MYSORE"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3,60,000"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="17"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="SUJAYA CHANDRASHEKAR AWANTI"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3PD15CS076"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="INFOSYS,MYSORE"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3,60,000"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="18"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="SUSHMITA R BAIS"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3PD15CS079"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="INFOSYS,MYSORE"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3,60,000"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                    </TableRow>
+
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="19"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="VAMSHI KRISHNA REDDY"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3PD15CS084"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="INFOSYS,MYSORE"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3,60,000"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                    </TableRow>
+
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="20"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="SYED SUBIYA"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3PD15CS083"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="ATOS SYNTEL"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3,05,200"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                    </TableRow>
+
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="21"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="SOURABH G KULKARNI"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3PD15CS077"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="ATOS SYNTEL"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3,05,200"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                    </TableRow>
+
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="22"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="POOJA PATIL"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3PD15CS096"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="PATHFRONT"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="2,24,000"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                    </TableRow>
+
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="23"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="SOUMYA"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3PD16CS414"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="SILVER PEAK GLOBAL Pvt Ltd"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="2,50,000"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="24"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="BHAGYASHREE"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3PD16CS401"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="SILVER PEAK GLOBAL Pvt Ltd"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="2,50,000"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                    </TableRow>
+
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="25"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="YASMIN"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3PD15CS088"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="QSPIDERS"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="--"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="26"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="VRUSHAB MEHTA"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3PD16CS419"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="SILVER PEAK GLOBAL Pvt Ltd"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="2,50,000"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="27"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="ANKITA BANERJEE"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3PD15CS008"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="PATHFRONT"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="2,60,000"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="28"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="GAYATRI ARSHID"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3PD15CS020"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="SILVER PEAK GLOBAL Pvt Ltd"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="2,50,000"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="29"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="NEELIMA PRASAD"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3PD15CS042"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="SILVER PEAK GLOBAL Pvt Ltd"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="2,50,000"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="30"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="SHIVANI"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3PD15CS069"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="SILVER PEAK GLOBAL Pvt Ltd"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="2,50,000"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="31"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="POOJA KC"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3PD15CS048"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="SILVER PEAK GLOBAL Pvt Ltd"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="2,50,000"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="32"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="POOJA R NAGLIKAR"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3PD15CS049"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="SOFTWARE Lmt"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="7,50,000"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                    </TableRow>
+
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="33"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="ASHWINI"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3PD15CS401"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="SILVER PEAK GLOBAL Pvt Ltd"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="2,50,000"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="34"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Yasmin"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3PD15CS088"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="QSPIDERS"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="--"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="35"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="PRIYANAK JOSHI"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3PD16CS407"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="QSPIDERS"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="--"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="36"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="PRIYA KHAMITKAR"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3PD15CS095"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="QSPIDERS"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="--"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                    </TableRow>
+                    <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="37"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:layout_weight="0.5"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="PALLAVI"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#ffffff"
+                        android:layout_weight="1"
+                        android:gravity="center"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="3PD15CS046"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:layout_weight="1"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="PATHFRONT"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:layout_weight="2"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="224300"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:layout_weight="0.5"/>
+                </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="38"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="VIJAYLAXMI PATIL"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3PD15CS087"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="QSPIDERS"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="--"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="39"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="NAVEENA ALLAD"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3PD15CS041"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="QSPIDERS"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="--"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                    </TableRow>
+
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="40"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="SHRIRAKSHA"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3PD15CS071"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="QSPIDERS"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="--"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="41"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="SHIVLEELA"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3PD15CS067"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="PATHFRONT"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="224300"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="42"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="ANKITA BANERJEE"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3PD15CS008"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="PATHFRONT"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="224300"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="43"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="SUSHMITA B"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3PD15CS080"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="PATHFRONT"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="224300"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="44"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="ADIBA"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3PD15CS004"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="PATHFRONT"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="224300"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="45"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="ZAINUB"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3PD15CS012"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="PATHFRONT"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="224300"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                    </TableRow><TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="46"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:layout_weight="0.5"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="POOJA RATHOD"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#ffffff"
+                        android:layout_weight="1"
+                        android:gravity="center"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="3PD16CS405"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:layout_weight="1"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="PATHFRONT"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:layout_weight="2"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="224300"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:layout_weight="0.5"/>
+                </TableRow>
+
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="47"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="VARSHA"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="3PD14CS074"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="PATHFRONT"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="224300"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:layout_weight="0.5"/>
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="550dp"
+            android:id="@+id/my6"
+            app:layout_constraintTop_toBottomOf="@+id/my5">
+        
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/me"
+                android:layout_marginTop="20dp"
+                android:textColor="#0A8CF3"
+                android:layout_marginLeft="5dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Download the Statement Showing the Placements from 2005
+to the 2015"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mr. Ashish Badsheshi"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                app:layout_constraintRight_toRightOf="parent"
+                android:id="@+id/me1"
+                android:gravity="center"
+                app:layout_constraintTop_toBottomOf="@+id/me"
+                android:layout_marginLeft="5dp"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintRight_toRightOf="parent"
+                android:text="Supporting Staff,PDACE, Gulbarga"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/me2"
+                app:layout_constraintTop_toBottomOf="@+id/me1"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mr Kantraj S H and Mrs. Bharati Hiremath"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                app:layout_constraintRight_toRightOf="parent"
+                android:id="@+id/me3"
+                android:gravity="center"
+                app:layout_constraintTop_toBottomOf="@+id/me2"
+                android:layout_marginLeft="5dp"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintRight_toRightOf="parent"
+                android:text="Supporting Staff,PDACE, Gulbarga"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/me4"
+                app:layout_constraintTop_toBottomOf="@+id/me3"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mr Santosh Golgeri and Sharanu Phulari"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                app:layout_constraintRight_toRightOf="parent"
+                android:id="@+id/me5"
+                android:gravity="center"
+                app:layout_constraintTop_toBottomOf="@+id/me4"
+                android:layout_marginLeft="5dp"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintRight_toRightOf="parent"
+                android:text="Supporting Staff,PDACE, Gulbarga"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/me6"
+                app:layout_constraintTop_toBottomOf="@+id/me5"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact Us
+
+ Training and Placement Office"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                app:layout_constraintRight_toRightOf="parent"
+                android:id="@+id/me7"
+                android:gravity="center"
+                app:layout_constraintTop_toBottomOf="@+id/me6"
+                android:layout_marginLeft="5dp"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintRight_toRightOf="parent"
+                android:text="Aiwan-e-shahi Area, Gulbarga - 585102.
+Karnataka State. India.
+PDACE Gulbarga. "
+                android:layout_marginTop="5dp"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/me8"
+                app:layout_constraintTop_toBottomOf="@+id/me7"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+
+            <TextView
+                android:id="@+id/me9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="80dp"
+                android:textColor="#000"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Email:"
+                app:layout_constraintTop_toBottomOf="@+id/me8" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="pdaplacements@gmail.com "
+                android:textColor="#04C5F5"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="4dp"
+                 android:id="@+id/me10"
+                app:layout_constraintTop_toBottomOf="@+id/me8"
+                app:layout_constraintLeft_toRightOf="@+id/me9"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintRight_toRightOf="parent"
+                android:text="mgadge_100@rediffmail.com
+Phone: 08472-255440. "
+                android:textAlignment="center"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/me11"
+                app:layout_constraintTop_toBottomOf="@+id/me10"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintRight_toRightOf="parent"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:text="Cell: +91 9880351592,
+                9342351592, 9448320217"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/me12"
+                app:layout_constraintTop_toBottomOf="@+id/me11"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+
+
+
+
+
+
+
+
+
+        </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+        
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</ScrollView>

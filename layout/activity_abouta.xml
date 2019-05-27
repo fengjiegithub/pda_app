@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutaActivity">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            app:cardUseCompatPadding="true"
+            app:cardElevation="5dp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/my1">
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#048EF3">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="About College"
+                    android:textSize="23dp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/my2"
+            app:layout_constraintTop_toBottomOf="@+id/my1">
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The Hyderabad Karnataka Education (HKE) society founded by Late Shri Mahadevappa Rampure, a great visionary and educationist.The HKE Society runs 46 educational institutions. Poojya Doddappa Appa College of Engineering, Gulbarga is the first institution established by the society in 1958. The college is celebrating its golden jubilee year, setting new standards in the field of education and achieving greater heights."
+                    android:id="@+id/text2"
+                    android:padding="5dp"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/sshebbal"
+                    android:id="@+id/img1"
+                    android:layout_marginTop="5dp"
+                    app:layout_constraintTop_toBottomOf="@+id/text2"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="25dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dr.S.S. Hebbal
+Principal"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:id="@+id/text3"
+                    android:layout_marginLeft="10dp"
+                    app:layout_constraintTop_toBottomOf="@+id/img1"
+                    app:layout_constraintLeft_toLeftOf="parent"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The college was started with 50% central assistance and 50% state assistance, and a desire to impart quality technical education to this part of Karnataka State. The initial intake was 120 with degree offered in three branches of engineering viz, Civil, Mechanical and Electrical Engineering. Now, it houses 11 undergraduate courses, 10 post Graduate courses and 12 Research centers, established in Civil Engg., Electronics and Communication Engg, Industrial and Production Engg, Mechanical Engg, Electrical Engg., Ceramic Cement Tech., Information Science and Engg.,Instrumentaion Technology, Automobile Engg., Computer Sc. and Engg., Mathematics and Chemistry All the courses are affiliated to Visveswaraya Technological University, Belgaum. At present the total intake at UG level is 980 and PG level 193."
+                    android:id="@+id/text4"
+                    android:padding="5dp"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintTop_toBottomOf="@+id/text3"
+                    app:layout_constraintLeft_toLeftOf="parent"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The college receives grant in aid funds from state government. A number of projects have been approved by MHRD /AICTE, Govt. of India for modernization of laboratories. KSCST, Govt. of Karnataka is providing financial assistance regularly for the student's projects."
+                    android:id="@+id/text5"
+                    android:padding="5dp"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintTop_toBottomOf="@+id/text4"
+                    app:layout_constraintLeft_toLeftOf="parent"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The National Board of Accreditation, New Delhi, has accredited the College  in the year 2005-08  for 09 UG Courses out of which 08 courses are accredited for three years and 01 course is accredited for five years. And second time accridited for Six Course in the year  2009-2012"
+                    android:id="@+id/text6"
+                    android:padding="5dp"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintTop_toBottomOf="@+id/text5"
+                    app:layout_constraintLeft_toLeftOf="parent"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Our college is one among the 14 colleges selected under TEQIP, sponsored by World Bank. It has received a grant of Rs 10.454 Crores under this scheme for its development. The institution is selected for TEQIP phase II in year 2011 for four years. Institution is receiving a grant of Rs 12.50 Crores under TEQIP Phase -II scheme for its development and slected for TEQIP-III as mentoring Institute for BIET Jhansi(UP)."
+                    android:id="@+id/text7"
+                    android:padding="5dp"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintTop_toBottomOf="@+id/text6"
+                    app:layout_constraintLeft_toLeftOf="parent"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Recognizing the excellent facilities, faculty, progressive outlook, high academic standards and record performance, the VTU Belgaum reposed abundant confidence in the capabilities of the College and the College was conferred Autonomous Status from the academic year 2007-08, to update its own programme and curriculum, to devise and conduct examinations, and to evaluate student's performance based on a system of continuous assessment. The academic programmers are designed and updated by a Board of Studies at the department level and Academic Council at the college level. These statutory bodies are constituted as per the guidelines of the VTU Belgaum. A separate examination section headed by a Controller of Examinations conducts the examinations."
+                    android:id="@+id/text8"
+                    android:padding="5dp"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintTop_toBottomOf="@+id/text7"
+                    app:layout_constraintLeft_toLeftOf="parent"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="At present the college has acquired the Academic autonomous status for both PG and UG courses from the academic year 2007-08 and it is one among the six colleges in the state of Karnataka to have autonomous status for both UG and PG courses."
+                    android:id="@+id/text9"
+                    android:padding="5dp"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintTop_toBottomOf="@+id/text8"
+                    app:layout_constraintLeft_toLeftOf="parent"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="One of the unique features of our college is, it is the first college in Karnataka State to start the Electronics and Communication Engineering branch way back in the year 1967, to join NIT Surathkal and IISc, Bangalore. Also, it is the only college in the state and one among the three colleges across the country, offering a course in Ceramic and Cement Technology. This is the outcome of understanding by faculty and management about the basic need of this region, keeping in view of the available raw material and existing Cement Industries."
+                    android:id="@+id/text10"
+                    android:padding="5dp"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintTop_toBottomOf="@+id/text9"
+                    app:layout_constraintLeft_toLeftOf="parent"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bharatiya Vidya Bhavan National Award for an Engineering College   having Best Overall Performance for the year 2017 by ISTE
+
+(Indian Society for Technical Education)"
+                    android:id="@+id/text11"
+                    android:padding="5dp"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintTop_toBottomOf="@+id/text10"
+                    app:layout_constraintLeft_toLeftOf="parent"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The college campus is spread over 71 acres of land on either side of Mumbai-Chennai railway track and has a sprawling complex with gardens and greenery all around."
+                    android:id="@+id/text12"
+                    android:padding="5dp"
+                    android:layout_marginTop="19dp"
+                    app:layout_constraintTop_toBottomOf="@+id/text11"
+                    app:layout_constraintLeft_toLeftOf="parent"/>
+
+
+
+
+
+
+
+
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+
+    </android.support.constraint.ConstraintLayout>
+
+
+
+
+</ScrollView>

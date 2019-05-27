@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:id="@+id/my1"
+            app:layout_constraintTop_toTopOf="parent">
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/card"
+                android:background="#048EF3">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Computer Networks"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:gravity="center"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:textSize="30dp"/>
+
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/my3"
+            app:layout_constraintTop_toBottomOf="@+id/my1">
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textDirection="ltr"
+                    android:id="@+id/e1"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:text=" Forseeing the scope in the growth of Information Technology, Computer Science and Engineering department was established to offer Undergraduate Programme in Computer Science and Engineering way back in 1984. Initially, department started with an intake of 40 students. The first head of the department was Prof. P.R. Ainapur (1984-2002). This department achieved phenomenal growth under the able administration of Heads of the Department, Prof.P.R. Ainapur (1984-2002), Dr. Basawraj Amarapur(2002-2004), Dr.Rekha Patil(2004-2015) and now, Dr.Suvarna Nandyal. ...
+
+"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/qw"
+                    android:id="@+id/img1"
+                    app:layout_constraintTop_toBottomOf="@+id/e1"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:textDirection="ltr"
+                    android:id="@+id/e2"
+                    app:layout_constraintTop_toBottomOf="@+id/img1"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:text="To keep pace with technological trends in the IT sector, department is offering Graduate course (BE), two Post Graduate Programmes (M.Tech), namely, Computer Science and Engineering and Computer Network and Engineering and a Research Centre. In the year 2013, Research Centre was sanctioned by VTU Belgaum to boost research activities in the field of Computer Science and Engineering.
+
+Department has highly qualified and experienced faculty with specializations in Image Processing , Computer Networking , Mobile computing and Data Analytics etc. Department has state of the art computing facilities to cater to the needs of students. To name a few computing facilities - Wi-Fi network, Data Servers, over 150 desktops, laptops interconnected via fiber optic network to share the computing resources. Department follows software ethics strictly. All the systems are installed with licensed software like Windows XP, Windows 7, Windows 8, Linux, Dot Net, Java, C/C++, Oracle, QUALNET Network Simulator and other system and application software.
+
+Department got accreditation by NBA twice during 2004 and 2008 each time for 3 years. Now, department is applying for the third time for Tier-II NBA accreditation (under Washington accord).
+
+The department has signed an MOU with Infosys Campus Connect Programme to prepare students with current trends in IT Sector.
+Many Alumni of this department are performing as entrepreneurs in India and abroad as well. Many others are well positioned and working in government and private sectors."/>
+
+
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/my4"
+            app:layout_constraintTop_toBottomOf="@+id/my3">
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text4"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:text="Vision and Mission"
+                    android:textColor="#497713"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/text4"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/tex4"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:text="Vission of the Department"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text5"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintTop_toBottomOf="@+id/tex4"
+                    android:text=" To evolve as centre of excellence in field of education and research in computer science and engineering, mould professionals catering to the needs of society at national and international level. " />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text6"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    app:layout_constraintTop_toBottomOf="@+id/text5"
+                    android:text="Mission of the Department"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text7"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintTop_toBottomOf="@+id/text6"
+                    android:text=" To emphasize on research in cutting edge technology to meet the ever-changing industry requirements.
+To inculcate professional behavior with ethical values and leadership abilities.
+To develop partnership with industry and alumni.
+To impart fundamental knowledge in computer science and engineering and deliver high quality professional education." />
+
+
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/my5"
+            app:layout_constraintTop_toBottomOf="@+id/my4">
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#4C751C"
+                    android:id="@+id/text11"
+                    android:text="Academic,Programmes,Eligibility and Objectives"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="15sp"
+                    android:id="@+id/tex12"
+                    app:layout_constraintTop_toBottomOf="@+id/text11"
+                    android:text=" Eligibility: BE in relevant branch of engineering and qualified in PGCET. "/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/tex12"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:id="@+id/tex11"
+                    android:text="Programmes Offered "/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="15sp"
+                    android:id="@+id/text12"
+                    app:layout_constraintTop_toBottomOf="@+id/tex11"
+                    android:text="Programme: M.Tech (Computer Networks and Engineering) Full time with duration of 2 years (4 Semesters) with an intake of 18 students."/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:textSize="15sp"
+                    android:id="@+id/text15"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:layout_marginLeft="5dp"
+                    app:layout_constraintTop_toBottomOf="@+id/text12"
+                    android:text="Academic Eligibility"/>
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text19"
+                    app:layout_constraintTop_toBottomOf="@+id/text15"
+                    android:text=" Admission to M.Tech Full Time:  Admission to M.Tech. course shall be open to candidates who have passed B.E/B.Tech in relevant descipline with not less than 50% of the marks in aggregate of all the semester / years of the degree examination (cumulative sum of secured marks of all the semesters / years divided by the sum of maximum marks). However, in the case of candidates from Karnataka belonging to **SC/ST/Cat-I, marks shall not be less than 45%. The M.Tech (CNE) programme is a two years four semester programme devised for students who have completed BE (CSE/ISE) and complete the admission requirement. Students have to complete 100 credits for the award of the M.Tech (CNE) degree. "/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/tex19"
+                    app:layout_constraintTop_toBottomOf="@+id/text19"
+                    android:text=" "/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/text20"
+                    android:layout_marginLeft="10dp"
+                    app:layout_constraintTop_toBottomOf="@+id/tex19"
+                    android:text=" Program Educational Objectives"/>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text21"
+                    app:layout_constraintTop_toBottomOf="@+id/text20"
+                    android:text="To prepare for successful career in software industry or related fields and contribute to the profession. with ethical responsibility.
+ "/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text22"
+                    app:layout_constraintTop_toBottomOf="@+id/text21"
+                    android:text="To enable the graduates to acquire strong foundation in mathematics, science and engineering disciplines.
+ "/>
+
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text34"
+                    app:layout_constraintTop_toBottomOf="@+id/text22"
+                    android:text=" To involve in research and engage in sustained learning and adapt to ever changing technological and societal requirements.
+ "/>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/tex35"
+                    app:layout_constraintTop_toBottomOf="@+id/text34"
+                    android:text="Engage in multidisciplinary projects leading to entrepreneurship.
+ "/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/tex35"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#4C751C"
+                    android:id="@+id/tex36"
+                    android:text="Syllabus"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/tex41"
+                    android:textColor="#41A6F7"
+                    app:layout_constraintTop_toBottomOf="@+id/tex36"
+                    android:text=" "/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/tex42"
+                    android:textColor="#41A6F7"
+                    app:layout_constraintTop_toBottomOf="@+id/tex41"
+                    android:text=" "/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:id="@+id/tex43"
+                    app:layout_constraintTop_toBottomOf="@+id/tex42"
+                    android:text="Lesson Plan"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/tex43"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/tex75"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:text="Head of the Department"
+                    android:textColor="#497713"/>
+
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/suv"
+                    android:id="@+id/img2"
+                    app:layout_constraintTop_toBottomOf="@+id/tex75" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:textColor="#000"
+                    android:id="@+id/text38"
+                    app:layout_constraintTop_toBottomOf="@+id/img2"
+                    android:text="Dr. Suvarna Nandyal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:layout_marginTop="7dp"
+                    android:textStyle="bold"
+                    android:id="@+id/text39"
+                    android:textColor="#000"
+                    app:layout_constraintTop_toBottomOf="@+id/text38"
+                    android:text=" B.E., M.Tech, Ph.D."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:layout_marginTop="7dp"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:textColor="#000"
+                    android:id="@+id/text40"
+                    app:layout_constraintTop_toBottomOf="@+id/text39"
+                    android:text="Email: suvarna_nandyal@yahoo.com
+Cell: 09449618903."/>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text41"
+                    app:layout_constraintTop_toBottomOf="@+id/text40"
+                    android:text=" Prof. Dr. Suvarna Nandyal has completed BE and M.Tech from PDA College of Engg. Gulbarga and completed Ph.D. from JNT University, Hyderabad. She has taken charge of HOD computer science and engg. department from 1 may 2015. Her area of research is Digital Image Processing. She has published more than 25 research papers in International and National Journals. She has attended many national and international conferences. She has presented a paper at International conference on Digital Image Processing at Singapore. She has worked as P.G. Coordinator. She has organized workshops on Digital Image Processing and Cloud Computing."/>
+
+                <TextView
+                    android:id="@+id/t6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Faculty Details"
+                    android:textColor="#497713"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text41" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/t6"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:text="=> Faculty Details"
+                    android:textStyle="bold"
+                    android:id="@+id/t7"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#09ADF8"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/t8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Research"
+                    android:textColor="#497713"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/t7" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/n1"
+                    app:layout_constraintTop_toBottomOf="@+id/t8"
+                    android:text=" More than 15 research scholars have registered and actively doing research under computer networking descipline. Published many research papers in Inernational Journals and presented research papers in conferences."/>
+
+
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/my6"
+            app:layout_constraintTop_toBottomOf="@+id/my5">
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:textColor="#497713"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/text42"
+                    android:textSize="20sp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:text="Infrastructure and Facilities"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/n2"
+                    app:layout_constraintTop_toBottomOf="@+id/text42"
+                    android:text="Well qualified and experienced staff and state-of-art computing facilities, network simulator housed in air conditioned lab. are the main assets of this course.
+
+The department has two air conditioned computer centres with all the modern computing facilities. Most of the labs are planned and conducted in LINUX (Ubuntu). Both labs are networked with wired and Wifi connectivity. Entire Campus network control system is housed in CSE department. Students have the reprographic and printing facility for any important hardcopy requirements.  The department also has a hardware lab for conducting experiments on Microprocessor and in digital logic design. The deprtment also has IOT Lab. for UG and PG projects"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/vc"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/img3"
+                    app:layout_constraintTop_toBottomOf="@+id/n2" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/vc1"
+                    android:id="@+id/img4"
+                    android:layout_marginTop="5dp"
+                    app:layout_constraintTop_toBottomOf="@+id/img3" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginLeft="8dp"
+                    android:id="@+id/n3"
+                    app:layout_constraintTop_toBottomOf="@+id/img4"
+                    android:text="Following are the laboratories conducted in CSE department (in LINUX enivronment - Ubuntu 14.0) for various semesters."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginLeft="8dp"
+                    android:id="@+id/n4"
+                    android:textColor="#EEE22E2E"
+                    app:layout_constraintTop_toBottomOf="@+id/n3"
+                    android:text="All labs are equipped with Video Projectors for effective demonstration and explanation of lab exercises.
+
+For every laboratory manuals are prepared and kept in lab. for students reference.
+
+Every system is with highspeed internet facility."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginLeft="8dp"
+                    android:id="@+id/n5"
+                    android:textColor="#000"
+                    app:layout_constraintTop_toBottomOf="@+id/n4"
+                    android:text="1. Computer Programming Using C
+2. Logic Design Lab.
+3. Data Structures Lab
+4. Object Oriented Programming Laboratory
+5. Database Management System Lab
+6. Operating System Lab
+7. System Software  Laboratory
+8. Computer Graphics Laboratory
+9. Computer Networks Lab
+10. Web Technology Lab
+11. Project
+12. Microprocessor Lab
+13. Unix Laboratory
+14. Java Laboratory
+15. IOT Laboratory
+16. Software Engineering and Testing "/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:id="@+id/n6"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="15dp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:text="Computer Hardware facilities"
+                    app:layout_constraintTop_toBottomOf="@+id/n5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                     android:id="@+id/n7"
+                    android:layout_marginLeft="8dp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:text="130 Number of I5 Systems, I5 Laptops and other highend machines with licenced softwares.
+
+3 Number of Laser Printers.
+
+Every students has individual access to systems and can access to e-resources any time."
+                    app:layout_constraintTop_toBottomOf="@+id/n6"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="8dp"
+                    android:id="@+id/n8"
+                    android:layout_marginTop="15dp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:text="Department Library"
+                    app:layout_constraintTop_toBottomOf="@+id/n7"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/n9"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="5dp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:text="The department Library consists of more than 1000 books, manuals and project reports are available. This library facility is utilized by Staff members, UG and PG students."
+                    app:layout_constraintTop_toBottomOf="@+id/n8"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dp"
+                    android:id="@+id/n10"
+                    android:layout_marginTop="5dp"
+                    app:layout_constraintTop_toBottomOf="@+id/n9" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/n11"
+                    android:layout_marginLeft="8dp"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:text="Department Library"
+                    app:layout_constraintTop_toBottomOf="@+id/n10"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/n12"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:text="Research Facilities"
+                    app:layout_constraintTop_toBottomOf="@+id/n11"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/n13"
+                    android:text="Department has VTU recognized research centre under faculty of computer science and engineering.
+
+Department has adequate research facilities in the form of state of the art advanced computer systems, simulators and reference material to cater to the needs of research students.
+
+There are seven doctorate faculty in the department to takeup/guide any research work.
+
+There a quite good number of research scholars registered for Ph.D. under doctorate faculty of our department under Computer Networking and Digital Image Processing areas."
+                    app:layout_constraintTop_toBottomOf="@+id/n12"/>
+
+
+
+
+
+
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/my7"
+            app:layout_constraintTop_toBottomOf="@+id/my6">
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                    android:id="@+id/id3"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Publications"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/id4"
+                    android:layout_marginTop="5dp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:text="There are more than 50 publications published in National, International Conference proceedings and Journals by individual faculty members of the department."
+                    app:layout_constraintTop_toBottomOf="@+id/id3"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/id"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:text="Events conducted"
+                    app:layout_constraintTop_toBottomOf="@+id/id4"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="8dp"
+                    android:text=" Conducted Workshop of Cloud computing."
+                    app:layout_constraintTop_toBottomOf="@+id/id"/>
+            </android.support.constraint.ConstraintLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/my8"
+            app:layout_constraintTop_toBottomOf="@+id/my7">
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:id="@+id/id1"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:text="Grants received"
+                    app:layout_constraintTop_toTopOf="parent"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:text=" TEQIP Phase -II."
+                    app:layout_constraintTop_toBottomOf="@+id/id1"/>
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/my9"
+            app:layout_constraintTop_toBottomOf="@+id/my8">
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/t22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Board of Studies (BOS) Members"
+                    android:textColor="#497713"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:id="@+id/t23"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="8dp"
+                    android:text="1. Dr. Suvarna Nandyal (Chairman)
+2. Dr. Rekha Patil (Member)
+3. Prof. Jyothi Patil (Member)
+4. Dr. Sujatha Terdal (Member)
+5. Prof. Shridevi Soma (Member)
+6. Dr. Jayashree Agarkhed (Member)
+7. Prof. Chandrakanth Biradar (Member)
+8. Sri. Amarnath Bhadrashetty (industry) (Member)
+9. Prof. Suvarna Kanakareddy (CSE, BVB CE, Hubli) (Academic Member)
+10. Prof. KrishnaMohan (IIT, Hyderabad) (Member)
+11. Infosys Representative (Member)"
+                    app:layout_constraintTop_toBottomOf="@+id/t22"/>
+
+                <TextView
+                    android:id="@+id/t24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="News and Events"
+                    android:textColor="#497713"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/t23"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="8dp"
+                    android:text="1. Conducted Workshop of Cloud computing.
+2. Workshop on Qualnet "
+                    app:layout_constraintTop_toBottomOf="@+id/t24"/>
+
+
+
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
+
+

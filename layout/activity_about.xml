@@ -4,11 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/allinone"
     tools:context=".AboutActivity">
-    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="About College" app:layout_constraintTop_toTopOf="parent" android:id="@+id/aboutcollege"/>
+    <Button android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:elevation="5dp"
+        android:background="#20CDE2" android:layout_width="match_parent" android:text="About College" app:layout_constraintBottom_toTopOf="@+id/society" android:id="@+id/aboutcollege"/>
 
-    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="About Society" android:id="@+id/society" app:layout_constraintTop_toBottomOf="@+id/aboutcollege"/>
+    <Button android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:background="#24BFD3"
+        android:elevation="5dp"
+        android:layout_marginRight="10dp"
+        app:layout_constraintBottom_toBottomOf="parent" android:layout_width="match_parent" android:text="About Society" android:id="@+id/society" app:layout_constraintTop_toBottomOf="@+id/aboutcollege"/>
 
-    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Vission and Mission" android:id="@+id/vission" app:layout_constraintTop_toBottomOf="@+id/society"/>
+    <Button android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:background="#28B6C9"
+        android:elevation="5dp"
+        android:layout_marginRight="10dp" android:layout_width="match_parent" android:text="Vission and Mission" android:id="@+id/vission" app:layout_constraintTop_toBottomOf="@+id/society"/>
 
 </android.support.constraint.ConstraintLayout>

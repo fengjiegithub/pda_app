@@ -4,9 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/allinone"
     tools:context=".ExaminationActivity">
-    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/notification" app:layout_constraintTop_toTopOf="parent" android:text="Notification"/>
+    <Button android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:background="#C159DAF1"
+        android:elevation="10dp"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:id="@+id/notification"
+        app:layout_constraintBottom_toTopOf="@+id/results"
+        android:text="Notification"/>
 
-    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/results" android:text="Results" app:layout_constraintTop_toBottomOf="@+id/notification"/>
+    <Button android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/results"
+        android:text="Results"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="10dp"
+        android:elevation="10dp"
+        android:background="#BC03D2E5"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/notification"/>
 
 </android.support.constraint.ConstraintLayout>

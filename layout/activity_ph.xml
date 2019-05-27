@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/my1"
+            app:layout_constraintTop_toTopOf="parent">
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/card"
+                android:background="#048EF3">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Physics"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:gravity="center"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:textSize="30dp"/>
+
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="980dp"
+            android:id="@+id/my3"
+            app:layout_constraintTop_toBottomOf="@+id/my1">
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textDirection="ltr"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:text="Physics is the study of the fundamental laws of nature. Applied physics uses these laws to understand phenomena that have practical applications. Engineering in turn makes use of these phenomena for human purposes. Engineering physics thus forms a link between the fundamental laws of nature and their applications. The Engineering Physics program is oriented towards students who are stimulated by the challenge of solving technical problems ranging from the fundamental to the applied, and who are seeking a broadly-based engineering education to prepare for diverse careers in a rapidly changing technical world. Engineering Physics focuses on the fundamentals of physics and mathematics; both experimental and theoretical that is at the heart of modern engineering and science and has broad applicability. By choosing a particular concentration, you can combine this physics base with a firm background in a conventional area of engineering or applied science. Engineering Physics emphasizes the basic physics underlying most engineering developments, and mathematical tools vital to all engineers and scientists. The Engineering Physics curriculum encourages students to extend themselves and develop broad skills in the physical sciences."/>
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/my4"
+            app:layout_constraintTop_toBottomOf="@+id/my3">
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text4"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:text="Vision and Mission"
+                    android:textColor="#497713"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/text4"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/tex4"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:text="Vission of the Department"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text5"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintTop_toBottomOf="@+id/tex4"
+                    android:text="  " />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text6"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    app:layout_constraintTop_toBottomOf="@+id/text5"
+                    android:text="Mission of the Department"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text7"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintTop_toBottomOf="@+id/text6"
+                    android:text=" " />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text8"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintTop_toBottomOf="@+id/text7"
+                    android:text="  " />
+
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/my5"
+            app:layout_constraintTop_toBottomOf="@+id/my4">
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#4C751C"
+                    android:id="@+id/text11"
+                    android:text="Academic,Programmes,Eligibility and Objectives"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/text11"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:id="@+id/tex11"
+                    android:text="Academic Programmes "/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="15sp"
+                    android:id="@+id/text12"
+                    app:layout_constraintTop_toBottomOf="@+id/tex11"
+                    android:text="Engineering Physics is the common subject to all 11 branches of Bachular Engineering."/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:textSize="15sp"
+                    android:id="@+id/text15"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:layout_marginLeft="5dp"
+                    app:layout_constraintTop_toBottomOf="@+id/text12"
+                    android:text=" Program Educational Objectives (PEOs)"/>
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text19"
+                    app:layout_constraintTop_toBottomOf="@+id/text15"
+                    android:text="  "/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/tex19"
+                    app:layout_constraintTop_toBottomOf="@+id/text19"
+                    android:text=" "/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/text20"
+                    android:layout_marginLeft="10dp"
+                    app:layout_constraintTop_toBottomOf="@+id/tex19"
+                    android:text="Program Outcomes"/>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text21"
+                    app:layout_constraintTop_toBottomOf="@+id/text20"
+                    android:text="Course Out-Come"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text22"
+                    app:layout_constraintTop_toBottomOf="@+id/text21"
+                    android:text="Subject: Engineering Physics"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/tex22"
+                    android:layout_marginLeft="10dp"
+                    app:layout_constraintTop_toBottomOf="@+id/text22"
+                    android:text="Theory"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/text23"
+                    app:layout_constraintTop_toBottomOf="@+id/tex22"
+                    android:text="CO 1:  Describe principles, properties and applications of modern physics such as quantum mechanics and electrical conductivity."/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text24"
+                    app:layout_constraintTop_toBottomOf="@+id/text23"
+                    android:text="CO 2:  Understand the basics and properties of lasers, optical fibres, dielectric materials, bio-materials."/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text25"
+                    app:layout_constraintTop_toBottomOf="@+id/text24"
+                    android:text="CO 3:  Basics about crystallography, x-rays and nano-materials."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/tex25"
+                    android:layout_marginLeft="10dp"
+                    app:layout_constraintTop_toBottomOf="@+id/text25"
+                    android:text="Lab"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text26"
+                    app:layout_constraintTop_toBottomOf="@+id/tex25"
+                    android:text="CO 1:  Explain theoretical ideas and concepts of all the experiments."/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text27"
+                    app:layout_constraintTop_toBottomOf="@+id/text26"
+                    android:text="CO 2:  Determine the characteristics of LCR, Transistor and Zener diode."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text28"
+                    app:layout_constraintTop_toBottomOf="@+id/text27"
+                    android:text="CO 3:  Determination of Young’s modulus, energy gap, Fermi energy, Diffraction grating, Air wedge, Sonometer and Verification of Stefan’s law."/>
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/text33"
+                    app:layout_constraintTop_toBottomOf="@+id/text28"
+                    android:text="Programmes Offered"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text34"
+                    app:layout_constraintTop_toBottomOf="@+id/text33"
+                    android:text="Engineering Physics for 1st year students."/>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/text35"
+                    app:layout_constraintTop_toBottomOf="@+id/text34"
+                    android:text="Academic Eligibility"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/tex35"
+                    app:layout_constraintTop_toBottomOf="@+id/text35"
+                    android:text="All 1st year BE students"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/tex35"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#4C751C"
+                    android:id="@+id/tex36"
+                    android:text="Syllabus"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/tex41"
+                    android:textColor="#41A6F7"
+                    app:layout_constraintTop_toBottomOf="@+id/tex36"
+                    android:text=" "/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/tex42"
+                    android:textColor="#41A6F7"
+                    app:layout_constraintTop_toBottomOf="@+id/tex41"
+                    android:text=" "/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:id="@+id/tex43"
+                    app:layout_constraintTop_toBottomOf="@+id/tex42"
+                    android:text="Lesson Plan"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/tex43"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/tex75"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:text="Head of the Department"
+                    android:textColor="#497713"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:layout_marginTop="15dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:id="@+id/text38"
+                    app:layout_constraintTop_toBottomOf="@+id/tex75"
+                    android:text="Dr. R.M. Sangashetty"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:gravity="center"
+                    android:layout_marginTop="7dp"
+                    android:textStyle="bold"
+                    android:id="@+id/text39"
+                    android:textColor="#000"
+                    app:layout_constraintTop_toBottomOf="@+id/text38"
+                    android:text="Professor and Head of the Physics Department."/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="7dp"
+                    android:id="@+id/text41"
+                    app:layout_constraintTop_toBottomOf="@+id/text39"
+                    android:text="He has completed B.Sc. and M.Sc. from Marathwada University, Aurangabad, Maharastra. Then he has completed Ph.D. from Gulbarga University, Gulbarga in 2012. His area of research is 'Nano Ferrites'. He has published papers in National and International Journals. Attended conferences, His area of research interest is 'Ferrites and Composite Materials'."/>
+
+                <TextView
+                    android:id="@+id/t6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Faculty Details"
+                    android:textColor="#497713"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text41" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/t6"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:text="=> Faculty Details"
+                    android:textStyle="bold"
+                    android:id="@+id/t7"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#09ADF8"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/t8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Research"
+                    android:textColor="#497713"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/t7" />
+
+
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/my6"
+            app:layout_constraintTop_toBottomOf="@+id/my5">
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:textColor="#497713"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/text42"
+                    android:textSize="20sp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:text="Infrastructure and Facilities"/>
+
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/my7"
+            app:layout_constraintTop_toBottomOf="@+id/my6">
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/id"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:text="Events conducted"
+                    app:layout_constraintTop_toTopOf="parent"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:text=" "
+                    app:layout_constraintTop_toBottomOf="@+id/id"/>
+            </android.support.constraint.ConstraintLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/my8"
+            app:layout_constraintTop_toBottomOf="@+id/my7">
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:text="Grants received"
+                    app:layout_constraintTop_toTopOf="parent"/>
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+
+         <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/my9"
+            app:layout_constraintTop_toBottomOf="@+id/my8">
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/t22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Board of Studies (BOS) Members"
+                    android:textColor="#497713"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"/>
+
+
+            </android.support.constraint.ConstraintLayout>
+
+        </android.support.v7.widget.CardView>
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
+
+

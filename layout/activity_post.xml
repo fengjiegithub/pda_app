@@ -3,26 +3,67 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/allinone"
     android:layout_height="match_parent"
     tools:context=".PostActivity">
-    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/power" app:layout_constraintTop_toTopOf="parent" android:text="Power Electronics"/>
+    <Button android:layout_height="wrap_content" android:background="#2EC6EB"  android:elevation="10dp"
+        android:layout_marginTop="10dp"
+         android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" android:layout_width="match_parent" android:id="@+id/power" app:layout_constraintTop_toTopOf="parent" android:text="Power Electronics"/>
 
-    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/thermal" android:text="Thermal Power Engineering" app:layout_constraintTop_toBottomOf="@+id/power"/>
+    <Button android:layout_height="wrap_content"  android:elevation="10dp" android:background="#37CCF0"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp" android:layout_width="match_parent" android:id="@+id/thermal" android:text="Thermal Power Engineering" app:layout_constraintTop_toBottomOf="@+id/power"/>
 
-    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/environmental" android:text="Environmental Engineering" app:layout_constraintTop_toBottomOf="@+id/thermal"/>
+    <Button android:layout_height="wrap_content"  android:elevation="10dp" android:background="#2BD9F0"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp" android:layout_width="match_parent" android:id="@+id/environmental" android:text="Environmental Engineering" app:layout_constraintTop_toBottomOf="@+id/thermal"/>
 
-    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/structural" android:text="Structural Engineering" app:layout_constraintTop_toBottomOf="@+id/environmental"/>
+    <Button android:layout_height="wrap_content"  android:elevation="10dp" android:background="#30D5EB"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp" android:layout_width="match_parent" android:id="@+id/structural" android:text="Structural Engineering" app:layout_constraintTop_toBottomOf="@+id/environmental"/>
 
-    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/production" android:text="Production Engineering" app:layout_constraintTop_toBottomOf="@+id/structural"/>
+    <Button android:layout_height="wrap_content"  android:elevation="10dp"  android:background="#32C9DD"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp" android:layout_width="match_parent" android:id="@+id/production" android:text="Production Engineering" app:layout_constraintTop_toBottomOf="@+id/structural"/>
 
-    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/computer" android:text="Computer Science and Engineering" app:layout_constraintTop_toBottomOf="@+id/production"/>
+    <Button android:layout_height="wrap_content"  android:elevation="10dp" android:background="#F238D6D6"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp" android:layout_width="match_parent" android:id="@+id/computers" android:text="Computer Science and Engineering" app:layout_constraintTop_toBottomOf="@+id/production"/>
 
-    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/biomedical" android:text="Biomedical Electronics and Industrial Instrumentation" app:layout_constraintTop_toBottomOf="@+id/computer"/>
+    <Button android:layout_height="wrap_content"  android:elevation="10dp" android:background="#F244D8D8"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp" android:layout_width="match_parent" android:id="@+id/biomedical" android:text="Biomedical Electronics and Industrial Instrumentation" app:layout_constraintTop_toBottomOf="@+id/computers"/>
 
-    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/communication" android:text="Communiicatin System" app:layout_constraintTop_toBottomOf="@+id/biomedical"/>
+    <Button android:layout_height="wrap_content"  android:elevation="10dp" android:background="#F245D3D3"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp" android:layout_width="match_parent" android:id="@+id/communication" android:text="Communiicatin System" app:layout_constraintTop_toBottomOf="@+id/biomedical"/>
 
-    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/information" android:text="Computer Networks" app:layout_constraintTop_toBottomOf="@+id/communication"/>
+    <Button android:layout_height="wrap_content"  android:elevation="10dp" android:background="#F24FDBDB"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp" android:layout_width="match_parent" android:id="@+id/informations" android:text="Computer Networks" app:layout_constraintTop_toBottomOf="@+id/communication"/>
 
-    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/materials" android:text="Materials Science and Technology" app:layout_constraintTop_toBottomOf="@+id/information"/>
+    <Button android:layout_height="wrap_content"  android:elevation="10dp" android:background="#F252D8D8"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp" android:layout_width="match_parent" android:id="@+id/materials" android:text="Materials Science and Technology" app:layout_constraintTop_toBottomOf="@+id/informations"/>
 
 </android.support.constraint.ConstraintLayout>

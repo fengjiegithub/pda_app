@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pdacollege">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="PDA COLLEGE"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SmallActivity"></activity>
+        <activity android:name=".PosActivity" />
+        <activity android:name=".UndActivity" />
+        <activity android:name=".DepActivity" />
+        <activity android:name=".MS2Activity" />
+        <activity android:name=".CNActivity" />
+        <activity android:name=".CommunActivity" />
+        <activity android:name=".BiomActivity" />
+        <activity android:name=".CSActivity" />
+        <activity android:name=".ResultActivity" />
+        <activity android:name=".NotificationActivity" />
+        <activity android:name=".ProductionsActivity" />
+        <activity android:name=".StructuralsActivity" />
+        <activity android:name=".ThermalsActivity" />
+        <activity android:name=".PowersActivity" />
+        <activity android:name=".EnvironmentActivity" />
+        <activity android:name=".IndustriallActivity" />
+        <activity android:name=".Civil2Activity" />
+        <activity android:name=".CivilActivity" />
+        <activity android:name=".HumanitActivity" />
+        <activity android:name=".MatActivity" />
+        <activity android:name=".ChActivity" />
+        <activity android:name=".PhActivity" />
+        <activity android:name=".AutomobilActivity" />
+        <activity android:name=".ComputerscActivity" />
+        <activity android:name=".PhotoActivity" />
+        <activity android:name=".ResearchActivity" />
+        <activity android:name=".SCActivity" />
+        <activity android:name=".LibraryActivity" />
+        <activity android:name=".ItbtActivity" />
+        <activity android:name=".MandatoryActivity" />
+        <activity android:name=".CircularActivity" />
+        <activity android:name=".InformatActivity" />
+        <activity android:name=".PlacementActivity" />
+        <activity android:name=".VisionActivity" />
+        <activity android:name=".AboutsActivity" />
+        <activity android:name=".AboutaActivity" />
+        <activity android:name=".FacilitiesActivity" />
+        <activity android:name=".ResearchsActivity" />
+        <activity android:name=".PostsActivity" />
+        <activity android:name=".UndergActivity" />
+        <activity android:name=".ArchitectActivity" />
+        <activity android:name=".InstrumentActivity" />
+        <activity android:name=".ElectronicActivity" />
+        <activity android:name=".ElectricallActivity" />
+        <activity android:name=".MechanicaActivity" />
+        <activity android:name=".FeedbackActivity" />
+        <activity android:name=".MaterialsActivity" />
+        <activity android:name=".ComputernActivity" />
+        <activity android:name=".CommunicationActivity" />
+        <activity android:name=".BiomedicalActivity" />
+        <activity android:name=".ComputersActivity" />
+        <activity android:name=".ProductionActivity" />
+        <activity android:name=".StructuralActivity" />
+        <activity android:name=".EnvironmentalActivity" />
+        <activity android:name=".ThermalActivity" />
+        <activity android:name=".PowerActivity" />
+        <activity android:name=".HumanityActivity" />
+        <activity android:name=".MathActivity" />
+        <activity android:name=".ChemistryActivity" />
+        <activity android:name=".PhysicsActivity" />
+        <activity android:name=".AutomobileActivity" />
+        <activity android:name=".ComputerActivity" />
+        <activity android:name=".InformationActivity" />
+        <activity android:name=".CeramicActivity" />
+        <activity android:name=".ArchitectureActivity" />
+        <activity android:name=".InstrumentationActivity" />
+        <activity android:name=".IndustrialActivity" />
+        <activity android:name=".ElectronicsActivity" />
+        <activity android:name=".ElectricalActivity" />
+        <activity android:name=".MechanicalActivity" />
+        <activity android:name=".FacultyActivity" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".AdmissionActivity" />
+        <activity android:name=".MorelinkActivity" />
+        <activity android:name=".PostActivity" />
+        <activity android:name=".UnderActivity" />
+        <activity android:name=".AboutActivity" />
+        <activity android:name=".ExaminationActivity" />
+        <activity android:name=".DepartmentActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
